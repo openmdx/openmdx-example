@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jdoconfig xmlns="http://java.sun.com/xml/ns/jdo/jdoconfig"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://java.sun.com/xml/ns/jdo/jdoconfig">
+    
+    <!-- Entity manager -->
+    <persistence-manager-factory 
+    	name="EntityManagerFactory"
+    	class="org.openmdx.base.accessor.jmi.spi.EntityManagerFactory_1"
+    	connection-factory-name="jdo:DataManagerFactory"
+    >
+		<!--  AOP2 plugins at layer Standard -->
+        <property name="org.openmdx.jdo.EntityManager.plugIn[0]" value="org.openmdx.example.aop2.PlugIn.HelloWorld"/>
+        <property name="org.openmdx.example.aop2.PlugIn.HelloWorld.modelPackage[0]" value="org:openmdx:example:helloworld1"/>
+        <property name="org.openmdx.example.aop2.PlugIn.HelloWorld.packageImpl[0]" value="org.openmdx.example.helloworld1.aop2"/>
+        
+    </persistence-manager-factory>
+
+    <!-- Data manager -->
+    <persistence-manager-factory 
+    	name="DataManagerFactory"
+    	class="org.openmdx.base.accessor.rest.DataManagerFactory_1"
+    >
+        <property name="javax.jdo.option.Multithreaded" value="true"/>
+        <property name="org.openmdx.jdo.DataManager.optimalFetchSize" value="(java.lang.Integer)64"/>
+        <property name="org.openmdx.jdo.DataManager.cacheThreshold" value="(java.lang.Integer)256"/>
+        
+        <property name="org.openmdx.jdo.DataManager.xriPattern[0]" value="xri://@openmdx*org.openmdx.example.helloworld1/($...)"/>
+        <property name="org.openmdx.jdo.DataManager.restPlugIn[0]" value="org.openmdx.example.rest.PlugIn.HelloWorld"/>
+
+		<!--  REST plugin HelloWorld -->             
+        <property name="org.openmdx.example.rest.PlugIn.HelloWorld.class" value="org.openmdx.application.dataprovider.kernel.EmbeddedDataprovider_1"/>
+        <property name="org.openmdx.example.rest.PlugIn.HelloWorld.configuration" value="xri://+resource/META-INF/HelloWorld.properties"/>
+
+    </persistence-manager-factory>
+
+</jdoconfig>

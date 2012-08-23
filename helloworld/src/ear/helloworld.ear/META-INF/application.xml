@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application id="Application_ID" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_5.xsd">
+	<display-name>openMDX/Example HelloWorld</display-name>
+	<module>
+		<web>
+			<web-uri>openmdx-helloworld.war</web-uri>
+			<context-root>openmdx-helloworld</context-root>
+		</web>
+	</module>		
+	<library-directory>APP-INF/lib</library-directory>		
+</application>

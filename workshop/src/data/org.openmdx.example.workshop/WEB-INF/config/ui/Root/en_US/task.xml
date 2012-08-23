@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.openmdx.base.Authority xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="org:openmdx:ui1" xsi:noNamespaceSchemaLocation="xri://+resource/org/openmdx/ui1/xmi1/ui1.xsd">
+	<_object/>
+	<_content>
+		<provider>
+			<org.openmdx.base.Provider qualifiedName="Workshop" _operation="null">
+				<_object/>
+				<_content>
+					<segment>
+						<org.openmdx.ui1.Segment qualifiedName="Root" _operation="null">
+							<_object/>
+							<_content>
+								<elementDefinition>
+									<!--Segment Definition-->
+									<!--Tab Definitions Pane1-->
+
+									<!-- Task -->
+									<!--Inspector Definitions-->
+									<org.openmdx.ui1.ElementDefinition name="org:openmdx:example:workshop1:Task">
+										<_object>
+											<active>true</active>
+											<toolTip>
+												<_item>Task</_item>
+											</toolTip>
+											<label>
+												<_item>Task</_item>
+											</label>
+											<order>
+												<_item>0</_item>
+												<_item>0</_item>
+												<_item>10</_item>
+											</order>
+											<iconKey>Task</iconKey>
+											<backColor>#F0C67E</backColor>
+										</_object>
+										<_content/>
+									</org.openmdx.ui1.ElementDefinition>
+
+									<!--Grid -->
+									<org.openmdx.ui1.ElementDefinition name="org:openmdx:example:workshop1:Task:assignment">
+										<_object>
+											<active>true</active>
+											<toolTip>
+												<_item>Team Member Assignments</_item>
+											</toolTip>
+											<label>
+												<_item>Team Member Assignments</_item>
+											</label>
+											<order>
+												<_item>0</_item>
+												<_item>0</_item>
+												<_item>10</_item>
+											</order>
+											<maxMember>2</maxMember>
+											<iconKey>TaskMemberAssignment</iconKey>
+										</_object>
+										<_content/>
+									</org.openmdx.ui1.ElementDefinition>
+									<org.openmdx.ui1.ElementDefinition name="org:openmdx:example:workshop1:Task:skill">
+										<_object>
+											<active>true</active>
+											<toolTip>
+												<_item>Skills</_item>
+											</toolTip>
+											<label>
+												<_item>Skills</_item>
+											</label>
+											<order>
+												<_item>10</_item>
+												<_item>0</_item>
+												<_item>10</_item>
+											</order>
+											<maxMember>1</maxMember>
+											<iconKey>Skill</iconKey>
+										</_object>
+										<_content/>
+									</org.openmdx.ui1.ElementDefinition>
+									<!--Tab Definition-->
+									<!--FieldGroups in General Tab-->
+									<!--Element Definitions -->
+									<org.openmdx.ui1.ElementDefinition name="org:openmdx:example:workshop1:Task:name">
+										<_object>
+											<active>true</active>
+											<toolTip>
+												<_item>Name</_item>
+											</toolTip>
+											<label>
+												<_item>Name</_item>
+											</label>
+											<shortLabel>
+												<_item>Name</_item>
+											</shortLabel>
+											<order>
+												<_item>0</_item>
+												<_item>0</_item>
+												<_item>10</_item>
+											</order>
+										</_object>
+										<_content/>
+									</org.openmdx.ui1.ElementDefinition>
+									<org.openmdx.ui1.ElementDefinition name="org:openmdx:example:workshop1:Task:definition">
+										<_object>
+											<spanRow>15</spanRow>
+											<active>true</active>
+											<toolTip>
+												<_item>Definition</_item>
+											</toolTip>
+											<label>
+												<_item>Definition</_item>
+											</label>
+											<shortLabel>
+												<_item>Definition</_item>
+											</shortLabel>
+											<order>
+												<_item>0</_item>
+												<_item>10</_item>
+												<_item>10</_item>
+											</order>
+										</_object>
+										<_content/>
+									</org.openmdx.ui1.ElementDefinition>
+
+									<!-- Operations -->
+									<org.openmdx.ui1.ElementDefinition name="org:openmdx:example:workshop1:Task:Pane:Op:Tab:assignTeamMember">
+										<_object>
+											<active>true</active>
+											<toolTip>
+												<_item>Assign Team Member</_item>
+											</toolTip>
+											<label>
+												<_item>Assign Team Member</_item>
+											</label>
+											<iconKey>TeamMemberAssignment</iconKey>
+											<order>
+												<_item>500</_item>
+												<_item>0</_item>
+												<_item>10</_item>
+											</order>
+										</_object>
+										<_content/>
+									</org.openmdx.ui1.ElementDefinition>
+									<org.openmdx.ui1.ElementDefinition name="org:openmdx:example:workshop1:Task:Pane:Op:Tab:assignTeamMember:Group:in">
+										<_object>
+											<active>true</active>
+											<toolTip>
+												<_item>Input</_item>
+											</toolTip>
+											<label>
+												<_item>Input</_item>
+											</label>
+										</_object>
+										<_content/>
+									</org.openmdx.ui1.ElementDefinition>
+									<org.openmdx.ui1.ElementDefinition name="org:openmdx:example:workshop1:AssignTeamMemberParams:teamMember">
+										<_object>
+											<active>true</active>
+											<toolTip>
+												<_item>Team member</_item>
+											</toolTip>
+											<label>
+												<_item>Team member</_item>
+											</label>
+											<order>
+												<_item>0</_item>
+												<_item>0</_item>
+												<_item>10</_item>
+											</order>
+										</_object>
+										<_content/>
+									</org.openmdx.ui1.ElementDefinition>
+									<org.openmdx.ui1.ElementDefinition name="org:openmdx:example:workshop1:AssignTeamMemberParams:memberRole">
+										<_object>
+											<active>true</active>
+											<toolTip>
+												<_item>Member role</_item>
+											</toolTip>
+											<label>
+												<_item>Member role</_item>
+											</label>
+											<order>
+												<_item>0</_item>
+												<_item>0</_item>
+												<_item>20</_item>
+											</order>
+										</_object>
+										<_content/>
+									</org.openmdx.ui1.ElementDefinition>
+									<org.openmdx.ui1.ElementDefinition name="org:openmdx:example:workshop1:Task:Pane:Op:Tab:assignTeamMember:Group:result">
+										<_object>
+											<active>true</active>
+											<toolTip>
+												<_item>Result</_item>
+											</toolTip>
+											<label>
+												<_item>Result</_item>
+											</label>
+										</_object>
+										<_content/>
+									</org.openmdx.ui1.ElementDefinition>
+									<org.openmdx.ui1.ElementDefinition name="org:openmdx:example:workshop1:AssignTeamMemberResult:assignment">
+										<_object>
+											<active>true</active>
+											<toolTip>
+												<_item>Assignment</_item>
+											</toolTip>
+											<label>
+												<_item>Assignment</_item>
+											</label>
+											<order>
+												<_item>0</_item>
+												<_item>0</_item>
+												<_item>10</_item>
+											</order>
+										</_object>
+										<_content/>
+									</org.openmdx.ui1.ElementDefinition>
+
+								</elementDefinition>
+							</_content>
+						</org.openmdx.ui1.Segment>
+					</segment>
+				</_content>
+			</org.openmdx.base.Provider>
+		</provider>
+	</_content>
+</org.openmdx.base.Authority>

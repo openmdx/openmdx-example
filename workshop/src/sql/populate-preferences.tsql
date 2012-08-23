@@ -1,0 +1,427 @@
+
+DELETE FROM prefs_Preference COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, object__class, name, description, absolute_path, parent, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:type', 0, 'org:openmdx:preferences1:StringPreference', 'type', NULL, 'PERSISTENCE/type', 'PERSISTENCE', 'xri:@openmdx:org.openmdx.example.workshop1/provider/:*'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:type', 1, 'xri:@openmdx:org.openmdx.example.workshop1/provider/:*/segment/:*'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:type', 2, 'xri:@openmdx:org.openmdx.example.workshop1/provider/:*/segment/:*/project/:*'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:type', 3, 'xri:@openmdx:org.openmdx.example.workshop1/provider/:*/segment/:*/project/:*/task/:*'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:type', 4, 'xri:@openmdx:org.openmdx.example.workshop1/provider/:*/segment/:*/project/:*/task/:*/assignment/:*'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:type', 5, 'xri:@openmdx:org.openmdx.example.workshop1/provider/:*/segment/:*/skill/:*'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:type', 6, 'xri:@openmdx:org.openmdx.example.workshop1/provider/:*/segment/:*/teamMember/:*'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:type', 7, 'xri:@openmdx:org.openmdx.example.workshop1/provider/:*/segment/:*/teamMember/:*/task/:*'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, object__class, name, description, absolute_path, parent, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:typeName', 0, 'org:openmdx:preferences1:StringPreference', 'typeName', NULL, 'PERSISTENCE/typeName', 'PERSISTENCE', 'provider'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:typeName', 1, 'segment'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:typeName', 2, 'project'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:typeName', 3, 'task'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:typeName', 4, 'assignment'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:typeName', 5, 'skill'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:typeName', 6, 'teamMember'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:typeName', 7, 'assignedTask'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, object__class, name, description, absolute_path, parent, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:dbObject', 000, 'org:openmdx:preferences1:StringPreference', 'dbObject', NULL, 'PERSISTENCE/dbObject', 'PERSISTENCE', 'OOM0BASE_PROVIDER'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, object__class, name, description, absolute_path, parent, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:dbObject2', 000, 'org:openmdx:preferences1:StringPreference', 'dbObject2', NULL, 'PERSISTENCE/dbObject2', 'PERSISTENCE', ''
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:dbObject', 001, 'OOMEP1WS_SEGMENT'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:dbObject2', 001, 'OOMEP1WS_SEGMENT_'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:dbObject', 002, 'OOMEP1WS_PROJECT'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:dbObject2', 002, 'OOMEP1WS_PROJECT_'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:dbObject', 003, 'OOMEP1WS_TASK'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:dbObject2', 003, 'OOMEP1WS_TASK_'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:dbObject', 004, 'OOMEP1WS_TEAMMEMBERASSIGNMENT'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:dbObject2', 004, 'OOMEP1WS_TEAMMEMBERASSIGNMENT_'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:dbObject', 005, 'OOMEP1WS_SKILL'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:dbObject2', 005, 'OOMEP1WS_SKILL_'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:dbObject', 006, 'OOMEP1WS_TEAMMEMBER'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:dbObject2', 006, 'OOMEP1WS_TEAMMEMBER_'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:dbObject', 007, ''
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, object__class, name, description, absolute_path, parent, integer_value)
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:pathNormalizeLevel', 000, 'org:openmdx:preferences1:IntegerPreference', 'pathNormalizeLevel', NULL, 'PERSISTENCE/pathNormalizeLevel', 'PERSISTENCE', 2
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, integer_value)
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:pathNormalizeLevel', 001, 2
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, integer_value)
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:pathNormalizeLevel', 002, 2
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, integer_value)
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:pathNormalizeLevel', 003, 2
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, integer_value)
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:pathNormalizeLevel', 004, 2
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, integer_value)
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:pathNormalizeLevel', 005, 2
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, integer_value)
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:pathNormalizeLevel', 006, 2
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, integer_value)
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:pathNormalizeLevel', 007, 2
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, object__class, name, description, absolute_path, parent, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:dbObjectFormat', 000, 'org:openmdx:preferences1:StringPreference', 'dbObjectFormat', NULL, 'PERSISTENCE/dbObjectFormat', 'PERSISTENCE', 'slicedWithIdAsKey'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:dbObjectFormat', 001, 'slicedWithIdAsKey'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:dbObjectFormat', 002, 'slicedWithIdAsKey'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:dbObjectFormat', 003, 'slicedWithIdAsKey'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:dbObjectFormat', 004, 'slicedWithIdAsKey'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:dbObjectFormat', 005, 'slicedWithIdAsKey'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:dbObjectFormat', 006, 'slicedWithIdAsKey'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:dbObjectFormat', 007, 'slicedWithIdAsKey'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, object__class, name, description, absolute_path, parent, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:dbObjectForQuery', 000, 'org:openmdx:preferences1:StringPreference', 'dbObjectForQuery', NULL, 'PERSISTENCE/dbObjectForQuery', 'PERSISTENCE', ''
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, object__class, name, description, absolute_path, parent, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:dbObjectForQuery2', 000, 'org:openmdx:preferences1:StringPreference', 'dbObjectForQuery2', NULL, 'PERSISTENCE/dbObjectForQuery2', 'PERSISTENCE', ''
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, object__class, name, description, absolute_path, parent, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:joinTable', 000, 'org:openmdx:preferences1:StringPreference', 'joinTable', NULL, 'PERSISTENCE/joinTable', 'PERSISTENCE', ''
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, object__class, name, description, absolute_path, parent, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:joinColumnEnd1', 000, 'org:openmdx:preferences1:StringPreference', 'joinColumnEnd1', NULL, 'PERSISTENCE/joinColumnEnd1', 'PERSISTENCE', ''
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, object__class, name, description, absolute_path, parent, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:joinColumnEnd2', 000, 'org:openmdx:preferences1:StringPreference', 'joinColumnEnd2', NULL, 'PERSISTENCE/joinColumnEnd2', 'PERSISTENCE', ''
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:dbObjectForQuery', 007, 'OOMEP1WS_TASK'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:dbObjectForQuery2', 007, 'OOMEP1WS_TASK_'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:joinTable', 007, 'OOMEP1WS_JOIN_TMEMBERHASTASK'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:joinColumnEnd1', 007, 'team_member'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:joinColumnEnd2', 007, 'task'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, object__class, name, description, absolute_path, parent, string_value)
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:columnNameFrom', 0, 'org:openmdx:preferences1:StringPreference', 'columnNameFrom', NULL, 'PERSISTENCE/columnNameFrom', 'PERSISTENCE', 'object__class'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR
+
+INSERT INTO prefs_Preference 
+    (object_rid, object_oid, object_idx, object__class, name, description, absolute_path, parent, string_value) 
+VALUES(
+    'preference/OOMEP1WS', 'PERSISTENCE:columnNameTo', 0, 'org:openmdx:preferences1:StringPreference', 'columnNameTo', NULL, 'PERSISTENCE/columnNameTo', 'PERSISTENCE', 'dtype'
+) COMMAND_TERMINATOR 
+COMMAND_SEPARATOR

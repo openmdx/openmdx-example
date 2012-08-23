@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_Q-qkwEdJEd-nAY5dDg-0aQ" name="models">
+  <eAnnotations xmi:id="_q4aJ8EdJEd-nAY5dDg-0aQ" source="org.w3c">
+    <references xmi:type="uml:Package" href="../openMDX%202%20~%20Core%20(EMF)/org.w3c.uml#_3C7B8A60016D3C8B62D700DA"/>
+  </eAnnotations>
+  <eAnnotations xmi:id="_X7t2cEdJEd-nAY5dDg-0aQ" source="org.oasis-open">
+    <references xmi:type="uml:Package" href="../openMDX%202%20~%20Core%20(EMF)/org.oasis-open.uml#_3C7B8A60016D4022002100C9"/>
+  </eAnnotations>
+  <eAnnotations xmi:id="_uKipEEdJEd-nAY5dDg-0aQ" source="org.openmdx.base">
+    <references xmi:type="uml:Package" href="../openMDX%202%20~%20Core%20(EMF)/org.openmdx.base.uml#_3C7B8A60016D40A89A0D0015"/>
+  </eAnnotations>
+  <eAnnotations xmi:id="_ZtEfUEdJEd-nAY5dDg-0aQ" source="org.openmdx.example.helloworld1">
+    <references xmi:type="uml:Package" href="org.openmdx.example.helloworld1.uml#_XZrcoOdGEd2P1c0K6fMJhA"/>
+  </eAnnotations>
+</uml:Model>

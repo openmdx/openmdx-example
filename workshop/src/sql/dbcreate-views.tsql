@@ -1,0 +1,19 @@
+#include "sql-definitions.tsql"
+
+DROP TABLE OOMEP1WS_JOIN_TMEMBERHASTASK COMMAND_TERMINATOR 
+#include "sql-command-separator.tsql"
+
+DROP VIEW OOMEP1WS_JOIN_TMEMBERHASTASK COMMAND_TERMINATOR 
+#include "sql-command-separator.tsql"
+
+CREATE VIEW OOMEP1WS_JOIN_TMEMBERHASTASK AS
+SELECT
+    t.object_id AS task,
+    a.team_member AS team_member
+FROM
+    OOMEP1WS_TASK t
+INNER JOIN
+    OOMEP1WS_TEAMMEMBERASSIGNMENT a
+ON
+    a.p$$parent = t.object_id COMMAND_TERMINATOR 
+#include "sql-command-separator.tsql"

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemas>
+    <schema>
+        <table name="OOM0BASE_AUTHORITY">
+            <pk column="AUTHORITY_ID"/>
+            <column name="AUTHORITY_ID" type="varchar" not-null="true" size="256"/>
+            <column name="DTYPE" type="varchar" size="256"/>
+        </table>
+        <table name="OOM0BASE_PROVIDER">
+            <pk column="PROVIDER_ID"/>
+            <column name="PROVIDER_ID" type="varchar" not-null="true" size="256"/>
+            <column name="DTYPE" type="varchar" size="256"/>
+            <column name="AUTHORITY" type="varchar" size="256"/>
+            <fk to-table="OOM0BASE_AUTHORITY" column="AUTHORITY"/>
+        </table>
+        <table name="OOMEP1WS_PROJECT">
+            <pk column="OBJECT_ID"/>
+            <column name="OBJECT_ID" type="varchar" not-null="true" size="256"/>
+            <column name="CREATED_AT" type="timestamp"/>
+            <column name="CREATED_BY_" type="integer" type-name="INTEGER DEFAULT -1"/>
+            <column name="DESCRIPTION" type="varchar" size="256"/>
+            <column name="MODIFIED_BY_" type="integer" type-name="INTEGER DEFAULT -1"/>
+            <column name="NAME" type="varchar" size="256"/>
+            <column name="DTYPE" type="varchar" size="256"/>
+            <column name="MODIFIED_AT" type="timestamp"/>
+            <column name="MANAGER" type="varchar" size="256"/>
+            <column name="P$$PARENT" type="varchar" size="256"/>
+            <fk to-table="OOMEP1WS_TEAMMEMBER" column="MANAGER"/>
+            <fk to-table="OOMEP1WS_SEGMENT" column="P$$PARENT"/>
+        </table>
+        <table name="OOMEP1WS_PROJECT_">
+            <pk>
+                <on column="OBJECT_ID"/>
+                <on column="IDX"/>
+            </pk>
+            <column name="OBJECT_ID" type="varchar" not-null="true" size="256"/>
+            <column name="IDX" type="integer" not-null="true"/>
+            <column name="CREATED_BY" type="varchar" size="256"/>
+            <column name="MODIFIED_BY" type="varchar" size="256"/>
+            <column name="DTYPE" type="varchar" size="256"/>
+            <fk to-table="OOMEP1WS_PROJECT" column="OBJECT_ID"/>
+        </table>
+        <table name="OOMEP1WS_SEGMENT">
+            <pk column="SEGMENT_ID"/>
+            <column name="SEGMENT_ID" type="varchar" not-null="true" size="256"/>
+            <column name="DESCRIPTION" type="varchar" size="256"/>
+            <column name="DTYPE" type="varchar" size="256"/>
+            <column name="PROVIDER" type="varchar" size="256"/>
+            <fk to-table="OOM0BASE_PROVIDER" column="PROVIDER"/>
+        </table>
+        <table name="OOMEP1WS_SEGMENT_">
+            <pk>
+                <on column="OBJECT_ID"/>
+                <on column="IDX"/>
+            </pk>
+            <column name="OBJECT_ID" type="varchar" not-null="true" size="256"/>
+            <column name="IDX" type="integer" not-null="true"/>
+            <column name="DTYPE" type="varchar" size="256"/>
+            <fk to-table="OOMEP1WS_SEGMENT" column="OBJECT_ID"/>
+        </table>
+        <table name="OOMEP1WS_SKILL">
+            <pk column="OBJECT_ID"/>
+            <column name="OBJECT_ID" type="varchar" not-null="true" size="256"/>
+            <column name="CREATED_AT" type="timestamp"/>
+            <column name="CREATED_BY_" type="integer" type-name="INTEGER DEFAULT -1"/>
+            <column name="MODIFIED_BY_" type="integer" type-name="INTEGER DEFAULT -1"/>
+            <column name="NAME" type="varchar" size="256"/>
+            <column name="DTYPE" type="varchar" size="256"/>
+            <column name="MODIFIED_AT" type="timestamp"/>
+            <column name="P$$PARENT" type="varchar" size="256"/>
+            <fk to-table="OOMEP1WS_SEGMENT" column="P$$PARENT"/>
+        </table>
+        <table name="OOMEP1WS_SKILL_">
+            <pk>
+                <on column="OBJECT_ID"/>
+                <on column="IDX"/>
+            </pk>
+            <column name="OBJECT_ID" type="varchar" not-null="true" size="256"/>
+            <column name="IDX" type="integer" not-null="true"/>
+            <column name="CREATED_BY" type="varchar" size="256"/>
+            <column name="MODIFIED_BY" type="varchar" size="256"/>
+            <column name="DTYPE" type="varchar" size="256"/>
+            <fk to-table="OOMEP1WS_SKILL" column="OBJECT_ID"/>
+        </table>
+        <table name="OOMEP1WS_TASK">
+            <pk column="OBJECT_ID"/>
+            <column name="OBJECT_ID" type="varchar" not-null="true" size="256"/>
+            <column name="CREATED_AT" type="timestamp"/>
+            <column name="CREATED_BY_" type="integer" type-name="INTEGER DEFAULT -1"/>
+            <column name="DEFINITION" type="varchar" size="256"/>
+            <column name="MODIFIED_BY_" type="integer" type-name="INTEGER DEFAULT -1"/>
+            <column name="NAME" type="varchar" size="256"/>
+            <column name="SKILL_" type="integer" type-name="INTEGER DEFAULT -1"/>
+            <column name="DTYPE" type="varchar" size="256"/>
+            <column name="MODIFIED_AT" type="timestamp"/>
+            <column name="P$$PARENT" type="varchar" size="256"/>
+            <fk to-table="OOMEP1WS_PROJECT" column="P$$PARENT"/>
+        </table>
+        <table name="OOMEP1WS_TASK_">
+            <pk>
+                <on column="OBJECT_ID"/>
+                <on column="IDX"/>
+            </pk>
+            <column name="OBJECT_ID" type="varchar" not-null="true" size="256"/>
+            <column name="IDX" type="integer" not-null="true"/>
+            <column name="CREATED_BY" type="varchar" size="256"/>
+            <column name="MODIFIED_BY" type="varchar" size="256"/>
+            <column name="DTYPE" type="varchar" size="256"/>
+            <column name="SKILL" type="varchar" size="256"/>
+            <fk to-table="OOMEP1WS_TASK" column="OBJECT_ID"/>
+            <fk to-table="OOMEP1WS_SKILL" column="SKILL"/>
+        </table>
+        <table name="OOMEP1WS_TEAMMEMBER">
+            <pk column="OBJECT_ID"/>
+            <column name="OBJECT_ID" type="varchar" not-null="true" size="256"/>
+            <column name="CREATED_AT" type="timestamp"/>
+            <column name="CREATED_BY_" type="integer" type-name="INTEGER DEFAULT -1"/>
+            <column name="MODIFIED_BY_" type="integer" type-name="INTEGER DEFAULT -1"/>
+            <column name="NAME" type="varchar" size="256"/>
+            <column name="SECURITY_NUMBER" type="varchar" size="256"/>
+            <column name="SKILL_" type="integer" type-name="INTEGER DEFAULT -1"/>
+            <column name="DTYPE" type="varchar" size="256"/>
+            <column name="MODIFIED_AT" type="timestamp"/>
+            <column name="P$$PARENT" type="varchar" size="256"/>
+            <fk to-table="OOMEP1WS_SEGMENT" column="P$$PARENT"/>
+        </table>
+        <table name="OOMEP1WS_TEAMMEMBERASSIGNMENT">
+            <pk column="OBJECT_ID"/>
+            <column name="OBJECT_ID" type="varchar" not-null="true" size="256"/>
+            <column name="CREATED_AT" type="timestamp"/>
+            <column name="CREATED_BY_" type="integer" type-name="INTEGER DEFAULT -1"/>
+            <column name="MEMBER_ROLE" type="varchar" size="256"/>
+            <column name="MODIFIED_BY_" type="integer" type-name="INTEGER DEFAULT -1"/>
+            <column name="DTYPE" type="varchar" size="256"/>
+            <column name="MODIFIED_AT" type="timestamp"/>
+            <column name="P$$PARENT" type="varchar" size="256"/>
+            <column name="TEAM_MEMBER" type="varchar" size="256"/>
+            <fk to-table="OOMEP1WS_TASK" column="P$$PARENT"/>
+            <fk to-table="OOMEP1WS_TEAMMEMBER" column="TEAM_MEMBER"/>
+        </table>
+        <table name="OOMEP1WS_TEAMMEMBERASSIGNMENT_">
+            <pk>
+                <on column="OBJECT_ID"/>
+                <on column="IDX"/>
+            </pk>
+            <column name="OBJECT_ID" type="varchar" not-null="true" size="256"/>
+            <column name="IDX" type="integer" not-null="true"/>
+            <column name="CREATED_BY" type="varchar" size="256"/>
+            <column name="MODIFIED_BY" type="varchar" size="256"/>
+            <column name="DTYPE" type="varchar" size="256"/>
+            <fk to-table="OOMEP1WS_TEAMMEMBERASSIGNMENT" column="OBJECT_ID"/>
+        </table>
+        <table name="OOMEP1WS_TEAMMEMBER_">
+            <pk>
+                <on column="OBJECT_ID"/>
+                <on column="IDX"/>
+            </pk>
+            <column name="OBJECT_ID" type="varchar" not-null="true" size="256"/>
+            <column name="IDX" type="integer" not-null="true"/>
+            <column name="CREATED_BY" type="varchar" size="256"/>
+            <column name="MODIFIED_BY" type="varchar" size="256"/>
+            <column name="DTYPE" type="varchar" size="256"/>
+            <column name="SKILL" type="varchar" size="256"/>
+            <fk to-table="OOMEP1WS_TEAMMEMBER" column="OBJECT_ID"/>
+            <fk to-table="OOMEP1WS_SKILL" column="SKILL"/>
+        </table>
+    </schema>
+</schemas>

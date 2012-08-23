@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.openmdx.base.Authority xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="org:openmdx:example:workshop1" xsi:noNamespaceSchemaLocation="xri://+resource/org/openmdx/example/workshop1/xmi1/workshop1.xsd">
+	<_object/>
+	<_content>
+		<provider>
+			<org.openmdx.base.Provider qualifiedName="Workshop" _operation="null">
+				<_object/>
+				<_content>
+					<segment>
+						<org.openmdx.example.workshop1.Segment qualifiedName="Standard" _operation="create">
+							<_object>
+								<description>Standard</description>
+							</_object>							
+							<_content/>
+						</org.openmdx.example.workshop1.Segment>
+						<org.openmdx.example.workshop1.Segment qualifiedName="Volatile" _operation="create">
+							<_object>
+								<description>Volatile</description>
+							</_object>							
+							<_content/>
+						</org.openmdx.example.workshop1.Segment>
+					</segment>
+				</_content>
+			</org.openmdx.base.Provider>
+		</provider>
+	</_content>
+</org.openmdx.base.Authority>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_3C9dAKLbEdqtMM7Is-9UwA" name="org.openmdx.example.workshop1">
+  <packagedElement xmi:type="uml:Package" xmi:id="_j_vqwKLbEdqtMM7Is-9UwAPP" name="org">
+    <packagedElement xmi:type="uml:Package" xmi:id="_j_vqwKLbEdqtMM7Is-9UwAP" name="openmdx">
+      <packagedElement xmi:type="uml:Package" xmi:id="_j_vqwKLbEdqtMM7Is-9UwA" name="example">
+        <packagedElement xmi:type="uml:Package" xmi:id="_j_vqwKLbEdqtMM7Is-9UwA" name="workshop1">
+          <packagedElement xmi:type="uml:Class" xmi:id="_i-tPEKLcEdqtMM7Is-9UwA" name="Segment">
+            <generalization xmi:id="_o-EJcKLcEdqtMM7Is-9UwA">
+              <general xmi:type="uml:Class" href="../openMDX%202%20~%20Core%20(EMF)/org.openmdx.base.uml#_3C7B8A60016D3FC487C80099"/>
+            </generalization>
+            <ownedAttribute xmi:id="_UknuoaLdEdqtMM7Is-9UwA" name="project" type="_4TR_8KLcEdqtMM7Is-9UwA" aggregation="composite" association="_UknuoKLdEdqtMM7Is-9UwA">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UknupKLdEdqtMM7Is-9UwA" value="1"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Uknuo6LdEdqtMM7Is-9UwA"/>
+              <qualifier xmi:id="_upABEKLeEdqtMM7Is-9UwA" name="id" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="../openMDX%202%20~%20Core%20(EMF)/org.w3c.uml#_3C7B8A60016D3C8B62E40010"/>
+              </qualifier>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_WbbfQaLdEdqtMM7Is-9UwA" name="teamMember" type="_ArckwKLdEdqtMM7Is-9UwA" aggregation="composite" association="_WbbfQKLdEdqtMM7Is-9UwA">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WbbfRKLdEdqtMM7Is-9UwA" value="1"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WbbfQ6LdEdqtMM7Is-9UwA"/>
+              <qualifier xmi:id="_yH0RUKLeEdqtMM7Is-9UwA" name="id" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="../openMDX%202%20~%20Core%20(EMF)/org.w3c.uml#_3C7B8A60016D3C8B62E40010"/>
+              </qualifier>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_bUHFcaLdEdqtMM7Is-9UwA" name="skill" type="_EitKMKLdEdqtMM7Is-9UwA" aggregation="composite" association="_bUHFcKLdEdqtMM7Is-9UwA">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bUHFdKLdEdqtMM7Is-9UwA" value="1"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bUHFc6LdEdqtMM7Is-9UwA"/>
+              <qualifier xmi:id="_3fcdUKLeEdqtMM7Is-9UwA" name="id" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="../openMDX%202%20~%20Core%20(EMF)/org.w3c.uml#_3C7B8A60016D3C8B62E40010"/>
+              </qualifier>
+            </ownedAttribute>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_4TR_8KLcEdqtMM7Is-9UwA" name="Project">
+            <generalization xmi:id="_PwPkMKLeEdqtMM7Is-9UwA">
+              <general xmi:type="uml:Class" href="../openMDX%202%20~%20Core%20(EMF)/org.openmdx.base.uml#_3C7B8A60016D3FB3D6450214"/>
+            </generalization>
+            <ownedAttribute xmi:id="_5fTuMKLcEdqtMM7Is-9UwA" name="name">
+              <type xmi:type="uml:PrimitiveType" href="../openMDX%202%20~%20Core%20(EMF)/org.w3c.uml#_3C7B8A60016D3C8B62E40010"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_TZLPMaLdEdqtMM7Is-9UwA" name="task" type="_8gm8AKLcEdqtMM7Is-9UwA" aggregation="composite" association="_TZLPMKLdEdqtMM7Is-9UwA">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TZLPNKLdEdqtMM7Is-9UwA" value="1"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TZLPM6LdEdqtMM7Is-9UwA"/>
+              <qualifier xmi:id="_UOYuAKLfEdqtMM7Is-9UwA" name="id" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="../openMDX%202%20~%20Core%20(EMF)/org.w3c.uml#_3C7B8A60016D3C8B62E40010"/>
+              </qualifier>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_5NA1kaLiEdqtMM7Is-9UwA" name="manager" type="_ArckwKLdEdqtMM7Is-9UwA" association="_5NA1kKLiEdqtMM7Is-9UwA">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5NA1lKLiEdqtMM7Is-9UwA" value="1"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5NA1k6LiEdqtMM7Is-9UwA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_9FL-MKMoEdqIwalDVxStxg" name="description">
+              <type xmi:type="uml:PrimitiveType" href="../openMDX%202%20~%20Core%20(EMF)/org.w3c.uml#_3C7B8A60016D3C8B62E40010"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Uu5xoaTCEdquNakKjiw-3w" value="1"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Uu5xoKTCEdquNakKjiw-3w"/>
+            </ownedAttribute>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_8gm8AKLcEdqtMM7Is-9UwA" name="Task">
+            <generalization xmi:id="_R0hJEKLeEdqtMM7Is-9UwA">
+              <general xmi:type="uml:Class" href="../openMDX%202%20~%20Core%20(EMF)/org.openmdx.base.uml#_3C7B8A60016D3FB3D6450214"/>
+            </generalization>
+            <ownedAttribute xmi:id="_915T8KLcEdqtMM7Is-9UwA" name="name">
+              <type xmi:type="uml:PrimitiveType" href="../openMDX%202%20~%20Core%20(EMF)/org.w3c.uml#_3C7B8A60016D3C8B62E40010"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_-fPy8KLcEdqtMM7Is-9UwA" name="definition">
+              <type xmi:type="uml:PrimitiveType" href="../openMDX%202%20~%20Core%20(EMF)/org.w3c.uml#_3C7B8A60016D3C8B62E40010"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Gjd2IaLfEdqtMM7Is-9UwA" value="1"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Gjd2IKLfEdqtMM7Is-9UwA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_tMeGwaLgEdqtMM7Is-9UwA" name="assignment" type="_uoDwcKLfEdqtMM7Is-9UwA" aggregation="composite" association="_tMeGwKLgEdqtMM7Is-9UwA">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tMeGxKLgEdqtMM7Is-9UwA" value="1"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tMeGw6LgEdqtMM7Is-9UwA"/>
+              <qualifier xmi:id="_L8ihsKLhEdqtMM7Is-9UwA" name="id" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="../openMDX%202%20~%20Core%20(EMF)/org.w3c.uml#_3C7B8A60016D3C8B62E40010"/>
+              </qualifier>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_PYdLwaLdEdqtMM7Is-9UwA" name="skill" type="_EitKMKLdEdqtMM7Is-9UwA" association="_PYdLwKLdEdqtMM7Is-9UwA">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PYdLxKLdEdqtMM7Is-9UwA" value="1"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PYdLw6LdEdqtMM7Is-9UwA"/>
+              <qualifier xmi:id="_nPmAMKMCEdqtMM7Is-9UwA" name="index" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="../openMDX%202%20~%20Core%20(EMF)/org.w3c.uml#_3C7B8A60016D3CC6A34B0011"/>
+              </qualifier>
+            </ownedAttribute>
+            <ownedOperation xmi:id="_SynJMKMDEdqtMM7Is-9UwA" name="assignTeamMember">
+              <eAnnotations xmi:id="_8pKjgNrjEdyqHpG4rXxY2g" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+              <ownedComment xmi:id="_LDjJcNrkEdyqHpG4rXxY2g" annotatedElement="_SynJMKMDEdqtMM7Is-9UwA">
+                <body>@throws org::openmdx::example::workshop1::Task::MissingSkillException&#xD;
+      </body>
+              </ownedComment>
+              <ownedParameter xmi:id="_lFmYYKMDEdqtMM7Is-9UwA" name="ReturnResultParameter1" type="_XYknsKMDEdqtMM7Is-9UwA" direction="return"/>
+              <ownedParameter xmi:id="_iUoFkKMDEdqtMM7Is-9UwA" name="in" type="_Vc_r0KMDEdqtMM7Is-9UwA"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_4FJmIKTFEdquNakKjiw-3w" name="MissingSkillException">
+              <eAnnotations xmi:id="_6XLTIKTFEdquNakKjiw-3w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_tjcksKVDEdqzTtHjuOS7gQ" key="exception"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_quRuYKVDEdqzTtHjuOS7gQ" name="missingSkills" effect="read">
+                <type xmi:type="uml:PrimitiveType" href="../openMDX%202%20~%20Core%20(EMF)/org.w3c.uml#_3C7B8A60016D3C8B62E40010"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_ArckwKLdEdqtMM7Is-9UwA" name="TeamMember">
+            <ownedRule xmi:id="_C0_18KMDEdqtMM7Is-9UwA" constrainedElement="_vvTXcKMCEdqtMM7Is-9UwA">
+              <specification xmi:type="uml:OpaqueExpression" xmi:id="_C0_18aMDEdqtMM7Is-9UwA">
+                <body>isFrozen</body>
+              </specification>
+            </ownedRule>
+            <generalization xmi:id="_UbRI4KLeEdqtMM7Is-9UwA">
+              <general xmi:type="uml:Class" href="../openMDX%202%20~%20Core%20(EMF)/org.openmdx.base.uml#_3C7B8A60016D3FB3D6450214"/>
+            </generalization>
+            <ownedAttribute xmi:id="_B_fmkKLdEdqtMM7Is-9UwA" name="name">
+              <type xmi:type="uml:PrimitiveType" href="../openMDX%202%20~%20Core%20(EMF)/org.w3c.uml#_3C7B8A60016D3C8B62E40010"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_Cn5DUKLdEdqtMM7Is-9UwA" name="securityNumber">
+              <type xmi:type="uml:PrimitiveType" href="../openMDX%202%20~%20Core%20(EMF)/org.w3c.uml#_3C7B8A60016D3C8B62E40010"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_I6XcEaLfEdqtMM7Is-9UwA" value="1"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_I6XcEKLfEdqtMM7Is-9UwA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_MDYtYaLdEdqtMM7Is-9UwA" name="skill" type="_EitKMKLdEdqtMM7Is-9UwA" association="_MDYtYKLdEdqtMM7Is-9UwA">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MDYtZKLdEdqtMM7Is-9UwA" value="1"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MDYtY6LdEdqtMM7Is-9UwA"/>
+              <qualifier xmi:id="_cFBlMKMCEdqtMM7Is-9UwA" name="index" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="../openMDX%202%20~%20Core%20(EMF)/org.w3c.uml#_3C7B8A60016D3CC6A34B0011"/>
+              </qualifier>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_vvTXcKMCEdqtMM7Is-9UwA" name="task" type="_8gm8AKLcEdqtMM7Is-9UwA" isReadOnly="true" aggregation="shared" association="_vvNQ0KMCEdqtMM7Is-9UwA">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vvTXc6MCEdqtMM7Is-9UwA" value="1"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vvTXcqMCEdqtMM7Is-9UwA"/>
+              <qualifier xmi:id="_9yYQoKMCEdqtMM7Is-9UwA" name="id" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="../openMDX%202%20~%20Core%20(EMF)/org.w3c.uml#_3C7B8A60016D3C8B62E40010"/>
+              </qualifier>
+            </ownedAttribute>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_EitKMKLdEdqtMM7Is-9UwA" name="Skill">
+            <generalization xmi:id="_fWFQoKLeEdqtMM7Is-9UwA">
+              <general xmi:type="uml:Class" href="../openMDX%202%20~%20Core%20(EMF)/org.openmdx.base.uml#_3C7B8A60016D3FB3D6450214"/>
+            </generalization>
+            <ownedAttribute xmi:id="_HOI1sKLdEdqtMM7Is-9UwA" name="name">
+              <type xmi:type="uml:PrimitiveType" href="../openMDX%202%20~%20Core%20(EMF)/org.w3c.uml#_3C7B8A60016D3C8B62E40010"/>
+            </ownedAttribute>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_MDYtYKLdEdqtMM7Is-9UwA" name="TeamMemberHasSkill" memberEnd="_MDYtYaLdEdqtMM7Is-9UwA _MDYtYqLdEdqtMM7Is-9UwA">
+            <ownedEnd xmi:id="_MDYtYqLdEdqtMM7Is-9UwA" name="teamMember" type="_ArckwKLdEdqtMM7Is-9UwA" association="_MDYtYKLdEdqtMM7Is-9UwA">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MqLVsaLfEdqtMM7Is-9UwA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MqLVsKLfEdqtMM7Is-9UwA"/>
+            </ownedEnd>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_PYdLwKLdEdqtMM7Is-9UwA" name="TaskRequiresSkill" memberEnd="_PYdLwaLdEdqtMM7Is-9UwA _PYdLwqLdEdqtMM7Is-9UwA">
+            <ownedEnd xmi:id="_PYdLwqLdEdqtMM7Is-9UwA" name="task" type="_8gm8AKLcEdqtMM7Is-9UwA" association="_PYdLwKLdEdqtMM7Is-9UwA">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RolwcaLfEdqtMM7Is-9UwA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_RolwcKLfEdqtMM7Is-9UwA"/>
+            </ownedEnd>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_TZLPMKLdEdqtMM7Is-9UwA" name="ProjectHasTask" memberEnd="_TZLPMaLdEdqtMM7Is-9UwA _TZLPMqLdEdqtMM7Is-9UwA">
+            <ownedEnd xmi:id="_TZLPMqLdEdqtMM7Is-9UwA" name="project" type="_4TR_8KLcEdqtMM7Is-9UwA" association="_TZLPMKLdEdqtMM7Is-9UwA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_UknuoKLdEdqtMM7Is-9UwA" name="SegmentContainsProject" memberEnd="_UknuoaLdEdqtMM7Is-9UwA _UknuoqLdEdqtMM7Is-9UwA">
+            <ownedEnd xmi:id="_UknuoqLdEdqtMM7Is-9UwA" name="segment" type="_i-tPEKLcEdqtMM7Is-9UwA" association="_UknuoKLdEdqtMM7Is-9UwA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_WbbfQKLdEdqtMM7Is-9UwA" name="SegmentContainsTeamMember" memberEnd="_WbbfQaLdEdqtMM7Is-9UwA _WbbfQqLdEdqtMM7Is-9UwA">
+            <ownedEnd xmi:id="_WbbfQqLdEdqtMM7Is-9UwA" name="segment" type="_i-tPEKLcEdqtMM7Is-9UwA" association="_WbbfQKLdEdqtMM7Is-9UwA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_bUHFcKLdEdqtMM7Is-9UwA" name="SegmentContainsSkill" memberEnd="_bUHFcaLdEdqtMM7Is-9UwA _bUHFcqLdEdqtMM7Is-9UwA">
+            <ownedEnd xmi:id="_bUHFcqLdEdqtMM7Is-9UwA" name="segment" type="_i-tPEKLcEdqtMM7Is-9UwA" association="_bUHFcKLdEdqtMM7Is-9UwA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_uoDwcKLfEdqtMM7Is-9UwA" name="TeamMemberAssignment">
+            <generalization xmi:id="_Hgmh4KLhEdqtMM7Is-9UwA">
+              <general xmi:type="uml:Class" href="../openMDX%202%20~%20Core%20(EMF)/org.openmdx.base.uml#_3C7B8A60016D3FB3D6450214"/>
+            </generalization>
+            <ownedAttribute xmi:id="_vyQ5wKLfEdqtMM7Is-9UwA" name="memberRole">
+              <type xmi:type="uml:PrimitiveType" href="../openMDX%202%20~%20Core%20(EMF)/org.w3c.uml#_3C7B8A60016D3C8B62E40010"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NqO7AaSAEdqaKuEkJxA7aA" value="1"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NqO7AKSAEdqaKuEkJxA7aA"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_x3w4kaLdEdqtMM7Is-9UwA" name="teamMember" type="_ArckwKLdEdqtMM7Is-9UwA" association="_x3w4kKLdEdqtMM7Is-9UwA">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_x3w4lKLdEdqtMM7Is-9UwA" value="1"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_x3w4k6LdEdqtMM7Is-9UwA" value="1"/>
+            </ownedAttribute>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_tMeGwKLgEdqtMM7Is-9UwA" name="TaskHasTeamMemberAssignment" memberEnd="_tMeGwaLgEdqtMM7Is-9UwA _tMeGwqLgEdqtMM7Is-9UwA">
+            <ownedEnd xmi:id="_tMeGwqLgEdqtMM7Is-9UwA" name="task" type="_8gm8AKLcEdqtMM7Is-9UwA" association="_tMeGwKLgEdqtMM7Is-9UwA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_5NA1kKLiEdqtMM7Is-9UwA" name="ProjectHasManager" memberEnd="_5NA1kaLiEdqtMM7Is-9UwA _5NA1kqLiEdqtMM7Is-9UwA">
+            <ownedEnd xmi:id="_5NA1kqLiEdqtMM7Is-9UwA" name="project" type="_4TR_8KLcEdqtMM7Is-9UwA" association="_5NA1kKLiEdqtMM7Is-9UwA">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DkMr0aLjEdqtMM7Is-9UwA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DkMr0KLjEdqtMM7Is-9UwA"/>
+              <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_EYWFkKLjEdqtMM7Is-9UwA" type="_4TR_8KLcEdqtMM7Is-9UwA">
+                <body>project</body>
+              </defaultValue>
+            </ownedEnd>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_vvNQ0KMCEdqtMM7Is-9UwA" name="TeamMemberHasAssignedTask" memberEnd="_vvTXcKMCEdqtMM7Is-9UwA _vvTXcaMCEdqtMM7Is-9UwA">
+            <ownedEnd xmi:id="_vvTXcaMCEdqtMM7Is-9UwA" name="teamMember" type="_ArckwKLdEdqtMM7Is-9UwA" association="_vvNQ0KMCEdqtMM7Is-9UwA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_Vc_r0KMDEdqtMM7Is-9UwA" name="AssignTeamMemberParams">
+            <eAnnotations xmi:id="_gGVCAKMDEdqtMM7Is-9UwA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_gGVCAaMDEdqtMM7Is-9UwA" key="struct"/>
+            </eAnnotations>
+            <ownedAttribute xmi:id="_dbRxAKMDEdqtMM7Is-9UwA" name="teamMember" type="_ArckwKLdEdqtMM7Is-9UwA"/>
+            <ownedAttribute xmi:id="_nCen4KMbEdqtMM7Is-9UwA" name="memberRole">
+              <type xmi:type="uml:PrimitiveType" href="../openMDX%202%20~%20Core%20(EMF)/org.w3c.uml#_3C7B8A60016D3C8B62E40010"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_or6D0aMbEdqtMM7Is-9UwA" value="1"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_or6D0KMbEdqtMM7Is-9UwA"/>
+            </ownedAttribute>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_XYknsKMDEdqtMM7Is-9UwA" name="AssignTeamMemberResult">
+            <eAnnotations xmi:id="_gnLFQKMDEdqtMM7Is-9UwA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_gnLFQaMDEdqtMM7Is-9UwA" key="struct"/>
+            </eAnnotations>
+            <ownedAttribute xmi:id="_ZAAfkKMDEdqtMM7Is-9UwA" name="assignment" type="_uoDwcKLfEdqtMM7Is-9UwA">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_brue8aMDEdqtMM7Is-9UwA" value="1"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_brue8KMDEdqtMM7Is-9UwA"/>
+            </ownedAttribute>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_x3w4kKLdEdqtMM7Is-9UwA" name="TaskHasAssignedMember" memberEnd="_x3w4kaLdEdqtMM7Is-9UwA _x3w4kqLdEdqtMM7Is-9UwA">
+            <ownedEnd xmi:id="_x3w4kqLdEdqtMM7Is-9UwA" name="assignment" type="_uoDwcKLfEdqtMM7Is-9UwA" association="_x3w4kKLdEdqtMM7Is-9UwA">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PKJYEaLfEdqtMM7Is-9UwA" value="*"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PKJYEKLfEdqtMM7Is-9UwA"/>
+            </ownedEnd>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.openmdx.base.Authority xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="org:openmdx:example:helloworld1" xsi:noNamespaceSchemaLocation="xri://+resource/org/openmdx/example/helloworld1/xmi1/helloworld1.xsd">
+	<_object/>
+	<_content>
+		<provider>
+			<org.openmdx.base.Provider qualifiedName="Java" _operation="null">
+				<_object/>
+				<_content>
+					<segment>
+						<org.openmdx.example.helloworld1.HelloWorld qualifiedName="Standard" _operation="create">
+							<_object/>
+							<_content/>
+						</org.openmdx.example.helloworld1.HelloWorld>
+					</segment>
+				</_content>
+			</org.openmdx.base.Provider>
+		</provider>
+	</_content>
+</org.openmdx.base.Authority>

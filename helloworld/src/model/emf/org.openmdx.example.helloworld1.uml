@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_QmA7AOdHEd2HsJt4kStKEg" name="org">
+  <packagedElement xmi:type="uml:Package" xmi:id="_XZrcoOdGEd2P1c0K6fMJhAPPP" name="org">
+    <packagedElement xmi:type="uml:Package" xmi:id="_XZrcoOdGEd2P1c0K6fMJhAPP" name="openmdx">
+      <packagedElement xmi:type="uml:Package" xmi:id="_XZrcoOdGEd2P1c0K6fMJhAP" name="example">
+        <packagedElement xmi:type="uml:Package" xmi:id="_XZrcoOdGEd2P1c0K6fMJhA" name="helloworld1">
+          <packagedElement xmi:type="uml:Class" xmi:id="_XZ10sOdGEd2P1c0K6fMJhA" name="HelloWorld">
+            <generalization xmi:id="_lX-RkOdIEd2HsJt4kStKEg">
+              <general xmi:type="uml:Class" href="../openMDX%202%20~%20Core%20(EMF)/org.openmdx.base.uml#_3C7B8A60016D3FC487C80099"/>
+            </generalization>
+            <ownedOperation xmi:id="_XZtR0OdGEd2P1c0K6fMJhA" name="sayHello" isQuery="true">
+              <eAnnotations xmi:id="_XZt44OdGEd2P1c0K6fMJhA" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+              <ownedParameter xmi:id="_XZwVIOdGEd2P1c0K6fMJhA" type="_XZw8MOdGEd2P1c0K6fMJhA" direction="return"/>
+              <ownedParameter xmi:id="_XZvHAOdGEd2P1c0K6fMJhA" name="in" type="_XZvuEOdGEd2P1c0K6fMJhA"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_XZvuEOdGEd2P1c0K6fMJhA" name="HelloWorldSayHelloParams">
+            <eAnnotations xmi:id="_XZxjQOdGEd2P1c0K6fMJhA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_XZyKUOdGEd2P1c0K6fMJhA" key="struct"/>
+            </eAnnotations>
+            <ownedAttribute xmi:id="_XZyxYOdGEd2P1c0K6fMJhA" name="language" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="../openMDX%202%20~%20Core%20(EMF)/org.w3c.uml#_3C7B8A60016D3C8B62E40010"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XZzYcOdGEd2P1c0K6fMJhA" value="1"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XZz-gOdGEd2P1c0K6fMJhA" value="1"/>
+            </ownedAttribute>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_XZw8MOdGEd2P1c0K6fMJhA" name="SayHelloResult">
+            <eAnnotations xmi:id="_XZ0mkOdGEd2P1c0K6fMJhA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_XZ1NoOdGEd2P1c0K6fMJhA" key="struct"/>
+            </eAnnotations>
+            <ownedAttribute xmi:id="_XZ..oOdGEd2P1c0K6fMJhA" name="message" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="../openMDX%202%20~%20Core%20(EMF)/org.w3c.uml#_3C7B8A60016D3C8B62E40010"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XZ2bwOdGEd2P1c0K6fMJhA" value="1"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XZ3C0OdGEd2P1c0K6fMJhA" value="1"/>
+            </ownedAttribute>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

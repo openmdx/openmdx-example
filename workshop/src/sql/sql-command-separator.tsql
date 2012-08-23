@@ -1,0 +1,5 @@
+#if defined(POSTGRESQL_8)
+
+#elif defined(SQL_SERVER_2000)
+GO
+#endif

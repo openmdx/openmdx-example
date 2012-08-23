@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application id="Application_ID" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_5.xsd">
+	<display-name>openMDX/Example Workshop Application</display-name>
+	<module>
+		<web>
+			<web-uri>openmdx-workshop.war</web-uri>
+			<context-root>openmdx-workshop</context-root>
+		</web>
+	</module>
+	<security-role id="SecurityRole_Guest">
+		<description>openMDX/Example Guest</description>
+		<role-name>Guest</role-name>
+	</security-role>
+	<library-directory>APP-INF/lib</library-directory>			
+</application>

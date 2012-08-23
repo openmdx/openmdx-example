@@ -1,0 +1,5 @@
+<Context
+	path="/openmdx-helloworld"
+	docBase="${catalina.home}/apps/openmdx-helloworld/openmdx-helloworld.war"
+>
+</Context>
