@@ -1,17 +1,14 @@
 /*
  * ====================================================================
  * Project:     openMDX/Workshop, http://www.openmdx.org/
- * Name:        $Id: TestExample_1.java,v 1.25 2011/02/09 20:53:37 hburger Exp $
  * Description: openMDX/Example Workshop 
- * Revision:    $Revision: 1.25 $
  * Owner:       OMEX AG, Switzerland, http://www.omex.ch
- * Date:        $Date: 2011/02/09 20:53:37 $
  * ====================================================================
  *
  * This software is published under the BSD license
  * as listed below.
  * 
- * Copyright (c) 2006-2008, OMEX AG, Switzerland
+ * Copyright (c) 2006-2012, OMEX AG, Switzerland
  * All rights reserved.
  * 
  * Redistribution and use in source and binary forms, with or

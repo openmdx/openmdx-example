@@ -1,0 +1,7 @@
+/distribution
+/helloworld/build
+/workshop/build
+/jre-1.6
+/source-archive
+/opt/openmdx*
+/opt/*.sh

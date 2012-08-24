@@ -1,11 +1,8 @@
 /*
  * ====================================================================
  * Project:     openMDX/Helloworld, http://www.openmdx.org/
- * Name:        $Id: HelloWorldImpl.java,v 1.2 2009/06/05 12:52:59 wfro Exp $
  * Description: HelloWorld implementation
- * Revision:    $Revision: 1.2 $
  * Owner:       OMEX AG, Switzerland, http://www.omex.ch
- * Date:        $Date: 2009/06/05 12:52:59 $
  * ====================================================================
  *
  * This software is published under the BSD license

@@ -1,11 +1,8 @@
 /*
  * ====================================================================
  * Project:     openMDX/Example, http://www.openmdx.org/
- * Name:        $Id: TestHelloWorld_1.java,v 1.39 2011/02/09 20:55:42 hburger Exp $
  * Description: HelloWorld client
- * Revision:    $Revision: 1.39 $
  * Owner:       OMEX AG, Switzerland, http://www.omex.ch
- * Date:        $Date: 2011/02/09 20:55:42 $
  * ====================================================================
  *
  * This software is published under the BSD license as listed below.

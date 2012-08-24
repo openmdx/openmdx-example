@@ -8,10 +8,12 @@ org.openmdx.base.exception.*,
 org.openmdx.portal.servlet.*,
 org.openmdx.portal.servlet.attribute.*,
 org.openmdx.portal.servlet.view.*,
-org.openmdx.portal.servlet.texts.*,
+org.openmdx.kernel.id.*,
+org.openmdx.base.text.conversion.*,
 org.openmdx.portal.servlet.control.*,
 org.openmdx.portal.servlet.reports.*,
 org.openmdx.portal.servlet.wizards.*,
+org.openmdx.portal.servlet.action.*,
 org.openmdx.base.naming.*,
 org.openmdx.base.query.*,
 org.openmdx.kernel.exception.BasicException
@@ -144,8 +146,7 @@ org.openmdx.kernel.exception.BasicException
         //
         org.openmdx.example.workshop1.jmi1.Project project = workshop1Pkg.getProject().createProject();
         example1Segment.addProject(
-			false, 
-			org.openmdx.kernel.id.UUIDs.getGenerator().next().toString(),
+			UUIDConversion.toUID(UUIDs.newUUID()),
 			project
 		);
         project.setName(projectName);
@@ -274,7 +275,7 @@ org.openmdx.kernel.exception.BasicException
 	    // Go back to previous view
       Action nextAction =
         new Action(
-    			Action.EVENT_SELECT_OBJECT,
+    	  SelectObjectAction.EVENT_ID,
           new Action.Parameter[]{
             new Action.Parameter(Action.PARAMETER_OBJECTXRI, objectXri)
             },

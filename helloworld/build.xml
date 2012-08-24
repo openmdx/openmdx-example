@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!--
 =======================================================================
-= Name:        $Id: build.xml,v 1.65 2012/01/19 22:31:20 wfro Exp $
+= Name:        $Id: build.xml,v 1.66 2012/07/08 11:27:24 wfro Exp $
 = Description: ant build for openMDX/Example HelloWorld
-= Revision:    $Revision: 1.65 $
-= Date:        $Date: 2012/01/19 22:31:20 $
+= Revision:    $Revision: 1.66 $
+= Date:        $Date: 2012/07/08 11:27:24 $
 = Copyright:   (c) 2003-2011 OMEX AG
 =======================================================================
  *
  * This software is published under the BSD license
  * as listed below.
  * 
- * Copyright (c) 2004-2011, OMEX AG, Switzerland
+ * Copyright (c) 2004-2012, OMEX AG, Switzerland
  * All rights reserved.
  * 
  * Redistribution and use in source and binary forms, with or without 
@@ -65,8 +65,8 @@
   <property name="project.app-server.list" value="jboss-3"/>
 
 	<!-- Included Ant Projects -->
-	<import file="../opt/openmdx-2.9.1/ant/etc/ant/build-properties.xml"/>
-	<import file="../opt/openmdx-2.9.1/ant/etc/ant/build-library.xml"/>
+	<import file="../opt/openmdx-2.10.0/ant/etc/ant/build-properties.xml"/>
+	<import file="../opt/openmdx-2.10.0/ant/etc/ant/build-library.xml"/>
 
 	<path id="openmdx.portal.lib">
 		<pathelement location="${openmdx.home}/${build.target.platform}/portal/lib/openmdx-portal.jar"/>

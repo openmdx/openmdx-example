@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!--
 =======================================================================
-= Name:        $Id: build.xml,v 1.59 2012/01/19 22:32:41 wfro Exp $
+= Name:        $Id: build.xml,v 1.60 2012/07/08 11:27:34 wfro Exp $
 = Description: ant build for openMDX/Example Workshop
-= Revision:    $Revision: 1.59 $
-= Date:        $Date: 2012/01/19 22:32:41 $
+= Revision:    $Revision: 1.60 $
+= Date:        $Date: 2012/07/08 11:27:34 $
 = Copyright:   (c) 2006-2012 OMEX AG
 =======================================================================
  *
@@ -63,8 +63,8 @@
 	<property name="project.platform.list" value="jre-1.6"/>
 
 	<!-- Included Ant Projects -->
-	<import file="../opt/openmdx-2.9.1/ant/etc/ant/build-properties.xml"/>
-	<import file="../opt/openmdx-2.9.1/ant/etc/ant/build-library.xml"/>
+	<import file="../opt/openmdx-2.10.0/ant/etc/ant/build-properties.xml"/>
+	<import file="../opt/openmdx-2.10.0/ant/etc/ant/build-library.xml"/>
 
 	<path id="postgresql-8.lib">
 		<pathelement location="${project.home}/opt/postgresql/${build.target.platform}/postgresql-8/lib/postgresql-8.3.jdbc3.jar"/>

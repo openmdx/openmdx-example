@@ -367,7 +367,7 @@
     <styles xmi:type="notation:RoutingStyle" xmi:id="_1pAB4UdNEd-q-_EMCS6NuQ" routing="Rectilinear"/>
     <styles xmi:type="notation:FontStyle" xmi:id="_1pAB4kdNEd-q-_EMCS6NuQ" fontName="Arial" fontHeight="11"/>
     <element xmi:type="uml:Association" href="../org.openmdx.example.workshop1.uml#_vvNQ0KMCEdqtMM7Is-9UwA"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1pAB40dNEd-q-_EMCS6NuQ" points="[418, 0, -331, 433]$[731, 0, -18, 433]$[731, -370, -18, 63]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1pAB40dNEd-q-_EMCS6NuQ" points="[418, 0, -331, 433]$[721, 0, -28, 433]$[721, -370, -28, 63]"/>
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_1pDsQEdNEd-q-_EMCS6NuQ" type="4005" source="_uktfwEdNEd-q-_EMCS6NuQ" target="_q9I8IEdNEd-q-_EMCS6NuQ">
     <children xmi:type="notation:DecorationNode" xmi:id="_1pETUEdNEd-q-_EMCS6NuQ" type="6003">
@@ -487,7 +487,7 @@
     <styles xmi:type="notation:RoutingStyle" xmi:id="_1pQgkUdNEd-q-_EMCS6NuQ" routing="Rectilinear"/>
     <styles xmi:type="notation:FontStyle" xmi:id="_1pQgkkdNEd-q-_EMCS6NuQ" fontName="Arial" fontHeight="11"/>
     <element xmi:type="uml:Association" href="../org.openmdx.example.workshop1.uml#_x3w4kKLdEdqtMM7Is-9UwA"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1pQgk0dNEd-q-_EMCS6NuQ" points="[107, 63, 879, -744]$[107, 819, 879, 12]$[-632, 819, 140, 12]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1pQgk0dNEd-q-_EMCS6NuQ" points="[88, 63, 860, -744]$[88, 819, 860, 12]$[-632, 819, 140, 12]"/>
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_1pUK8EdNEd-q-_EMCS6NuQ" type="4005" source="_vmeewEdNEd-q-_EMCS6NuQ" target="_uktfwEdNEd-q-_EMCS6NuQ">
     <children xmi:type="notation:DecorationNode" xmi:id="_1pUK9EdNEd-q-_EMCS6NuQ" type="6003">
