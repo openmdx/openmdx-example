@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!--
  * =======================================================================
- * = Name:        $Id: build.xml,v 1.6 2008/12/23 18:52:49 wfro Exp $
- * = Description: openCRX/Core build.xml
- * = Revision:    $Revision: 1.6 $
- * = Date:        $Date: 2008/12/23 18:52:49 $
- * = Copyright:   (c) 2003-2005 CRIXP AG
+ * Project:     openMDX/Example Workshop
+ * Description: build.xml
+ * Copyright:   (c) 2003-2013 OMEX AG
  * =======================================================================
  * This software is published under the BSD license
  * as listed below.
  * 
- * Copyright (c) 2004-2008, OMEX AG, Switzerland
+ * Copyright (c) 2004-2013, OMEX AG, Switzerland
  * All rights reserved.
  * 
  * Redistribution and use in source and binary forms, with or without 
@@ -52,29 +50,9 @@
 -->
 <project name="openmdx-generate-sql-scripts">
 	<target name="generate" description="generate SQL scripts">
-		<!-- POSTGRESQL_8 -->
-		<exec executable="gcc">
-			<arg line="-E -C -P -I. -xc -DPOSTGRESQL_8 -opostgresql-8/dbcreate-views.sql dbcreate-views.tsql"/>
-		</exec>
-		<copy file="populate-preferences.tsql" tofile="postgresql-8/populate-preferences.sql">
-			<filterchain>
-				<tokenfilter>
-					<replacestring from="COMMAND_TERMINATOR" to=";"/>
-					<replacestring from="COMMAND_SEPARATOR" to=""/>
-				</tokenfilter>
-			</filterchain>
-		</copy>
 	  <!-- HSQLDB_1 -->	
 		<exec executable="gcc">
-		  <arg line="-E -C -P -I. -xc -DHSQLDB_1 -ohsqldb-1/dbcreate-views.sql dbcreate-views.tsql"/>
+		  <arg line="-E -C -P -I. -xc -DHSQLDB_2 -ohsqldb-2/dbcreate-views.sql dbcreate-views.tsql"/>
 		</exec>
-		<copy file="populate-preferences.tsql" tofile="hsqldb-1/populate-preferences.sql">
-			<filterchain>
-				<tokenfilter>
-					<replacestring from="COMMAND_TERMINATOR" to=""/>
-					<replacestring from="COMMAND_SEPARATOR" to=";"/>
-				</tokenfilter>			
-			</filterchain>
-		</copy>
 	</target>
 </project>

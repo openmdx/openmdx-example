@@ -49,7 +49,7 @@
 #define STRSUB SUBSTRING
 #define STRLEN LEN
 
-#elif defined(HSQLDB_1)
+#elif defined(HSQLDB_2)
 #define NULLABLE NULL
 #define BIGINT bigint
 #define SMALLINT integer

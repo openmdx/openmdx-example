@@ -1,19 +1,5 @@
 DROP TABLE OOMEP1WS_JOIN_TMEMBERHASTASK ;
-
-
-
-
-
-
-
 DROP VIEW OOMEP1WS_JOIN_TMEMBERHASTASK ;
-
-
-
-
-
-
-
 CREATE VIEW OOMEP1WS_JOIN_TMEMBERHASTASK AS
 SELECT
     t.object_id AS task,
@@ -23,4 +9,4 @@ FROM
 INNER JOIN
     OOMEP1WS_TEAMMEMBERASSIGNMENT a
 ON
-    a."P$$PARENT" = t.object_id ;
+    a.p$$parent = t.object_id ;

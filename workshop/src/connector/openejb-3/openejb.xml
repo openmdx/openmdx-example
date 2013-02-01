@@ -1,7 +1,0 @@
-<Resource id="jdbc/jdbc_openmdx_example_workshop" type="DataSource">
-  JdbcDriver org.hsqldb.jdbcDriver
-  JdbcUrl jdbc:hsqldb:hsql://127.0.0.1:9002/WORKSHOP
-  UserName sa
-  Password manager99
-  JtaManaged true
-</Resource>

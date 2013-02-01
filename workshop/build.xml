@@ -259,6 +259,9 @@
 				<include name="*.jar"/>
 			</zipfileset>
 			<zipfileset dir="${openmdx.home}/${build.target.platform}/core/lib" prefix="APP-INF/lib">
+				<include name="openmdx-base.jar"/>
+			</zipfileset>
+			<zipfileset dir="${openmdx.home}/${build.target.platform}/core/lib" prefix="APP-INF/lib">
 				<include name="openmdx-application.jar"/>
 			</zipfileset>
 			<zipfileset dir="${openmdx.home}/${build.target.platform}/portal/lib" prefix="APP-INF/lib">
