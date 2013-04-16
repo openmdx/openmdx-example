@@ -1,5 +1,5 @@
-Release Name: openMDX/Example Workshop 2.10.1
-Release Date: 2013-02-01
+Release Name: openMDX/Example Workshop 2.11.0
+Release Date: 2013-04-16
 
 ---------------------------------------------------------------------
 Notes:
@@ -50,7 +50,7 @@ Changes:
 
 0.    SUMMARY
       
-      * Upgrade to openmdx-2.10.0
+      * Upgrade to openmdx-2.11.0
 
 1.    NEW FEATURES
       none
@@ -59,7 +59,7 @@ Changes:
      
 2.0.  CHANGED FEATURES
 
-      Upgrade to openmdx-2.9.0.
+      Upgrade to openmdx-2.11.0.
             
 2.1.  FIXED BUGS
       none

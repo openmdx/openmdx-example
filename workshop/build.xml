@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!--
 =======================================================================
-= Name:        $Id: build.xml,v 1.60 2012/07/08 11:27:34 wfro Exp $
 = Description: ant build for openMDX/Example Workshop
-= Revision:    $Revision: 1.60 $
-= Date:        $Date: 2012/07/08 11:27:34 $
-= Copyright:   (c) 2006-2012 OMEX AG
+= Copyright:   (c) 2006-2013 OMEX AG
 =======================================================================
  *
  * This software is published under the BSD license
  * as listed below.
  * 
- * Copyright (c) 2006-2012, OMEX AG, Switzerland
+ * Copyright (c) 2006-2013, OMEX AG, Switzerland
  * All rights reserved.
  * 
  * Redistribution and use in source and binary forms, with or without 
@@ -63,8 +60,8 @@
 	<property name="project.platform.list" value="jre-1.6"/>
 
 	<!-- Included Ant Projects -->
-	<import file="../opt/openmdx-2.10.0/ant/etc/ant/build-properties.xml"/>
-	<import file="../opt/openmdx-2.10.0/ant/etc/ant/build-library.xml"/>
+	<import file="../opt/openmdx-2.11.0/ant/etc/ant/build-properties.xml"/>
+	<import file="../opt/openmdx-2.11.0/ant/etc/ant/build-library.xml"/>
 
 	<path id="postgresql-8.lib">
 		<pathelement location="${project.home}/opt/postgresql/${build.target.platform}/postgresql-8/lib/postgresql-8.3.jdbc3.jar"/>

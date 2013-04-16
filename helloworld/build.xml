@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!--
 =======================================================================
-= Name:        $Id: build.xml,v 1.66 2012/07/08 11:27:24 wfro Exp $
 = Description: ant build for openMDX/Example HelloWorld
-= Revision:    $Revision: 1.66 $
-= Date:        $Date: 2012/07/08 11:27:24 $
 = Copyright:   (c) 2003-2011 OMEX AG
 =======================================================================
  *
@@ -65,8 +62,8 @@
   <property name="project.app-server.list" value="jboss-3"/>
 
 	<!-- Included Ant Projects -->
-	<import file="../opt/openmdx-2.10.0/ant/etc/ant/build-properties.xml"/>
-	<import file="../opt/openmdx-2.10.0/ant/etc/ant/build-library.xml"/>
+	<import file="../opt/openmdx-2.11.0/ant/etc/ant/build-properties.xml"/>
+	<import file="../opt/openmdx-2.11.0/ant/etc/ant/build-library.xml"/>
 
 	<path id="openmdx.portal.lib">
 		<pathelement location="${openmdx.home}/${build.target.platform}/portal/lib/openmdx-portal.jar"/>
@@ -258,6 +255,9 @@
 			</fileset>
 			<zipfileset dir="${deliver.dir}/lib" prefix="APP-INF/lib">
 				<include name="*.jar"/>
+			</zipfileset>
+			<zipfileset dir="${openmdx.home}/${build.target.platform}/core/lib" prefix="APP-INF/lib">
+				<include name="openmdx-base.jar"/>
 			</zipfileset>
 			<zipfileset dir="${openmdx.home}/${build.target.platform}/core/lib" prefix="APP-INF/lib">
 				<include name="openmdx-application.jar"/>
