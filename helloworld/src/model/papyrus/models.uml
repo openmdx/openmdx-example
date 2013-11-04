@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_Q-qkwEdJEd-nAY5dDg-0aQ" name="models">
+  <packageImport xmi:id="_q4aJ8EdJEd-nAY5dDg-0aQ">
+    <importedPackage href="../openMDX 2 ~ Core (EMF)/org.w3c.uml#_3C7B8A60016D3C8B62D700DA"/>
+  </packageImport>
+  <packageImport xmi:id="_X7t2cEdJEd-nAY5dDg-0aQ">
+    <importedPackage href="../openMDX 2 ~ Core (EMF)/org.oasis-open.uml#_3C7B8A60016D4022002100C9"/>
+  </packageImport>
+  <packageImport xmi:id="_uKipEEdJEd-nAY5dDg-0aQ">
+    <importedPackage href="../openMDX 2 ~ Core (EMF)/org.openmdx.base.uml#_3C7B8A60016D40A89A0D0015"/>
+  </packageImport>
+  <packageImport xmi:id="_ZtEfUEdJEd-nAY5dDg-0aQ">
+    <importedPackage href="../openMDX 2 Example ~ HelloWorld (EMF)/org.openmdx.example.helloworld1.uml#_XZrcoOdGEd2P1c0K6fMJhA"/>
+  </packageImport>
+</uml:Model>

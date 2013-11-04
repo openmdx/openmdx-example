@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML">
+  <notation:Diagram xmi:id="_eOS38LM1EeKF1deLehEZOw" type="PapyrusUMLClassDiagram" name="Default" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_eOS38bM1EeKF1deLehEZOw"/>
+    <element xmi:type="uml:Model" href="models.uml#_5GCbYEdLEd-nAY5dDg-0aQ"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_RknqULPoEeKkwYVGxCi-sw" type="PapyrusUMLClassDiagram" name="workshop1-Main" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_UOX60LPoEeKkwYVGxCi-sw" type="2008">
+      <children xmi:type="notation:DecorationNode" xmi:id="_UOX60rPoEeKkwYVGxCi-sw" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_UOX607PoEeKkwYVGxCi-sw" type="7017">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UOYh4LPoEeKkwYVGxCi-sw" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UOYh4bPoEeKkwYVGxCi-sw" key="showTitle" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_UOX61LPoEeKkwYVGxCi-sw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_UOX61bPoEeKkwYVGxCi-sw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_UOX61rPoEeKkwYVGxCi-sw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UOX617PoEeKkwYVGxCi-sw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_UOX62LPoEeKkwYVGxCi-sw" type="7018">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UOZI8LPoEeKkwYVGxCi-sw" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UOZI8bPoEeKkwYVGxCi-sw" key="showTitle" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_UOX62bPoEeKkwYVGxCi-sw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_UOX62rPoEeKkwYVGxCi-sw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_UOX627PoEeKkwYVGxCi-sw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UOX63LPoEeKkwYVGxCi-sw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_UOX63bPoEeKkwYVGxCi-sw" type="7019">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UOZI8rPoEeKkwYVGxCi-sw" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UOZwALPoEeKkwYVGxCi-sw" key="showTitle" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_UOX63rPoEeKkwYVGxCi-sw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_UOX637PoEeKkwYVGxCi-sw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_UOX64LPoEeKkwYVGxCi-sw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UOX64bPoEeKkwYVGxCi-sw"/>
+      </children>
+      <element xmi:type="uml:Class" href="platform:/resource/openMDX 2 Example ~ Workshop (EMF)/org.openmdx.example.workshop1.uml#_i-tPEKLcEdqtMM7Is-9UwA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UOX60bPoEeKkwYVGxCi-sw" x="54" y="81" width="1548"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_XdgwULPoEeKkwYVGxCi-sw" type="2008">
+      <children xmi:type="notation:DecorationNode" xmi:id="_XdhXYLPoEeKkwYVGxCi-sw" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_XdhXYbPoEeKkwYVGxCi-sw" type="7017">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Xdh-cLPoEeKkwYVGxCi-sw" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Xdh-cbPoEeKkwYVGxCi-sw" key="showTitle" value="true"/>
+        </eAnnotations>
+        <children xmi:type="notation:Shape" xmi:id="_9ZszsLPoEeKkwYVGxCi-sw" type="3012">
+          <element xmi:type="uml:Property" href="platform:/resource/openMDX 2 Example ~ Workshop (EMF)/org.openmdx.example.workshop1.uml#_5fTuMKLcEdqtMM7Is-9UwA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_9ZszsbPoEeKkwYVGxCi-sw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_XdhXYrPoEeKkwYVGxCi-sw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_XdhXY7PoEeKkwYVGxCi-sw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_XdhXZLPoEeKkwYVGxCi-sw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XdhXZbPoEeKkwYVGxCi-sw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_XdhXZrPoEeKkwYVGxCi-sw" type="7018">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XdilgLPoEeKkwYVGxCi-sw" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XdilgbPoEeKkwYVGxCi-sw" key="showTitle" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_XdhXZ7PoEeKkwYVGxCi-sw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_XdhXaLPoEeKkwYVGxCi-sw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_XdhXabPoEeKkwYVGxCi-sw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XdhXarPoEeKkwYVGxCi-sw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_XdhXa7PoEeKkwYVGxCi-sw" type="7019">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XdilgrPoEeKkwYVGxCi-sw" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XdjMkLPoEeKkwYVGxCi-sw" key="showTitle" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_XdhXbLPoEeKkwYVGxCi-sw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_XdhXbbPoEeKkwYVGxCi-sw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_XdhXbrPoEeKkwYVGxCi-sw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XdhXb7PoEeKkwYVGxCi-sw"/>
+      </children>
+      <element xmi:type="uml:Class" href="platform:/resource/openMDX 2 Example ~ Workshop (EMF)/org.openmdx.example.workshop1.uml#_4TR_8KLcEdqtMM7Is-9UwA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XdgwUbPoEeKkwYVGxCi-sw" x="72" y="414" width="378"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_YTIwwLPoEeKkwYVGxCi-sw" type="2008">
+      <children xmi:type="notation:DecorationNode" xmi:id="_YTIwwrPoEeKkwYVGxCi-sw" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_YTJX0LPoEeKkwYVGxCi-sw" type="7017">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YTJX37PoEeKkwYVGxCi-sw" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YTJX4LPoEeKkwYVGxCi-sw" key="showTitle" value="true"/>
+        </eAnnotations>
+        <children xmi:type="notation:Shape" xmi:id="_-nFz4LPoEeKkwYVGxCi-sw" type="3012">
+          <element xmi:type="uml:Property" href="platform:/resource/openMDX 2 Example ~ Workshop (EMF)/org.openmdx.example.workshop1.uml#_B_fmkKLdEdqtMM7Is-9UwA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_-nFz4bPoEeKkwYVGxCi-sw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_-nGa8LPoEeKkwYVGxCi-sw" type="3012">
+          <element xmi:type="uml:Property" href="platform:/resource/openMDX 2 Example ~ Workshop (EMF)/org.openmdx.example.workshop1.uml#_Cn5DUKLdEdqtMM7Is-9UwA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_-nGa8bPoEeKkwYVGxCi-sw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_YTJX0bPoEeKkwYVGxCi-sw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_YTJX0rPoEeKkwYVGxCi-sw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_YTJX07PoEeKkwYVGxCi-sw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YTJX1LPoEeKkwYVGxCi-sw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_YTJX1bPoEeKkwYVGxCi-sw" type="7018">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YTJX4bPoEeKkwYVGxCi-sw" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YTJX4rPoEeKkwYVGxCi-sw" key="showTitle" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_YTJX1rPoEeKkwYVGxCi-sw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_YTJX17PoEeKkwYVGxCi-sw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_YTJX2LPoEeKkwYVGxCi-sw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YTJX2bPoEeKkwYVGxCi-sw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_YTJX2rPoEeKkwYVGxCi-sw" type="7019">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YTJ-4LPoEeKkwYVGxCi-sw" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YTJ-4bPoEeKkwYVGxCi-sw" key="showTitle" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_YTJX27PoEeKkwYVGxCi-sw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_YTJX3LPoEeKkwYVGxCi-sw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_YTJX3bPoEeKkwYVGxCi-sw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YTJX3rPoEeKkwYVGxCi-sw"/>
+      </children>
+      <element xmi:type="uml:Class" href="platform:/resource/openMDX 2 Example ~ Workshop (EMF)/org.openmdx.example.workshop1.uml#_ArckwKLdEdqtMM7Is-9UwA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YTIwwbPoEeKkwYVGxCi-sw" x="504" y="414" width="702"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_ZG8zULPoEeKkwYVGxCi-sw" type="2008">
+      <children xmi:type="notation:DecorationNode" xmi:id="_ZG8zUrPoEeKkwYVGxCi-sw" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_ZG8zU7PoEeKkwYVGxCi-sw" type="7017">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZG9aZbPoEeKkwYVGxCi-sw" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZG-BcLPoEeKkwYVGxCi-sw" key="showTitle" value="true"/>
+        </eAnnotations>
+        <children xmi:type="notation:Shape" xmi:id="_AA9J0LPpEeKkwYVGxCi-sw" type="3012">
+          <element xmi:type="uml:Property" href="platform:/resource/openMDX 2 Example ~ Workshop (EMF)/org.openmdx.example.workshop1.uml#_HOI1sKLdEdqtMM7Is-9UwA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_AA9J0bPpEeKkwYVGxCi-sw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_ZG8zVLPoEeKkwYVGxCi-sw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_ZG8zVbPoEeKkwYVGxCi-sw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_ZG8zVrPoEeKkwYVGxCi-sw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZG8zV7PoEeKkwYVGxCi-sw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_ZG8zWLPoEeKkwYVGxCi-sw" type="7018">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZG-BcbPoEeKkwYVGxCi-sw" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZG-BcrPoEeKkwYVGxCi-sw" key="showTitle" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_ZG8zWbPoEeKkwYVGxCi-sw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_ZG8zWrPoEeKkwYVGxCi-sw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_ZG8zW7PoEeKkwYVGxCi-sw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZG8zXLPoEeKkwYVGxCi-sw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_ZG9aYLPoEeKkwYVGxCi-sw" type="7019">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZG-ogLPoEeKkwYVGxCi-sw" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZG-ogbPoEeKkwYVGxCi-sw" key="showTitle" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_ZG9aYbPoEeKkwYVGxCi-sw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_ZG9aYrPoEeKkwYVGxCi-sw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_ZG9aY7PoEeKkwYVGxCi-sw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZG9aZLPoEeKkwYVGxCi-sw"/>
+      </children>
+      <element xmi:type="uml:Class" href="platform:/resource/openMDX 2 Example ~ Workshop (EMF)/org.openmdx.example.workshop1.uml#_EitKMKLdEdqtMM7Is-9UwA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZG8zUbPoEeKkwYVGxCi-sw" x="1242" y="414" width="360"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_jYTHULPoEeKkwYVGxCi-sw" type="2008">
+      <children xmi:type="notation:DecorationNode" xmi:id="_jYTHUrPoEeKkwYVGxCi-sw" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_jYTuYLPoEeKkwYVGxCi-sw" type="7017">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jYUVcLPoEeKkwYVGxCi-sw" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jYUVcbPoEeKkwYVGxCi-sw" key="showTitle" value="true"/>
+        </eAnnotations>
+        <children xmi:type="notation:Shape" xmi:id="_6EcIELPoEeKkwYVGxCi-sw" type="3012">
+          <element xmi:type="uml:Property" href="platform:/resource/openMDX 2 Example ~ Workshop (EMF)/org.openmdx.example.workshop1.uml#_-fPy8KLcEdqtMM7Is-9UwA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_6EcIEbPoEeKkwYVGxCi-sw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_jYTuYbPoEeKkwYVGxCi-sw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_jYTuYrPoEeKkwYVGxCi-sw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_jYTuY7PoEeKkwYVGxCi-sw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jYTuZLPoEeKkwYVGxCi-sw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_jYTuZbPoEeKkwYVGxCi-sw" type="7018">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jYU8gLPoEeKkwYVGxCi-sw" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jYU8gbPoEeKkwYVGxCi-sw" key="showTitle" value="true"/>
+        </eAnnotations>
+        <children xmi:type="notation:Shape" xmi:id="_6EcIErPoEeKkwYVGxCi-sw" type="3013">
+          <element xmi:type="uml:Operation" href="platform:/resource/openMDX 2 Example ~ Workshop (EMF)/org.openmdx.example.workshop1.uml#_SynJMKMDEdqtMM7Is-9UwA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_6EcIE7PoEeKkwYVGxCi-sw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_6EcIFLPoEeKkwYVGxCi-sw" type="3013">
+          <element xmi:type="uml:Operation" href="platform:/resource/openMDX 2 Example ~ Workshop (EMF)/org.openmdx.example.workshop1.uml#_4FJmIKTFEdquNakKjiw-3w"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_6EcIFbPoEeKkwYVGxCi-sw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_jYTuZrPoEeKkwYVGxCi-sw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_jYTuZ7PoEeKkwYVGxCi-sw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_jYTuaLPoEeKkwYVGxCi-sw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jYTuabPoEeKkwYVGxCi-sw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_jYTuarPoEeKkwYVGxCi-sw" type="7019">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jYU8grPoEeKkwYVGxCi-sw" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jYU8g7PoEeKkwYVGxCi-sw" key="showTitle" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_jYTua7PoEeKkwYVGxCi-sw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_jYTubLPoEeKkwYVGxCi-sw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_jYTubbPoEeKkwYVGxCi-sw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jYTubrPoEeKkwYVGxCi-sw"/>
+      </children>
+      <element xmi:type="uml:Class" href="platform:/resource/openMDX 2 Example ~ Workshop (EMF)/org.openmdx.example.workshop1.uml#_8gm8AKLcEdqtMM7Is-9UwA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jYTHUbPoEeKkwYVGxCi-sw" x="90" y="765" width="882"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_qLLJULPoEeKkwYVGxCi-sw" type="2008">
+      <children xmi:type="notation:DecorationNode" xmi:id="_qLLwYLPoEeKkwYVGxCi-sw" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_qLLwYbPoEeKkwYVGxCi-sw" type="7017">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qLMXcLPoEeKkwYVGxCi-sw" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qLMXcbPoEeKkwYVGxCi-sw" key="showTitle" value="true"/>
+        </eAnnotations>
+        <children xmi:type="notation:Shape" xmi:id="_4fLacLPoEeKkwYVGxCi-sw" type="3012">
+          <element xmi:type="uml:Property" href="platform:/resource/openMDX 2 Example ~ Workshop (EMF)/org.openmdx.example.workshop1.uml#_vyQ5wKLfEdqtMM7Is-9UwA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_4fLacbPoEeKkwYVGxCi-sw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_qLLwYrPoEeKkwYVGxCi-sw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_qLLwY7PoEeKkwYVGxCi-sw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_qLLwZLPoEeKkwYVGxCi-sw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qLLwZbPoEeKkwYVGxCi-sw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_qLLwZrPoEeKkwYVGxCi-sw" type="7018">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qLM-gLPoEeKkwYVGxCi-sw" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qLM-gbPoEeKkwYVGxCi-sw" key="showTitle" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_qLLwZ7PoEeKkwYVGxCi-sw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_qLLwaLPoEeKkwYVGxCi-sw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_qLLwabPoEeKkwYVGxCi-sw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qLLwarPoEeKkwYVGxCi-sw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_qLLwa7PoEeKkwYVGxCi-sw" type="7019">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qLM-grPoEeKkwYVGxCi-sw" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qLNlkLPoEeKkwYVGxCi-sw" key="showTitle" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_qLLwbLPoEeKkwYVGxCi-sw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_qLLwbbPoEeKkwYVGxCi-sw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_qLLwbrPoEeKkwYVGxCi-sw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qLLwb7PoEeKkwYVGxCi-sw"/>
+      </children>
+      <element xmi:type="uml:Class" href="platform:/resource/openMDX 2 Example ~ Workshop (EMF)/org.openmdx.example.workshop1.uml#_uoDwcKLfEdqtMM7Is-9UwA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qLLJUbPoEeKkwYVGxCi-sw" x="90" y="1152" width="577"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_RknqUbPoEeKkwYVGxCi-sw"/>
+    <element xmi:type="uml:Model" href="models.uml#_5GCbYEdLEd-nAY5dDg-0aQ"/>
+    <edges xmi:type="notation:Connector" xmi:id="_Xd7AALPoEeKkwYVGxCi-sw" type="4001" source="_XdgwULPoEeKkwYVGxCi-sw" target="_UOX60LPoEeKkwYVGxCi-sw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Xd7AA7PoEeKkwYVGxCi-sw" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Xd7ABLPoEeKkwYVGxCi-sw" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Xd7nELPoEeKkwYVGxCi-sw" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Xd7nEbPoEeKkwYVGxCi-sw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Xd7nErPoEeKkwYVGxCi-sw" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Xd7nE7PoEeKkwYVGxCi-sw" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Xd7nFLPoEeKkwYVGxCi-sw" type="6005">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Xd7nFbPoEeKkwYVGxCi-sw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Xd7nFrPoEeKkwYVGxCi-sw" type="6033">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Xd7nF7PoEeKkwYVGxCi-sw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Xd7nGLPoEeKkwYVGxCi-sw" type="6034">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Xd7nGbPoEeKkwYVGxCi-sw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_Xd7AAbPoEeKkwYVGxCi-sw"/>
+      <element xmi:type="uml:Association" href="platform:/resource/openMDX 2 Example ~ Workshop (EMF)/org.openmdx.example.workshop1.uml#_UknuoKLdEdqtMM7Is-9UwA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Xd7AArPoEeKkwYVGxCi-sw" points="[-64, -54, -631, 283]$[-64, -287, -631, 50]"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_YThLQLPoEeKkwYVGxCi-sw" type="4001" source="_YTIwwLPoEeKkwYVGxCi-sw" target="_UOX60LPoEeKkwYVGxCi-sw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_YThLQ7PoEeKkwYVGxCi-sw" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_YThLRLPoEeKkwYVGxCi-sw" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_YThLRbPoEeKkwYVGxCi-sw" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_YThLRrPoEeKkwYVGxCi-sw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_YThLR7PoEeKkwYVGxCi-sw" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_YThLSLPoEeKkwYVGxCi-sw" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_YThyULPoEeKkwYVGxCi-sw" type="6005">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_YThyUbPoEeKkwYVGxCi-sw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_YThyUrPoEeKkwYVGxCi-sw" type="6033">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_YThyU7PoEeKkwYVGxCi-sw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_YThyVLPoEeKkwYVGxCi-sw" type="6034">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_YThyVbPoEeKkwYVGxCi-sw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_YThLQbPoEeKkwYVGxCi-sw"/>
+      <element xmi:type="uml:Association" href="platform:/resource/openMDX 2 Example ~ Workshop (EMF)/org.openmdx.example.workshop1.uml#_WbbfQKLdEdqtMM7Is-9UwA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YThLQrPoEeKkwYVGxCi-sw" points="[261, -65, 288, 283]$[261, -298, 288, 50]"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_ZHdwsLPoEeKkwYVGxCi-sw" type="4001" source="_ZG8zULPoEeKkwYVGxCi-sw" target="_UOX60LPoEeKkwYVGxCi-sw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_ZHdws7PoEeKkwYVGxCi-sw" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZHdwtLPoEeKkwYVGxCi-sw" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_ZHdwtbPoEeKkwYVGxCi-sw" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZHdwtrPoEeKkwYVGxCi-sw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_ZHdwt7PoEeKkwYVGxCi-sw" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZHdwuLPoEeKkwYVGxCi-sw" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_ZHdwubPoEeKkwYVGxCi-sw" type="6005">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZHdwurPoEeKkwYVGxCi-sw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_ZHdwu7PoEeKkwYVGxCi-sw" type="6033">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZHdwvLPoEeKkwYVGxCi-sw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_ZHdwvbPoEeKkwYVGxCi-sw" type="6034">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZHdwvrPoEeKkwYVGxCi-sw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_ZHdwsbPoEeKkwYVGxCi-sw"/>
+      <element xmi:type="uml:Association" href="platform:/resource/openMDX 2 Example ~ Workshop (EMF)/org.openmdx.example.workshop1.uml#_bUHFcKLdEdqtMM7Is-9UwA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZHdwsrPoEeKkwYVGxCi-sw" points="[-1, -54, 593, 283]$[-1, -287, 593, 50]"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_jYvMMLPoEeKkwYVGxCi-sw" type="4001" source="_jYTHULPoEeKkwYVGxCi-sw" target="_XdgwULPoEeKkwYVGxCi-sw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_jYvzQLPoEeKkwYVGxCi-sw" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jYvzQbPoEeKkwYVGxCi-sw" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_jYvzQrPoEeKkwYVGxCi-sw" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jYvzQ7PoEeKkwYVGxCi-sw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_jYvzRLPoEeKkwYVGxCi-sw" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jYvzRbPoEeKkwYVGxCi-sw" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_jYvzRrPoEeKkwYVGxCi-sw" type="6005">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jYvzR7PoEeKkwYVGxCi-sw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_jYvzSLPoEeKkwYVGxCi-sw" type="6033">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jYvzSbPoEeKkwYVGxCi-sw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_jYvzSrPoEeKkwYVGxCi-sw" type="6034">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jYvzS7PoEeKkwYVGxCi-sw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_jYvMMbPoEeKkwYVGxCi-sw"/>
+      <element xmi:type="uml:Association" href="platform:/resource/openMDX 2 Example ~ Workshop (EMF)/org.openmdx.example.workshop1.uml#_TZLPMKLdEdqtMM7Is-9UwA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jYvMMrPoEeKkwYVGxCi-sw" points="[-180, -50, -9, 301]$[-180, -301, -9, 50]"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_qLocULPoEeKkwYVGxCi-sw" type="4001" source="_qLLJULPoEeKkwYVGxCi-sw" target="_jYTHULPoEeKkwYVGxCi-sw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_qLocU7PoEeKkwYVGxCi-sw" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qLocVLPoEeKkwYVGxCi-sw" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_qLocVbPoEeKkwYVGxCi-sw" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qLocVrPoEeKkwYVGxCi-sw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_qLocV7PoEeKkwYVGxCi-sw" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qLocWLPoEeKkwYVGxCi-sw" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_qLocWbPoEeKkwYVGxCi-sw" type="6005">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qLocWrPoEeKkwYVGxCi-sw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_qLocW7PoEeKkwYVGxCi-sw" type="6033">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qLocXLPoEeKkwYVGxCi-sw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_qLocXbPoEeKkwYVGxCi-sw" type="6034">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qLocXrPoEeKkwYVGxCi-sw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_qLocUbPoEeKkwYVGxCi-sw"/>
+      <element xmi:type="uml:Association" href="platform:/resource/openMDX 2 Example ~ Workshop (EMF)/org.openmdx.example.workshop1.uml#_tMeGwKLgEdqtMM7Is-9UwA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qLocUrPoEeKkwYVGxCi-sw" points="[35, -54, -226, 316]$[35, -298, -226, 72]"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_urLw0LPoEeKkwYVGxCi-sw" type="4001" source="_YTIwwLPoEeKkwYVGxCi-sw" target="_qLLJULPoEeKkwYVGxCi-sw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_urLw07PoEeKkwYVGxCi-sw" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_urMX4LPoEeKkwYVGxCi-sw" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_urMX4bPoEeKkwYVGxCi-sw" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_urMX4rPoEeKkwYVGxCi-sw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_urMX47PoEeKkwYVGxCi-sw" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_urMX5LPoEeKkwYVGxCi-sw" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_urMX5bPoEeKkwYVGxCi-sw" type="6005">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_urMX5rPoEeKkwYVGxCi-sw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_urM-8LPoEeKkwYVGxCi-sw" type="6033">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_urM-8bPoEeKkwYVGxCi-sw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_urM-8rPoEeKkwYVGxCi-sw" type="6034">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_urM-87PoEeKkwYVGxCi-sw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_urLw0bPoEeKkwYVGxCi-sw"/>
+      <element xmi:type="uml:Association" href="platform:/resource/openMDX 2 Example ~ Workshop (EMF)/org.openmdx.example.workshop1.uml#_x3w4kKLdEdqtMM7Is-9UwA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_urLw0rPoEeKkwYVGxCi-sw" points="[206, 50, 791, -688]$[206, 738, 791, 0]$[-404, 738, 181, 0]"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_xIwmgLPoEeKkwYVGxCi-sw" type="4001" source="_jYTHULPoEeKkwYVGxCi-sw" target="_YTIwwLPoEeKkwYVGxCi-sw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_xIwmg7PoEeKkwYVGxCi-sw" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xIwmhLPoEeKkwYVGxCi-sw" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_xIwmhbPoEeKkwYVGxCi-sw" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xIxNkLPoEeKkwYVGxCi-sw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_xIxNkbPoEeKkwYVGxCi-sw" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xIxNkrPoEeKkwYVGxCi-sw" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_xIxNk7PoEeKkwYVGxCi-sw" type="6005">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xIxNlLPoEeKkwYVGxCi-sw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_xIxNlbPoEeKkwYVGxCi-sw" type="6033">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xIxNlrPoEeKkwYVGxCi-sw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_xIx0oLPoEeKkwYVGxCi-sw" type="6034">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xIx0obPoEeKkwYVGxCi-sw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_xIwmgbPoEeKkwYVGxCi-sw"/>
+      <element xmi:type="uml:Association" href="platform:/resource/openMDX 2 Example ~ Workshop (EMF)/org.openmdx.example.workshop1.uml#_vvNQ0KMCEdqtMM7Is-9UwA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xIwmgrPoEeKkwYVGxCi-sw" points="[216, -50, -207, 301]$[216, -301, -207, 50]"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_CHFv4LPpEeKkwYVGxCi-sw" type="4001" source="_YTIwwLPoEeKkwYVGxCi-sw" target="_XdgwULPoEeKkwYVGxCi-sw" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_CHFv47PpEeKkwYVGxCi-sw" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_CHFv5LPpEeKkwYVGxCi-sw" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_CHFv5bPpEeKkwYVGxCi-sw" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_CHFv5rPpEeKkwYVGxCi-sw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_CHGW8LPpEeKkwYVGxCi-sw" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_CHGW8bPpEeKkwYVGxCi-sw" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_CHGW8rPpEeKkwYVGxCi-sw" type="6005">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_CHGW87PpEeKkwYVGxCi-sw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_CHGW9LPpEeKkwYVGxCi-sw" type="6033">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_CHGW9bPpEeKkwYVGxCi-sw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_CHGW9rPpEeKkwYVGxCi-sw" type="6034">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_CHG-ALPpEeKkwYVGxCi-sw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_CHFv4bPpEeKkwYVGxCi-sw"/>
+      <element xmi:type="uml:Association" href="platform:/resource/openMDX 2 Example ~ Workshop (EMF)/org.openmdx.example.workshop1.uml#_5NA1kKLiEdqtMM7Is-9UwA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_CHFv4rPpEeKkwYVGxCi-sw" points="[-82, -65, 512, -54]$[-82, -155, 512, -144]$[-478, -155, 116, -144]$[-478, -65, 116, -54]"/>
+    </edges>
+  </notation:Diagram>
+</xmi:XMI>

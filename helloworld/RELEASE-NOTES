@@ -1,5 +1,5 @@
-Release Name: openMDX/Example HelloWorld 2.11.0
-Release Date: 2013-04-15
+Release Name: openMDX/Example HelloWorld 2.12.7
+Release Date: 2013-11-04
 
 ---------------------------------------------------------------------
 Notes:
@@ -50,7 +50,7 @@ Changes:
 
 0.    SUMMARY
       
-      * Upgrade to openmdx-2.11.0.
+      * Upgrade to openmdx-2.12.7.
 
 1.    NEW FEATURES
       none
@@ -59,7 +59,7 @@ Changes:
      
 2.0.  CHANGED FEATURES
 
-      Upgrade to openmdx-2.11.0.
+      Upgrade to openmdx-2.12.7.
             
 2.1.  FIXED BUGS
       none

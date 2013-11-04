@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_QmA7AOdHEd2HsJt4kStKEg" name="org">
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_QmA7AOdHEd2HsJt4kStKEg" name="helloworld1">
   <packagedElement xmi:type="uml:Package" xmi:id="_XZrcoOdGEd2P1c0K6fMJhAPPP" name="org">
     <packagedElement xmi:type="uml:Package" xmi:id="_XZrcoOdGEd2P1c0K6fMJhAPP" name="openmdx">
       <packagedElement xmi:type="uml:Package" xmi:id="_XZrcoOdGEd2P1c0K6fMJhAP" name="example">
@@ -20,8 +20,8 @@
             </eAnnotations>
             <ownedAttribute xmi:id="_XZyxYOdGEd2P1c0K6fMJhA" name="language" isReadOnly="true">
               <type xmi:type="uml:PrimitiveType" href="../openMDX%202%20~%20Core%20(EMF)/org.w3c.uml#_3C7B8A60016D3C8B62E40010"/>
-              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XZzYcOdGEd2P1c0K6fMJhA" value="1"/>
               <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XZz-gOdGEd2P1c0K6fMJhA" value="1"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XZzYcOdGEd2P1c0K6fMJhA" value="1"/>
             </ownedAttribute>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_XZw8MOdGEd2P1c0K6fMJhA" name="SayHelloResult">
@@ -30,8 +30,8 @@
             </eAnnotations>
             <ownedAttribute xmi:id="_XZ..oOdGEd2P1c0K6fMJhA" name="message" isReadOnly="true">
               <type xmi:type="uml:PrimitiveType" href="../openMDX%202%20~%20Core%20(EMF)/org.w3c.uml#_3C7B8A60016D3C8B62E40010"/>
-              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XZ2bwOdGEd2P1c0K6fMJhA" value="1"/>
               <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XZ3C0OdGEd2P1c0K6fMJhA" value="1"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XZ2bwOdGEd2P1c0K6fMJhA" value="1"/>
             </ownedAttribute>
           </packagedElement>
         </packagedElement>
