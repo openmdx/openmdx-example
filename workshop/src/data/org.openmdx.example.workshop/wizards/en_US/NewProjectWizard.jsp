@@ -6,8 +6,7 @@ java.text.*,
 org.openmdx.base.accessor.jmi.cci.*,
 org.openmdx.base.exception.*,
 org.openmdx.portal.servlet.*,
-org.openmdx.portal.servlet.attribute.*,
-org.openmdx.portal.servlet.view.*,
+org.openmdx.portal.servlet.attribute.*,org.openmdx.portal.servlet.component.*,
 org.openmdx.kernel.id.*,
 org.openmdx.base.text.conversion.*,
 org.openmdx.portal.servlet.control.*,
@@ -312,24 +311,24 @@ org.openmdx.kernel.exception.BasicException
               <div class="fieldGroupName"><br /></div>
       	      <table class="fieldGroup" title="<%= projectName.length() == 0 ? "Project name missing" : "" %>">
       	        <tr>
-      	          <td class="label"><span class="nw">Project name <font color="red">*</font></span></td>
+      	          <td class="<%= CssClass.fieldLabel %>"><span class="nw">Project name <font color="red">*</font></span></td>
       	          <td>
       	            <input type="text" class="valueL" name="projectName" tabindex="100" value="<%= projectName %>" />
       	          </td>
       	          <td class="addon"><font color="red"><%= projectName.length() == 0 ? "!" : "" %></td>
-      	          <td class="label"><span class="nw">Project description</span></td>
+      	          <td class="<%= CssClass.fieldLabel %>"><span class="nw">Project description</span></td>
       	          <td>
       	            <input type="text" class="valueL" name="projectDescription" tabindex="200" value="<%= projectDescription == null ? "" : projectDescription %>" />
       	          </td>
       	          <td class="addon"></td>
       	        </tr>
       	        <tr>
-      	          <td class="label"><span class="nw">Project manager</span></td>
+      	          <td class="<%= CssClass.fieldLabel %>"><span class="nw">Project manager</span></td>
       	          <td>
       	            <input type="text" class="valueLLocked" name="projectManager" readonly value="The Boss" />
       	          </td>
       	          <td class="addon"></td>
-      	          <td class="label"><span class="nw"></span></td>
+      	          <td class="<%= CssClass.fieldLabel %>"><span class="nw"></span></td>
       	          <td>&nbsp;</td>
       	          </td>
       	          <td class="addon"></td>
@@ -342,48 +341,48 @@ org.openmdx.kernel.exception.BasicException
               <div class="fieldGroupName"><br />Optional tasks in addition to mandatory tasks "Kick-off" and "Wrap-up"<br /><br /></div>
       	      <table class="fieldGroup">
       	        <tr>
-      	          <td class="label"><span class="nw">Task 0 name</span></td>
+      	          <td class="<%= CssClass.fieldLabel %>"><span class="nw">Task 0 name</span></td>
       	          <td>
       	            <input type="text" class="valueLLocked" name="task0Name" readonly value="Kick-off" />
       	          </td>
       	          <td class="addon"></td>
-      	          <td class="label"><span class="nw">Definition</span></td>
+      	          <td class="<%= CssClass.fieldLabel %>"><span class="nw">Definition</span></td>
       	          <td>
       	            <input type="text" class="valueLLocked" name="task0Definition" readonly value="initialize project" />
       	          </td>
       	          <td class="addon"></td>
       	        </tr>
       	        <tr>
-      	          <td class="label"><span class="nw">Task 1 name</span></td>
+      	          <td class="<%= CssClass.fieldLabel %>"><span class="nw">Task 1 name</span></td>
       	          <td>
       	            <input type="text" class="valueL" name="task1Name" tabindex="1010" value="<%= task1Name == null ? "" : task1Name %>" />
       	          </td>
       	          <td class="addon"></td>
-      	          <td class="label"><span class="nw">Definition</span></td>
+      	          <td class="<%= CssClass.fieldLabel %>"><span class="nw">Definition</span></td>
       	          <td>
       	            <input type="text" class="valueL" name="task1Definition" tabindex="1011" value="<%= task1Definition == null ? "" : task1Definition %>" />
       	          </td>
       	          <td class="addon"></td>
       	        </tr>
       	        <tr>
-      	          <td class="label"><span class="nw">Task 2 name</span></td>
+      	          <td class="<%= CssClass.fieldLabel %>"><span class="nw">Task 2 name</span></td>
       	          <td>
       	            <input type="text" class="valueL" name="task2Name" tabindex="1020" value="<%= task2Name == null ? "" : task2Name %>" />
       	          </td>
       	          <td class="addon"></td>
-      	          <td class="label"><span class="nw">Definition</span></td>
+      	          <td class="<%= CssClass.fieldLabel %>"><span class="nw">Definition</span></td>
       	          <td>
       	            <input type="text" class="valueL" name="task2Definition" tabindex="1021" value="<%= task2Definition == null ? "" : task2Definition %>" />
       	          </td>
       	          <td class="addon"></td>
       	        </tr>
       	        <tr>
-      	          <td class="label"><span class="nw">Task 3 name</span></td>
+      	          <td class="<%= CssClass.fieldLabel %>"><span class="nw">Task 3 name</span></td>
       	          <td>
       	            <input type="text" class="valueLLocked" name="task3Name" readonly value="Wrap-up" />
       	          </td>
       	          <td class="addon"></td>
-      	          <td class="label"><span class="nw">Definition</span></td>
+      	          <td class="<%= CssClass.fieldLabel %>"><span class="nw">Definition</span></td>
       	          <td>
       	            <input type="text" class="valueLLocked" name="task3Definition" readonly value="finalize and close project" />
       	          </td>
@@ -396,8 +395,8 @@ org.openmdx.kernel.exception.BasicException
       	      <table class="fieldGroup">
       	        <tr>
       	          <td>
-      	            <INPUT type="Submit" name="OK.Button" tabindex="9000" value="Create" />
-            				<INPUT type="Submit" name="Cancel.Button" tabindex="9010" value="Cancel" />
+      	            <input type="Submit" name="OK.Button" class="<%= CssClass.btn.toString() + " " + CssClass.btnDefault.toString() %>" tabindex="9000" value="Create" />
+            		<input type="Submit" name="Cancel.Button" class="<%= CssClass.btn.toString() + " " + CssClass.btnDefault.toString() %>" tabindex="9010" value="Cancel" />
       	          </td>
       	        </tr>
       	      </table>

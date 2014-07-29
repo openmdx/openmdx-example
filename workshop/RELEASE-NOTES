@@ -1,5 +1,5 @@
-Release Name: openMDX/Example Workshop 2.12.7
-Release Date: 2013-11-04
+Release Name: openMDX/Example Workshop 2.13.0
+Release Date: 2014-08-01
 
 ---------------------------------------------------------------------
 Notes:
@@ -7,7 +7,7 @@ Notes:
   This software is published under the BSD license
   as listed below.
   
-  Copyright (c) 2004-2013, OMEX AG, Switzerland
+  Copyright (c) 2004-2014, OMEX AG, Switzerland
   All rights reserved.
   
   Redistribution and use in source and binary forms, with or without 
@@ -50,7 +50,7 @@ Changes:
 
 0.    SUMMARY
       
-      * Upgrade to openmdx-2.12.0
+      * Upgrade to openmdx-2.13.0
 
 1.    NEW FEATURES
       none
@@ -59,7 +59,7 @@ Changes:
      
 2.0.  CHANGED FEATURES
 
-      Upgrade to openmdx-2.12.0.
+      Upgrade to openmdx-2.13.0.
             
 2.1.  FIXED BUGS
       none
