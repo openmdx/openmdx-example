@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>openMDX Thirdparty ~ PostgreSQL 8 (jre-1.6)</name>
-	<comment/>
+	<name>openMDX Thirdparty ~ HSQLDB 2 (jre-1.7)</name>
+	<comment></comment>
 	<projects>
 	</projects>
 	<buildSpec>
