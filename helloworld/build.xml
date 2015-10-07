@@ -62,8 +62,8 @@
   <property name="project.app-server.list" value="jboss-3"/>
 
 	<!-- Included Ant Projects -->
-	<import file="../opt/openmdx-2.14.0/ant/etc/ant/build-properties.xml"/>
-	<import file="../opt/openmdx-2.14.0/ant/etc/ant/build-library.xml"/>
+	<import file="../opt/openmdx-2.14.4/ant/etc/ant/build-properties.xml"/>
+	<import file="../opt/openmdx-2.14.4/ant/etc/ant/build-library.xml"/>
 
 	<path id="openmdx.portal.lib">
 		<pathelement location="${openmdx.home}/${build.target.platform}/portal/lib/openmdx-portal.jar"/>
