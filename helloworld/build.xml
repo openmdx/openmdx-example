@@ -2,7 +2,7 @@
 <!--
 =======================================================================
 = Description: ant build for openMDX/Example HelloWorld
-= Copyright:   (c) 2003-2015 OMEX AG
+= Copyright:   (c) 2003-2016 OMEX AG
 =======================================================================
  *
  * This software is published under the BSD license
@@ -56,14 +56,14 @@
 	<property name="project.specification.title" value="openMDX/Example.HelloWorld"/>
 
 	<!-- Slash separated platform list, the last entry being the default -->
-	<property name="project.platform.list" value="jre-1.7"/>
+	<property name="project.platform.list" value="jre-1.8"/>
 
   <!-- Slash separated app server list, may be overridden by build properties -->
   <property name="project.app-server.list" value="jboss-3"/>
 
 	<!-- Included Ant Projects -->
-	<import file="../opt/openmdx-2.14.4/ant/etc/ant/build-properties.xml"/>
-	<import file="../opt/openmdx-2.14.4/ant/etc/ant/build-library.xml"/>
+	<import file="../opt/openmdx-2.15.0/ant/etc/ant/build-properties.xml"/>
+	<import file="../opt/openmdx-2.15.0/ant/etc/ant/build-library.xml"/>
 
 	<path id="openmdx.portal.lib">
 		<pathelement location="${openmdx.home}/${build.target.platform}/portal/lib/openmdx-portal.jar"/>

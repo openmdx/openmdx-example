@@ -115,7 +115,6 @@ public class TaskImpl
 		// Execute
 		//
 		TeamMemberAssignment assignment = this.sameManager().newInstance(TeamMemberAssignment.class);
-		assignment.refInitialize(false, false);
 		assignment.setTeamMember(
 			params.getTeamMember()
 		);
