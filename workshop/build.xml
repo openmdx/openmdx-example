@@ -2,13 +2,13 @@
 <!--
 =======================================================================
 = Description: ant build for openMDX/Example Workshop
-= Copyright:   (c) 2006-2016 OMEX AG
+= Copyright:   (c) 2006-2018 OMEX AG
 =======================================================================
  *
  * This software is published under the BSD license
  * as listed below.
  * 
- * Copyright (c) 2006-2016, OMEX AG, Switzerland
+ * Copyright (c) 2006-2018, OMEX AG, Switzerland
  * All rights reserved.
  * 
  * Redistribution and use in source and binary forms, with or without 
@@ -60,8 +60,8 @@
 	<property name="project.platform.list" value="jre-1.8"/>
 
 	<!-- Included Ant Projects -->
-	<import file="../opt/openmdx-2.15.7/ant/etc/ant/build-properties.xml"/>
-	<import file="../opt/openmdx-2.15.7/ant/etc/ant/build-library.xml"/>
+	<import file="../opt/openmdx-2.16.2/ant/etc/ant/build-properties.xml"/>
+	<import file="../opt/openmdx-2.16.2/ant/etc/ant/build-library.xml"/>
 
 	<path id="postgresql-9.lib">
 		<pathelement location="${project.home}/opt/postgresql/${build.target.platform}/postgresql-9/lib/postgresql-9.3.jdbc41.jar"/>
