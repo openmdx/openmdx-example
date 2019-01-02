@@ -29,7 +29,7 @@
         <property name="org.openmdx.jdo.DataManager.restPlugIn[0]" value="org.openmdx.example.rest.PlugIn.HelloWorld"/>
 
 		<!--  REST plugin HelloWorld -->             
-        <property name="org.openmdx.example.rest.PlugIn.HelloWorld.class" value="org.openmdx.application.dataprovider.kernel.EmbeddedDataprovider_1"/>
+        <property name="org.openmdx.example.rest.PlugIn.HelloWorld.class" value="org.openmdx.base.dataprovider.kernel.Dataprovider_2"/>
         <property name="org.openmdx.example.rest.PlugIn.HelloWorld.configuration" value="xri://+resource/META-INF/HelloWorld.properties"/>
 
     </persistence-manager-factory>
