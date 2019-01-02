@@ -32,11 +32,11 @@
         <property name="org.openmdx.jdo.DataManager.restPlugIn[1]" value="org.openmdx.example.rest.PlugIn.WorkshopVolatile"/>
 
 		<!--  REST plugin Workshop Standard -->             
-        <property name="org.openmdx.example.rest.PlugIn.WorkshopStandard.class" value="org.openmdx.application.dataprovider.kernel.EmbeddedDataprovider_1"/>
+        <property name="org.openmdx.example.rest.PlugIn.WorkshopStandard.class" value="org.openmdx.base.dataprovider.kernel.Dataprovider_2"/>
         <property name="org.openmdx.example.rest.PlugIn.WorkshopStandard.configuration" value="xri://+resource/META-INF/WorkshopStandard.properties"/>
 
 		<!--  REST plugin Workshop Volatile -->             
-        <property name="org.openmdx.example.rest.PlugIn.WorkshopVolatile.class" value="org.openmdx.application.dataprovider.kernel.EmbeddedDataprovider_1"/>
+        <property name="org.openmdx.example.rest.PlugIn.WorkshopVolatile.class" value="org.openmdx.base.dataprovider.kernel.Dataprovider_2"/>
         <property name="org.openmdx.example.rest.PlugIn.WorkshopVolatile.configuration" value="xri://+resource/META-INF/WorkshopVolatile.properties"/>
 
     </persistence-manager-factory>
