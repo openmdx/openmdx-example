@@ -395,8 +395,8 @@ org.openmdx.kernel.exception.BasicException
       	      <table class="fieldGroup">
       	        <tr>
       	          <td>
-      	            <input type="Submit" name="OK.Button" class="<%= CssClass.btn.toString() + " " + CssClass.btnDefault.toString() %>" tabindex="9000" value="Create" />
-            		<input type="Submit" name="Cancel.Button" class="<%= CssClass.btn.toString() + " " + CssClass.btnDefault.toString() %>" tabindex="9010" value="Cancel" />
+      	            <input type="Submit" name="OK.Button" class="<%=CssClass.btn.toString() + " " + CssClass.btn_light.toString()%>" tabindex="9000" value="Create" />
+            		<input type="Submit" name="Cancel.Button" class="<%=CssClass.btn.toString() + " " + CssClass.btn_light.toString()%>" tabindex="9010" value="Cancel" />
       	          </td>
       	        </tr>
       	      </table>

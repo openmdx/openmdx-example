@@ -1,123 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML">
-  <notation:Diagram xmi:id="_eOS38LM1EeKF1deLehEZOw" type="PapyrusUMLClassDiagram" name="Default" measurementUnit="Pixel">
-    <styles xmi:type="notation:DiagramStyle" xmi:id="_eOS38bM1EeKF1deLehEZOw"/>
-    <element xmi:type="uml:Model" href="models.uml#_Q-qkwEdJEd-nAY5dDg-0aQ"/>
-  </notation:Diagram>
-  <notation:Diagram xmi:id="_9s-KcLPnEeKkwYVGxCi-sw" type="PapyrusUMLClassDiagram" name="helloworld1-Main" measurementUnit="Pixel">
-    <children xmi:type="notation:Shape" xmi:id="__QgZwLPnEeKkwYVGxCi-sw" type="2008">
-      <children xmi:type="notation:DecorationNode" xmi:id="__QhA0LPnEeKkwYVGxCi-sw" type="5029"/>
-      <children xmi:type="notation:BasicCompartment" xmi:id="__QhA0bPnEeKkwYVGxCi-sw" type="7017">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__Qhn4LPnEeKkwYVGxCi-sw" source="PapyrusCSSForceValue">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__Qhn4bPnEeKkwYVGxCi-sw" key="showTitle" value="true"/>
-        </eAnnotations>
-        <children xmi:type="notation:Shape" xmi:id="_A4aywLPoEeKkwYVGxCi-sw" type="3012">
-          <element xmi:type="uml:Property" href="platform:/resource/openMDX%202%20~%20Core%20(EMF)/org.openmdx.base.uml#_3C7B8A60016D3FF98A6C032D"/>
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_A4aywbPoEeKkwYVGxCi-sw"/>
-        </children>
-        <styles xmi:type="notation:TitleStyle" xmi:id="__QhA0rPnEeKkwYVGxCi-sw"/>
-        <styles xmi:type="notation:SortingStyle" xmi:id="__QhA07PnEeKkwYVGxCi-sw"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="__QhA1LPnEeKkwYVGxCi-sw"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="__QhA1bPnEeKkwYVGxCi-sw"/>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_9s-KcLPnEeKkwYVGxCi-sw" type="PapyrusUMLClassDiagram" name="helloworld1-Main" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="__QgZwLPnEeKkwYVGxCi-sw" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="__QhA0LPnEeKkwYVGxCi-sw" type="Class_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="__QhA0bPnEeKkwYVGxCi-sw" type="Class_AttributeCompartment">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__Qhn4LPnEeKkwYVGxCi-sw" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__Qhn4bPnEeKkwYVGxCi-sw" key="showTitle" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:Shape" xmi:id="_A4aywLPoEeKkwYVGxCi-sw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="platform:/resource/openMDX%202%20~%20Core%20(EMF)/org.openmdx.base.uml#_3C7B8A60016D3FF98A6C032D"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_A4aywbPoEeKkwYVGxCi-sw"/>
       </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="__QhA1rPnEeKkwYVGxCi-sw" type="7018">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__QiO8LPnEeKkwYVGxCi-sw" source="PapyrusCSSForceValue">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__QiO8bPnEeKkwYVGxCi-sw" key="showTitle" value="true"/>
-        </eAnnotations>
-        <children xmi:type="notation:Shape" xmi:id="_A4bZ0LPoEeKkwYVGxCi-sw" type="3013">
-          <element xmi:type="uml:Operation" href="platform:/resource/openMDX 2 Example ~ HelloWorld (EMF)/org.openmdx.example.helloworld1.uml#_XZtR0OdGEd2P1c0K6fMJhA"/>
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_A4bZ0bPoEeKkwYVGxCi-sw"/>
-        </children>
-        <styles xmi:type="notation:TitleStyle" xmi:id="__QhA17PnEeKkwYVGxCi-sw"/>
-        <styles xmi:type="notation:SortingStyle" xmi:id="__QhA2LPnEeKkwYVGxCi-sw"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="__QhA2bPnEeKkwYVGxCi-sw"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="__QhA2rPnEeKkwYVGxCi-sw"/>
-      </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="__QhA27PnEeKkwYVGxCi-sw" type="7019">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__QiO8rPnEeKkwYVGxCi-sw" source="PapyrusCSSForceValue">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__Qi2ALPnEeKkwYVGxCi-sw" key="showTitle" value="true"/>
-        </eAnnotations>
-        <styles xmi:type="notation:TitleStyle" xmi:id="__QhA3LPnEeKkwYVGxCi-sw"/>
-        <styles xmi:type="notation:SortingStyle" xmi:id="__QhA3bPnEeKkwYVGxCi-sw"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="__QhA3rPnEeKkwYVGxCi-sw"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="__QhA37PnEeKkwYVGxCi-sw"/>
-      </children>
-      <element xmi:type="uml:Class" href="platform:/resource/openMDX 2 Example ~ HelloWorld (EMF)/org.openmdx.example.helloworld1.uml#_XZ10sOdGEd2P1c0K6fMJhA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__QgZwbPnEeKkwYVGxCi-sw" x="36" y="36" width="771"/>
+      <styles xmi:type="notation:TitleStyle" xmi:id="__QhA0rPnEeKkwYVGxCi-sw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="__QhA07PnEeKkwYVGxCi-sw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="__QhA1LPnEeKkwYVGxCi-sw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__QhA1bPnEeKkwYVGxCi-sw"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_BUuUQLPoEeKkwYVGxCi-sw" type="2008">
-      <children xmi:type="notation:DecorationNode" xmi:id="_BUu7ULPoEeKkwYVGxCi-sw" type="5029"/>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_BUu7UbPoEeKkwYVGxCi-sw" type="7017">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BUviYLPoEeKkwYVGxCi-sw" source="PapyrusCSSForceValue">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BUviYbPoEeKkwYVGxCi-sw" key="showTitle" value="true"/>
-        </eAnnotations>
-        <children xmi:type="notation:Shape" xmi:id="_CWt8wLPoEeKkwYVGxCi-sw" type="3012">
-          <element xmi:type="uml:Property" href="platform:/resource/openMDX 2 Example ~ HelloWorld (EMF)/org.openmdx.example.helloworld1.uml#_XZyxYOdGEd2P1c0K6fMJhA"/>
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_CWt8wbPoEeKkwYVGxCi-sw"/>
-        </children>
-        <styles xmi:type="notation:TitleStyle" xmi:id="_BUu7UrPoEeKkwYVGxCi-sw"/>
-        <styles xmi:type="notation:SortingStyle" xmi:id="_BUu7U7PoEeKkwYVGxCi-sw"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="_BUu7VLPoEeKkwYVGxCi-sw"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BUu7VbPoEeKkwYVGxCi-sw"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="__QhA1rPnEeKkwYVGxCi-sw" type="Class_OperationCompartment">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__QiO8LPnEeKkwYVGxCi-sw" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__QiO8bPnEeKkwYVGxCi-sw" key="showTitle" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:Shape" xmi:id="_A4bZ0LPoEeKkwYVGxCi-sw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="platform:/resource/openMDX 2 Example ~ HelloWorld (EMF)/org.openmdx.example.helloworld1.uml#_XZtR0OdGEd2P1c0K6fMJhA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_A4bZ0bPoEeKkwYVGxCi-sw"/>
       </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_BUu7VrPoEeKkwYVGxCi-sw" type="7018">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BUwJcLPoEeKkwYVGxCi-sw" source="PapyrusCSSForceValue">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BUwJcbPoEeKkwYVGxCi-sw" key="showTitle" value="true"/>
-        </eAnnotations>
-        <styles xmi:type="notation:TitleStyle" xmi:id="_BUu7V7PoEeKkwYVGxCi-sw"/>
-        <styles xmi:type="notation:SortingStyle" xmi:id="_BUu7WLPoEeKkwYVGxCi-sw"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="_BUu7WbPoEeKkwYVGxCi-sw"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BUu7WrPoEeKkwYVGxCi-sw"/>
-      </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_BUu7W7PoEeKkwYVGxCi-sw" type="7019">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BUwJcrPoEeKkwYVGxCi-sw" source="PapyrusCSSForceValue">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BUwwgLPoEeKkwYVGxCi-sw" key="showTitle" value="true"/>
-        </eAnnotations>
-        <styles xmi:type="notation:TitleStyle" xmi:id="_BUu7XLPoEeKkwYVGxCi-sw"/>
-        <styles xmi:type="notation:SortingStyle" xmi:id="_BUu7XbPoEeKkwYVGxCi-sw"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="_BUu7XrPoEeKkwYVGxCi-sw"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BUu7X7PoEeKkwYVGxCi-sw"/>
-      </children>
-      <element xmi:type="uml:Class" href="platform:/resource/openMDX 2 Example ~ HelloWorld (EMF)/org.openmdx.example.helloworld1.uml#_XZvuEOdGEd2P1c0K6fMJhA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BUuUQbPoEeKkwYVGxCi-sw" x="36" y="198" width="396"/>
+      <styles xmi:type="notation:TitleStyle" xmi:id="__QhA17PnEeKkwYVGxCi-sw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="__QhA2LPnEeKkwYVGxCi-sw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="__QhA2bPnEeKkwYVGxCi-sw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__QhA2rPnEeKkwYVGxCi-sw"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_De5s0LPoEeKkwYVGxCi-sw" type="2008">
-      <children xmi:type="notation:DecorationNode" xmi:id="_De6T4LPoEeKkwYVGxCi-sw" type="5029"/>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_De6T4bPoEeKkwYVGxCi-sw" type="7017">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_De668LPoEeKkwYVGxCi-sw" source="PapyrusCSSForceValue">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_De668bPoEeKkwYVGxCi-sw" key="showTitle" value="true"/>
-        </eAnnotations>
-        <children xmi:type="notation:Shape" xmi:id="_EMUzgLPoEeKkwYVGxCi-sw" type="3012">
-          <element xmi:type="uml:Property" href="platform:/resource/openMDX 2 Example ~ HelloWorld (EMF)/org.openmdx.example.helloworld1.uml#_XZ..oOdGEd2P1c0K6fMJhA"/>
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_EMUzgbPoEeKkwYVGxCi-sw"/>
-        </children>
-        <styles xmi:type="notation:TitleStyle" xmi:id="_De6T4rPoEeKkwYVGxCi-sw"/>
-        <styles xmi:type="notation:SortingStyle" xmi:id="_De6T47PoEeKkwYVGxCi-sw"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="_De6T5LPoEeKkwYVGxCi-sw"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_De6T5bPoEeKkwYVGxCi-sw"/>
-      </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_De6T5rPoEeKkwYVGxCi-sw" type="7018">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_De7iALPoEeKkwYVGxCi-sw" source="PapyrusCSSForceValue">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_De7iAbPoEeKkwYVGxCi-sw" key="showTitle" value="true"/>
-        </eAnnotations>
-        <styles xmi:type="notation:TitleStyle" xmi:id="_De6T57PoEeKkwYVGxCi-sw"/>
-        <styles xmi:type="notation:SortingStyle" xmi:id="_De6T6LPoEeKkwYVGxCi-sw"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="_De6T6bPoEeKkwYVGxCi-sw"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_De6T6rPoEeKkwYVGxCi-sw"/>
-      </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_De6T67PoEeKkwYVGxCi-sw" type="7019">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_De7iArPoEeKkwYVGxCi-sw" source="PapyrusCSSForceValue">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_De8JELPoEeKkwYVGxCi-sw" key="showTitle" value="true"/>
-        </eAnnotations>
-        <styles xmi:type="notation:TitleStyle" xmi:id="_De6T7LPoEeKkwYVGxCi-sw"/>
-        <styles xmi:type="notation:SortingStyle" xmi:id="_De6T7bPoEeKkwYVGxCi-sw"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="_De6T7rPoEeKkwYVGxCi-sw"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_De6T77PoEeKkwYVGxCi-sw"/>
-      </children>
-      <element xmi:type="uml:Class" href="platform:/resource/openMDX 2 Example ~ HelloWorld (EMF)/org.openmdx.example.helloworld1.uml#_XZw8MOdGEd2P1c0K6fMJhA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_De5s0bPoEeKkwYVGxCi-sw" x="486" y="198" width="324"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="__QhA27PnEeKkwYVGxCi-sw" type="Class_NestedClassifierCompartment">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__QiO8rPnEeKkwYVGxCi-sw" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__Qi2ALPnEeKkwYVGxCi-sw" key="showTitle" value="true"/>
+      </eAnnotations>
+      <styles xmi:type="notation:TitleStyle" xmi:id="__QhA3LPnEeKkwYVGxCi-sw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="__QhA3bPnEeKkwYVGxCi-sw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="__QhA3rPnEeKkwYVGxCi-sw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__QhA37PnEeKkwYVGxCi-sw"/>
     </children>
-    <styles xmi:type="notation:DiagramStyle" xmi:id="_9s-KcbPnEeKkwYVGxCi-sw"/>
-    <element xmi:type="uml:Model" href="models.uml#_Q-qkwEdJEd-nAY5dDg-0aQ"/>
-  </notation:Diagram>
-</xmi:XMI>
+    <children xmi:type="notation:DecorationNode" xmi:id="_8htxYRZqEemGMr2sON_HWQ" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_8htxYhZqEemGMr2sON_HWQ" y="5"/>
+    </children>
+    <element xmi:type="uml:Class" href="platform:/resource/openMDX 2 Example ~ HelloWorld (EMF)/org.openmdx.example.helloworld1.uml#_XZ10sOdGEd2P1c0K6fMJhA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="__QgZwbPnEeKkwYVGxCi-sw" x="36" y="36" width="771"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_BUuUQLPoEeKkwYVGxCi-sw" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_BUu7ULPoEeKkwYVGxCi-sw" type="Class_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_BUu7UbPoEeKkwYVGxCi-sw" type="Class_AttributeCompartment">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BUviYLPoEeKkwYVGxCi-sw" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BUviYbPoEeKkwYVGxCi-sw" key="showTitle" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:Shape" xmi:id="_CWt8wLPoEeKkwYVGxCi-sw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="platform:/resource/openMDX 2 Example ~ HelloWorld (EMF)/org.openmdx.example.helloworld1.uml#_XZyxYOdGEd2P1c0K6fMJhA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_CWt8wbPoEeKkwYVGxCi-sw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_BUu7UrPoEeKkwYVGxCi-sw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_BUu7U7PoEeKkwYVGxCi-sw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_BUu7VLPoEeKkwYVGxCi-sw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BUu7VbPoEeKkwYVGxCi-sw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_BUu7VrPoEeKkwYVGxCi-sw" type="Class_OperationCompartment">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BUwJcLPoEeKkwYVGxCi-sw" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BUwJcbPoEeKkwYVGxCi-sw" key="showTitle" value="true"/>
+      </eAnnotations>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_BUu7V7PoEeKkwYVGxCi-sw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_BUu7WLPoEeKkwYVGxCi-sw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_BUu7WbPoEeKkwYVGxCi-sw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BUu7WrPoEeKkwYVGxCi-sw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_BUu7W7PoEeKkwYVGxCi-sw" type="Class_NestedClassifierCompartment">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BUwJcrPoEeKkwYVGxCi-sw" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BUwwgLPoEeKkwYVGxCi-sw" key="showTitle" value="true"/>
+      </eAnnotations>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_BUu7XLPoEeKkwYVGxCi-sw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_BUu7XbPoEeKkwYVGxCi-sw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_BUu7XrPoEeKkwYVGxCi-sw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BUu7X7PoEeKkwYVGxCi-sw"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_8htxYxZqEemGMr2sON_HWQ" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_8htxZBZqEemGMr2sON_HWQ" y="5"/>
+    </children>
+    <element xmi:type="uml:Class" href="platform:/resource/openMDX 2 Example ~ HelloWorld (EMF)/org.openmdx.example.helloworld1.uml#_XZvuEOdGEd2P1c0K6fMJhA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BUuUQbPoEeKkwYVGxCi-sw" x="36" y="198" width="396"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_De5s0LPoEeKkwYVGxCi-sw" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_De6T4LPoEeKkwYVGxCi-sw" type="Class_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_De6T4bPoEeKkwYVGxCi-sw" type="Class_AttributeCompartment">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_De668LPoEeKkwYVGxCi-sw" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_De668bPoEeKkwYVGxCi-sw" key="showTitle" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:Shape" xmi:id="_EMUzgLPoEeKkwYVGxCi-sw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="platform:/resource/openMDX 2 Example ~ HelloWorld (EMF)/org.openmdx.example.helloworld1.uml#_XZ..oOdGEd2P1c0K6fMJhA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_EMUzgbPoEeKkwYVGxCi-sw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_De6T4rPoEeKkwYVGxCi-sw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_De6T47PoEeKkwYVGxCi-sw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_De6T5LPoEeKkwYVGxCi-sw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_De6T5bPoEeKkwYVGxCi-sw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_De6T5rPoEeKkwYVGxCi-sw" type="Class_OperationCompartment">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_De7iALPoEeKkwYVGxCi-sw" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_De7iAbPoEeKkwYVGxCi-sw" key="showTitle" value="true"/>
+      </eAnnotations>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_De6T57PoEeKkwYVGxCi-sw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_De6T6LPoEeKkwYVGxCi-sw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_De6T6bPoEeKkwYVGxCi-sw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_De6T6rPoEeKkwYVGxCi-sw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_De6T67PoEeKkwYVGxCi-sw" type="Class_NestedClassifierCompartment">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_De7iArPoEeKkwYVGxCi-sw" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_De8JELPoEeKkwYVGxCi-sw" key="showTitle" value="true"/>
+      </eAnnotations>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_De6T7LPoEeKkwYVGxCi-sw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_De6T7bPoEeKkwYVGxCi-sw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_De6T7rPoEeKkwYVGxCi-sw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_De6T77PoEeKkwYVGxCi-sw"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_8htxZRZqEemGMr2sON_HWQ" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_8htxZhZqEemGMr2sON_HWQ" y="5"/>
+    </children>
+    <element xmi:type="uml:Class" href="platform:/resource/openMDX 2 Example ~ HelloWorld (EMF)/org.openmdx.example.helloworld1.uml#_XZw8MOdGEd2P1c0K6fMJhA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_De5s0bPoEeKkwYVGxCi-sw" x="486" y="198" width="324"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_9s-KcbPnEeKkwYVGxCi-sw"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_8htxYBZqEemGMr2sON_HWQ" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+    <owner xmi:type="uml:Model" href="models.uml#_Q-qkwEdJEd-nAY5dDg-0aQ"/>
+  </styles>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_8htxZxZqEemGMr2sON_HWQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <element xmi:type="uml:Model" href="models.uml#_Q-qkwEdJEd-nAY5dDg-0aQ"/>
+</notation:Diagram>
