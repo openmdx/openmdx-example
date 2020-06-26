@@ -60,8 +60,8 @@
 	<property name="project.platform.list" value="jre-1.8"/>
 
 	<!-- Included Ant Projects -->
-	<import file="../opt/openmdx-2.17-20200619/ant/etc/ant/build-properties.xml"/>
-	<import file="../opt/openmdx-2.17-20200619/ant/etc/ant/build-library.xml"/>
+	<import file="../opt/openmdx-2.17.5/ant/etc/ant/build-properties.xml"/>
+	<import file="../opt/openmdx-2.17.5/ant/etc/ant/build-library.xml"/>
 
 	<path id="postgresql-9.lib">
 		<pathelement location="${project.home}/opt/postgresql/${build.target.platform}/postgresql-9/lib/postgresql-9.3.jdbc41.jar"/>
