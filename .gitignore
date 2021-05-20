@@ -1,7 +1,4 @@
 distribution
-helloworld/build
-workshop/build
 /jre-*/
-source-archive
-opt/openmdx*
-opt/*.sh
+.gradle/
+build/
