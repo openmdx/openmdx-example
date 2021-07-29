@@ -1,0 +1,455 @@
+/*C2*/SET SCHEMA PUBLIC
+DELETE FROM OOMEP1WS_SEGMENT WHERE OBJECT_ID='segment/Workshop/Standard'
+DELETE FROM OOMEP1WS_SEGMENT_ WHERE OBJECT_ID='segment/Workshop/Standard' AND IDX=0
+DELETE FROM OOMEP1WS_TEAMMEMBER WHERE OBJECT_ID='teamMember/Workshop/Standard/3ea1ab41-6c67-11e2-8032-8bceedb96ba9'
+DELETE FROM OOMEP1WS_TEAMMEMBER WHERE OBJECT_ID='teamMember/Workshop/Standard/3ea1ab44-6c67-11e2-8032-8bceedb96ba9'
+DELETE FROM OOMEP1WS_TEAMMEMBER_ WHERE OBJECT_ID='teamMember/Workshop/Standard/3ea1ab41-6c67-11e2-8032-8bceedb96ba9' AND IDX=0
+DELETE FROM OOMEP1WS_TEAMMEMBER_ WHERE OBJECT_ID='teamMember/Workshop/Standard/3ea1ab41-6c67-11e2-8032-8bceedb96ba9' AND IDX=1
+DELETE FROM OOMEP1WS_TEAMMEMBER_ WHERE OBJECT_ID='teamMember/Workshop/Standard/3ea1ab41-6c67-11e2-8032-8bceedb96ba9' AND IDX=2
+DELETE FROM OOMEP1WS_TEAMMEMBER_ WHERE OBJECT_ID='teamMember/Workshop/Standard/3ea1ab41-6c67-11e2-8032-8bceedb96ba9' AND IDX=3
+DELETE FROM OOMEP1WS_TEAMMEMBER_ WHERE OBJECT_ID='teamMember/Workshop/Standard/3ea1ab44-6c67-11e2-8032-8bceedb96ba9' AND IDX=0
+DELETE FROM OOMEP1WS_TEAMMEMBER_ WHERE OBJECT_ID='teamMember/Workshop/Standard/3ea1ab44-6c67-11e2-8032-8bceedb96ba9' AND IDX=1
+DELETE FROM OOMEP1WS_TEAMMEMBER_ WHERE OBJECT_ID='teamMember/Workshop/Standard/3ea1ab44-6c67-11e2-8032-8bceedb96ba9' AND IDX=2
+DELETE FROM OOMEP1WS_TEAMMEMBER_ WHERE OBJECT_ID='teamMember/Workshop/Standard/3ea1ab44-6c67-11e2-8032-8bceedb96ba9' AND IDX=3
+DELETE FROM OOMEP1WS_TASK WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openCRX'
+DELETE FROM OOMEP1WS_TASK WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openMDX'
+DELETE FROM OOMEP1WS_TASK_ WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openCRX' AND IDX=0
+DELETE FROM OOMEP1WS_TASK_ WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openCRX' AND IDX=1
+DELETE FROM OOMEP1WS_TASK_ WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openCRX' AND IDX=2
+DELETE FROM OOMEP1WS_TASK_ WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openMDX' AND IDX=0
+DELETE FROM OOMEP1WS_TASK_ WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openMDX' AND IDX=1
+DELETE FROM OOMEP1WS_TASK_ WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openMDX' AND IDX=2
+DELETE FROM OOMEP1WS_TEAMMEMBERASSIGNMENT WHERE OBJECT_ID='assignment/Workshop/Standard/SICLE/openCRX/3YADK5LBR3HEQ03W37TCN0ZOP'
+DELETE FROM OOMEP1WS_TEAMMEMBERASSIGNMENT WHERE OBJECT_ID='assignment/Workshop/Standard/SICLE/openMDX/3YADK5DFMN9IA03W37TCN0ZOP'
+DELETE FROM OOMEP1WS_TEAMMEMBERASSIGNMENT_ WHERE OBJECT_ID='assignment/Workshop/Standard/SICLE/openCRX/3YADK5LBR3HEQ03W37TCN0ZOP' AND IDX=0
+DELETE FROM OOMEP1WS_TEAMMEMBERASSIGNMENT_ WHERE OBJECT_ID='assignment/Workshop/Standard/SICLE/openMDX/3YADK5DFMN9IA03W37TCN0ZOP' AND IDX=0
+DELETE FROM OOMEP1WS_SKILL WHERE OBJECT_ID='skill/Workshop/Standard/J2EE'
+DELETE FROM OOMEP1WS_SKILL WHERE OBJECT_ID='skill/Workshop/Standard/Lisp'
+DELETE FROM OOMEP1WS_SKILL WHERE OBJECT_ID='skill/Workshop/Standard/MDA'
+DELETE FROM OOMEP1WS_SKILL WHERE OBJECT_ID='skill/Workshop/Standard/Pascal'
+DELETE FROM OOMEP1WS_SKILL WHERE OBJECT_ID='skill/Workshop/Standard/openCRX'
+DELETE FROM OOMEP1WS_SKILL WHERE OBJECT_ID='skill/Workshop/Standard/openMDX'
+DELETE FROM OOMEP1WS_SKILL_ WHERE OBJECT_ID='skill/Workshop/Standard/J2EE' AND IDX=0
+DELETE FROM OOMEP1WS_SKILL_ WHERE OBJECT_ID='skill/Workshop/Standard/Lisp' AND IDX=0
+DELETE FROM OOMEP1WS_SKILL_ WHERE OBJECT_ID='skill/Workshop/Standard/MDA' AND IDX=0
+DELETE FROM OOMEP1WS_SKILL_ WHERE OBJECT_ID='skill/Workshop/Standard/Pascal' AND IDX=0
+DELETE FROM OOMEP1WS_SKILL_ WHERE OBJECT_ID='skill/Workshop/Standard/openCRX' AND IDX=0
+DELETE FROM OOMEP1WS_SKILL_ WHERE OBJECT_ID='skill/Workshop/Standard/openMDX' AND IDX=0
+DELETE FROM OOMEP1WS_PROJECT WHERE OBJECT_ID='project/Workshop/Standard/SICLE'
+DELETE FROM OOMEP1WS_PROJECT_ WHERE OBJECT_ID='project/Workshop/Standard/SICLE' AND IDX=0
+COMMIT
+INSERT INTO OOMEP1WS_SEGMENT VALUES('segment/Workshop/Standard',NULL,'org:openmdx:example:workshop1:Segment',NULL)
+INSERT INTO OOMEP1WS_SEGMENT_ VALUES('segment/Workshop/Standard',0,'org:openmdx:example:workshop1:Segment')
+COMMIT
+INSERT INTO OOMEP1WS_PROJECT VALUES('project/Workshop/Standard/SICLE','2021-07-29 11:14:45.478000',1,'openMDX/openCRX Workshop (2006-02-27 to 2006-03-01',1,'Workshop','org:openmdx:example:workshop1:Project','2021-07-29 11:14:45.478000',NULL,'segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_PROJECT_ VALUES('project/Workshop/Standard/SICLE',0,'junit','junit','org:openmdx:example:workshop1:Project')
+INSERT INTO OOMEP1WS_TASK VALUES('task/Workshop/Standard/SICLE/openCRX','2021-07-29 11:14:45.478000',1,NULL,1,'openCRX Track',3,'org:openmdx:example:workshop1:Task','2021-07-29 11:14:45.478000','project/Workshop/Standard/SICLE')
+INSERT INTO OOMEP1WS_TASK_ VALUES('task/Workshop/Standard/SICLE/openCRX',0,'junit','junit','org:openmdx:example:workshop1:Task','skill/Workshop/Standard/MDA')
+INSERT INTO OOMEP1WS_TASK_ VALUES('task/Workshop/Standard/SICLE/openCRX',1,NULL,NULL,'org:openmdx:example:workshop1:Task','skill/Workshop/Standard/J2EE')
+INSERT INTO OOMEP1WS_TASK_ VALUES('task/Workshop/Standard/SICLE/openCRX',2,NULL,NULL,'org:openmdx:example:workshop1:Task','skill/Workshop/Standard/openCRX')
+INSERT INTO OOMEP1WS_TASK VALUES('task/Workshop/Standard/SICLE/openMDX','2021-07-29 11:14:45.478000',1,NULL,1,'openMDX Track',3,'org:openmdx:example:workshop1:Task','2021-07-29 11:14:45.478000','project/Workshop/Standard/SICLE')
+INSERT INTO OOMEP1WS_TASK_ VALUES('task/Workshop/Standard/SICLE/openMDX',0,'junit','junit','org:openmdx:example:workshop1:Task','skill/Workshop/Standard/MDA')
+INSERT INTO OOMEP1WS_TASK_ VALUES('task/Workshop/Standard/SICLE/openMDX',1,NULL,NULL,'org:openmdx:example:workshop1:Task','skill/Workshop/Standard/J2EE')
+INSERT INTO OOMEP1WS_TASK_ VALUES('task/Workshop/Standard/SICLE/openMDX',2,NULL,NULL,'org:openmdx:example:workshop1:Task','skill/Workshop/Standard/openMDX')
+INSERT INTO OOMEP1WS_SKILL VALUES('skill/Workshop/Standard/J2EE','2021-07-29 11:14:45.478000',1,1,'Jave 2 Enterprise Edition knowledge','org:openmdx:example:workshop1:Skill','2021-07-29 11:14:45.478000','segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_SKILL_ VALUES('skill/Workshop/Standard/J2EE',0,'junit','junit','org:openmdx:example:workshop1:Skill')
+INSERT INTO OOMEP1WS_SKILL VALUES('skill/Workshop/Standard/Lisp','2021-07-29 11:14:45.478000',1,1,'Lisp programming','org:openmdx:example:workshop1:Skill','2021-07-29 11:14:45.478000','segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_SKILL_ VALUES('skill/Workshop/Standard/Lisp',0,'junit','junit','org:openmdx:example:workshop1:Skill')
+INSERT INTO OOMEP1WS_SKILL VALUES('skill/Workshop/Standard/MDA','2021-07-29 11:14:45.478000',1,1,'MDA knowledge','org:openmdx:example:workshop1:Skill','2021-07-29 11:14:45.478000','segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_SKILL_ VALUES('skill/Workshop/Standard/MDA',0,'junit','junit','org:openmdx:example:workshop1:Skill')
+INSERT INTO OOMEP1WS_SKILL VALUES('skill/Workshop/Standard/Pascal','2021-07-29 11:14:45.478000',1,1,'Pascal programming','org:openmdx:example:workshop1:Skill','2021-07-29 11:14:45.478000','segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_SKILL_ VALUES('skill/Workshop/Standard/Pascal',0,'junit','junit','org:openmdx:example:workshop1:Skill')
+INSERT INTO OOMEP1WS_SKILL VALUES('skill/Workshop/Standard/openCRX','2021-07-29 11:14:45.478000',1,1,'openCRX knowledge','org:openmdx:example:workshop1:Skill','2021-07-29 11:14:45.478000','segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_SKILL_ VALUES('skill/Workshop/Standard/openCRX',0,'junit','junit','org:openmdx:example:workshop1:Skill')
+INSERT INTO OOMEP1WS_SKILL VALUES('skill/Workshop/Standard/openMDX','2021-07-29 11:14:45.478000',1,1,'openMDX knowledge','org:openmdx:example:workshop1:Skill','2021-07-29 11:14:45.478000','segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_SKILL_ VALUES('skill/Workshop/Standard/openMDX',0,'junit','junit','org:openmdx:example:workshop1:Skill')
+INSERT INTO OOMEP1WS_TEAMMEMBER VALUES('teamMember/Workshop/Standard/9M1IFILIM89UZWTHAPHRMDTR4','2021-07-29 11:14:45.478000',1,1,'John Dow',NULL,4,'org:openmdx:example:workshop1:TeamMember','2021-07-29 11:14:45.478000','segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_TEAMMEMBER_ VALUES('teamMember/Workshop/Standard/9M1IFILIM89UZWTHAPHRMDTR4',0,'junit','junit','org:openmdx:example:workshop1:TeamMember','skill/Workshop/Standard/MDA')
+INSERT INTO OOMEP1WS_TEAMMEMBER_ VALUES('teamMember/Workshop/Standard/9M1IFILIM89UZWTHAPHRMDTR4',1,NULL,NULL,'org:openmdx:example:workshop1:TeamMember','skill/Workshop/Standard/J2EE')
+INSERT INTO OOMEP1WS_TEAMMEMBER_ VALUES('teamMember/Workshop/Standard/9M1IFILIM89UZWTHAPHRMDTR4',2,NULL,NULL,'org:openmdx:example:workshop1:TeamMember','skill/Workshop/Standard/openMDX')
+INSERT INTO OOMEP1WS_TEAMMEMBER_ VALUES('teamMember/Workshop/Standard/9M1IFILIM89UZWTHAPHRMDTR4',3,NULL,NULL,'org:openmdx:example:workshop1:TeamMember','skill/Workshop/Standard/Pascal')
+INSERT INTO OOMEP1WS_TEAMMEMBER VALUES('teamMember/Workshop/Standard/9M1IFIRFPKFSBWTHAPHRMDTR4','2021-07-29 11:14:45.478000',1,1,'Jane Dow',NULL,4,'org:openmdx:example:workshop1:TeamMember','2021-07-29 11:14:45.478000','segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_TEAMMEMBER_ VALUES('teamMember/Workshop/Standard/9M1IFIRFPKFSBWTHAPHRMDTR4',0,'junit','junit','org:openmdx:example:workshop1:TeamMember','skill/Workshop/Standard/MDA')
+INSERT INTO OOMEP1WS_TEAMMEMBER_ VALUES('teamMember/Workshop/Standard/9M1IFIRFPKFSBWTHAPHRMDTR4',1,NULL,NULL,'org:openmdx:example:workshop1:TeamMember','skill/Workshop/Standard/J2EE')
+INSERT INTO OOMEP1WS_TEAMMEMBER_ VALUES('teamMember/Workshop/Standard/9M1IFIRFPKFSBWTHAPHRMDTR4',2,NULL,NULL,'org:openmdx:example:workshop1:TeamMember','skill/Workshop/Standard/openCRX')
+INSERT INTO OOMEP1WS_TEAMMEMBER_ VALUES('teamMember/Workshop/Standard/9M1IFIRFPKFSBWTHAPHRMDTR4',3,NULL,NULL,'org:openmdx:example:workshop1:TeamMember','skill/Workshop/Standard/Lisp')
+COMMIT
+DELETE FROM OOMEP1WS_TASK WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openMDX'
+INSERT INTO OOMEP1WS_TASK VALUES('task/Workshop/Standard/SICLE/openMDX','2021-07-29 11:14:45.478000',1,NULL,1,'openMDX Track',3,'org:openmdx:example:workshop1:Task','2021-07-29 11:14:45.571000','project/Workshop/Standard/SICLE')
+DELETE FROM OOMEP1WS_TASK_ WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openMDX' AND IDX=0
+INSERT INTO OOMEP1WS_TASK_ VALUES('task/Workshop/Standard/SICLE/openMDX',0,'junit','junit','org:openmdx:example:workshop1:Task','skill/Workshop/Standard/MDA')
+INSERT INTO OOMEP1WS_TEAMMEMBERASSIGNMENT VALUES('assignment/Workshop/Standard/SICLE/openMDX/9M1IFJ39W8RMZWTHAPHRMDTR4','2021-07-29 11:14:45.571000',1,'participant',1,'org:openmdx:example:workshop1:TeamMemberAssignment','2021-07-29 11:14:45.571000','task/Workshop/Standard/SICLE/openMDX','teamMember/Workshop/Standard/9M1IFILIM89UZWTHAPHRMDTR4')
+INSERT INTO OOMEP1WS_TEAMMEMBERASSIGNMENT_ VALUES('assignment/Workshop/Standard/SICLE/openMDX/9M1IFJ39W8RMZWTHAPHRMDTR4',0,'junit','junit','org:openmdx:example:workshop1:TeamMemberAssignment')
+COMMIT
+DELETE FROM OOMEP1WS_TASK WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openCRX'
+INSERT INTO OOMEP1WS_TASK VALUES('task/Workshop/Standard/SICLE/openCRX','2021-07-29 11:14:45.478000',1,NULL,1,'openCRX Track',3,'org:openmdx:example:workshop1:Task','2021-07-29 11:14:45.602000','project/Workshop/Standard/SICLE')
+DELETE FROM OOMEP1WS_TASK_ WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openCRX' AND IDX=0
+INSERT INTO OOMEP1WS_TASK_ VALUES('task/Workshop/Standard/SICLE/openCRX',0,'junit','junit','org:openmdx:example:workshop1:Task','skill/Workshop/Standard/MDA')
+INSERT INTO OOMEP1WS_TEAMMEMBERASSIGNMENT VALUES('assignment/Workshop/Standard/SICLE/openCRX/9M1IFJB60OZJFWTHAPHRMDTR4','2021-07-29 11:14:45.602000',1,'listener',1,'org:openmdx:example:workshop1:TeamMemberAssignment','2021-07-29 11:14:45.602000','task/Workshop/Standard/SICLE/openCRX','teamMember/Workshop/Standard/9M1IFIRFPKFSBWTHAPHRMDTR4')
+INSERT INTO OOMEP1WS_TEAMMEMBERASSIGNMENT_ VALUES('assignment/Workshop/Standard/SICLE/openCRX/9M1IFJB60OZJFWTHAPHRMDTR4',0,'junit','junit','org:openmdx:example:workshop1:TeamMemberAssignment')
+COMMIT
+DISCONNECT
+/*C3*/SET SCHEMA PUBLIC
+DELETE FROM OOMEP1WS_SEGMENT WHERE OBJECT_ID='segment/Workshop/Standard'
+DELETE FROM OOMEP1WS_SEGMENT_ WHERE OBJECT_ID='segment/Workshop/Standard' AND IDX=0
+DELETE FROM OOMEP1WS_TEAMMEMBER WHERE OBJECT_ID='teamMember/Workshop/Standard/9M1IFILIM89UZWTHAPHRMDTR4'
+DELETE FROM OOMEP1WS_TEAMMEMBER WHERE OBJECT_ID='teamMember/Workshop/Standard/9M1IFIRFPKFSBWTHAPHRMDTR4'
+DELETE FROM OOMEP1WS_TEAMMEMBER_ WHERE OBJECT_ID='teamMember/Workshop/Standard/9M1IFILIM89UZWTHAPHRMDTR4' AND IDX=0
+DELETE FROM OOMEP1WS_TEAMMEMBER_ WHERE OBJECT_ID='teamMember/Workshop/Standard/9M1IFILIM89UZWTHAPHRMDTR4' AND IDX=1
+DELETE FROM OOMEP1WS_TEAMMEMBER_ WHERE OBJECT_ID='teamMember/Workshop/Standard/9M1IFILIM89UZWTHAPHRMDTR4' AND IDX=2
+DELETE FROM OOMEP1WS_TEAMMEMBER_ WHERE OBJECT_ID='teamMember/Workshop/Standard/9M1IFILIM89UZWTHAPHRMDTR4' AND IDX=3
+DELETE FROM OOMEP1WS_TEAMMEMBER_ WHERE OBJECT_ID='teamMember/Workshop/Standard/9M1IFIRFPKFSBWTHAPHRMDTR4' AND IDX=0
+DELETE FROM OOMEP1WS_TEAMMEMBER_ WHERE OBJECT_ID='teamMember/Workshop/Standard/9M1IFIRFPKFSBWTHAPHRMDTR4' AND IDX=1
+DELETE FROM OOMEP1WS_TEAMMEMBER_ WHERE OBJECT_ID='teamMember/Workshop/Standard/9M1IFIRFPKFSBWTHAPHRMDTR4' AND IDX=2
+DELETE FROM OOMEP1WS_TEAMMEMBER_ WHERE OBJECT_ID='teamMember/Workshop/Standard/9M1IFIRFPKFSBWTHAPHRMDTR4' AND IDX=3
+DELETE FROM OOMEP1WS_TASK WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openCRX'
+DELETE FROM OOMEP1WS_TASK WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openMDX'
+DELETE FROM OOMEP1WS_TASK_ WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openCRX' AND IDX=0
+DELETE FROM OOMEP1WS_TASK_ WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openCRX' AND IDX=1
+DELETE FROM OOMEP1WS_TASK_ WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openCRX' AND IDX=2
+DELETE FROM OOMEP1WS_TASK_ WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openMDX' AND IDX=0
+DELETE FROM OOMEP1WS_TASK_ WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openMDX' AND IDX=1
+DELETE FROM OOMEP1WS_TASK_ WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openMDX' AND IDX=2
+DELETE FROM OOMEP1WS_TEAMMEMBERASSIGNMENT WHERE OBJECT_ID='assignment/Workshop/Standard/SICLE/openCRX/9M1IFJB60OZJFWTHAPHRMDTR4'
+DELETE FROM OOMEP1WS_TEAMMEMBERASSIGNMENT WHERE OBJECT_ID='assignment/Workshop/Standard/SICLE/openMDX/9M1IFJ39W8RMZWTHAPHRMDTR4'
+DELETE FROM OOMEP1WS_TEAMMEMBERASSIGNMENT_ WHERE OBJECT_ID='assignment/Workshop/Standard/SICLE/openCRX/9M1IFJB60OZJFWTHAPHRMDTR4' AND IDX=0
+DELETE FROM OOMEP1WS_TEAMMEMBERASSIGNMENT_ WHERE OBJECT_ID='assignment/Workshop/Standard/SICLE/openMDX/9M1IFJ39W8RMZWTHAPHRMDTR4' AND IDX=0
+DELETE FROM OOMEP1WS_SKILL WHERE OBJECT_ID='skill/Workshop/Standard/J2EE'
+DELETE FROM OOMEP1WS_SKILL WHERE OBJECT_ID='skill/Workshop/Standard/Lisp'
+DELETE FROM OOMEP1WS_SKILL WHERE OBJECT_ID='skill/Workshop/Standard/MDA'
+DELETE FROM OOMEP1WS_SKILL WHERE OBJECT_ID='skill/Workshop/Standard/Pascal'
+DELETE FROM OOMEP1WS_SKILL WHERE OBJECT_ID='skill/Workshop/Standard/openCRX'
+DELETE FROM OOMEP1WS_SKILL WHERE OBJECT_ID='skill/Workshop/Standard/openMDX'
+DELETE FROM OOMEP1WS_SKILL_ WHERE OBJECT_ID='skill/Workshop/Standard/J2EE' AND IDX=0
+DELETE FROM OOMEP1WS_SKILL_ WHERE OBJECT_ID='skill/Workshop/Standard/Lisp' AND IDX=0
+DELETE FROM OOMEP1WS_SKILL_ WHERE OBJECT_ID='skill/Workshop/Standard/MDA' AND IDX=0
+DELETE FROM OOMEP1WS_SKILL_ WHERE OBJECT_ID='skill/Workshop/Standard/Pascal' AND IDX=0
+DELETE FROM OOMEP1WS_SKILL_ WHERE OBJECT_ID='skill/Workshop/Standard/openCRX' AND IDX=0
+DELETE FROM OOMEP1WS_SKILL_ WHERE OBJECT_ID='skill/Workshop/Standard/openMDX' AND IDX=0
+DELETE FROM OOMEP1WS_PROJECT WHERE OBJECT_ID='project/Workshop/Standard/SICLE'
+DELETE FROM OOMEP1WS_PROJECT_ WHERE OBJECT_ID='project/Workshop/Standard/SICLE' AND IDX=0
+COMMIT
+INSERT INTO OOMEP1WS_SEGMENT VALUES('segment/Workshop/Standard',NULL,'org:openmdx:example:workshop1:Segment',NULL)
+INSERT INTO OOMEP1WS_SEGMENT_ VALUES('segment/Workshop/Standard',0,'org:openmdx:example:workshop1:Segment')
+COMMIT
+INSERT INTO OOMEP1WS_PROJECT VALUES('project/Workshop/Standard/SICLE','2021-07-29 11:18:04.030000',1,'openMDX/openCRX Workshop (2006-02-27 to 2006-03-01',1,'Workshop','org:openmdx:example:workshop1:Project','2021-07-29 11:18:04.030000',NULL,'segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_PROJECT_ VALUES('project/Workshop/Standard/SICLE',0,'junit','junit','org:openmdx:example:workshop1:Project')
+INSERT INTO OOMEP1WS_TASK VALUES('task/Workshop/Standard/SICLE/openCRX','2021-07-29 11:18:04.030000',1,NULL,1,'openCRX Track',3,'org:openmdx:example:workshop1:Task','2021-07-29 11:18:04.030000','project/Workshop/Standard/SICLE')
+INSERT INTO OOMEP1WS_TASK_ VALUES('task/Workshop/Standard/SICLE/openCRX',0,'junit','junit','org:openmdx:example:workshop1:Task','skill/Workshop/Standard/MDA')
+INSERT INTO OOMEP1WS_TASK_ VALUES('task/Workshop/Standard/SICLE/openCRX',1,NULL,NULL,'org:openmdx:example:workshop1:Task','skill/Workshop/Standard/J2EE')
+INSERT INTO OOMEP1WS_TASK_ VALUES('task/Workshop/Standard/SICLE/openCRX',2,NULL,NULL,'org:openmdx:example:workshop1:Task','skill/Workshop/Standard/openCRX')
+INSERT INTO OOMEP1WS_TASK VALUES('task/Workshop/Standard/SICLE/openMDX','2021-07-29 11:18:04.030000',1,NULL,1,'openMDX Track',3,'org:openmdx:example:workshop1:Task','2021-07-29 11:18:04.030000','project/Workshop/Standard/SICLE')
+INSERT INTO OOMEP1WS_TASK_ VALUES('task/Workshop/Standard/SICLE/openMDX',0,'junit','junit','org:openmdx:example:workshop1:Task','skill/Workshop/Standard/MDA')
+INSERT INTO OOMEP1WS_TASK_ VALUES('task/Workshop/Standard/SICLE/openMDX',1,NULL,NULL,'org:openmdx:example:workshop1:Task','skill/Workshop/Standard/J2EE')
+INSERT INTO OOMEP1WS_TASK_ VALUES('task/Workshop/Standard/SICLE/openMDX',2,NULL,NULL,'org:openmdx:example:workshop1:Task','skill/Workshop/Standard/openMDX')
+INSERT INTO OOMEP1WS_SKILL VALUES('skill/Workshop/Standard/J2EE','2021-07-29 11:18:04.030000',1,1,'Jave 2 Enterprise Edition knowledge','org:openmdx:example:workshop1:Skill','2021-07-29 11:18:04.030000','segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_SKILL_ VALUES('skill/Workshop/Standard/J2EE',0,'junit','junit','org:openmdx:example:workshop1:Skill')
+INSERT INTO OOMEP1WS_SKILL VALUES('skill/Workshop/Standard/Lisp','2021-07-29 11:18:04.030000',1,1,'Lisp programming','org:openmdx:example:workshop1:Skill','2021-07-29 11:18:04.030000','segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_SKILL_ VALUES('skill/Workshop/Standard/Lisp',0,'junit','junit','org:openmdx:example:workshop1:Skill')
+INSERT INTO OOMEP1WS_SKILL VALUES('skill/Workshop/Standard/MDA','2021-07-29 11:18:04.030000',1,1,'MDA knowledge','org:openmdx:example:workshop1:Skill','2021-07-29 11:18:04.030000','segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_SKILL_ VALUES('skill/Workshop/Standard/MDA',0,'junit','junit','org:openmdx:example:workshop1:Skill')
+INSERT INTO OOMEP1WS_SKILL VALUES('skill/Workshop/Standard/Pascal','2021-07-29 11:18:04.030000',1,1,'Pascal programming','org:openmdx:example:workshop1:Skill','2021-07-29 11:18:04.030000','segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_SKILL_ VALUES('skill/Workshop/Standard/Pascal',0,'junit','junit','org:openmdx:example:workshop1:Skill')
+INSERT INTO OOMEP1WS_SKILL VALUES('skill/Workshop/Standard/openCRX','2021-07-29 11:18:04.030000',1,1,'openCRX knowledge','org:openmdx:example:workshop1:Skill','2021-07-29 11:18:04.030000','segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_SKILL_ VALUES('skill/Workshop/Standard/openCRX',0,'junit','junit','org:openmdx:example:workshop1:Skill')
+INSERT INTO OOMEP1WS_SKILL VALUES('skill/Workshop/Standard/openMDX','2021-07-29 11:18:04.030000',1,1,'openMDX knowledge','org:openmdx:example:workshop1:Skill','2021-07-29 11:18:04.030000','segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_SKILL_ VALUES('skill/Workshop/Standard/openMDX',0,'junit','junit','org:openmdx:example:workshop1:Skill')
+INSERT INTO OOMEP1WS_TEAMMEMBER VALUES('teamMember/Workshop/Standard/RGQ6ICK2H2LEZNHRJXF6QFEVA','2021-07-29 11:18:04.030000',1,1,'John Dow',NULL,4,'org:openmdx:example:workshop1:TeamMember','2021-07-29 11:18:04.030000','segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_TEAMMEMBER_ VALUES('teamMember/Workshop/Standard/RGQ6ICK2H2LEZNHRJXF6QFEVA',0,'junit','junit','org:openmdx:example:workshop1:TeamMember','skill/Workshop/Standard/MDA')
+INSERT INTO OOMEP1WS_TEAMMEMBER_ VALUES('teamMember/Workshop/Standard/RGQ6ICK2H2LEZNHRJXF6QFEVA',1,NULL,NULL,'org:openmdx:example:workshop1:TeamMember','skill/Workshop/Standard/J2EE')
+INSERT INTO OOMEP1WS_TEAMMEMBER_ VALUES('teamMember/Workshop/Standard/RGQ6ICK2H2LEZNHRJXF6QFEVA',2,NULL,NULL,'org:openmdx:example:workshop1:TeamMember','skill/Workshop/Standard/openMDX')
+INSERT INTO OOMEP1WS_TEAMMEMBER_ VALUES('teamMember/Workshop/Standard/RGQ6ICK2H2LEZNHRJXF6QFEVA',3,NULL,NULL,'org:openmdx:example:workshop1:TeamMember','skill/Workshop/Standard/Pascal')
+INSERT INTO OOMEP1WS_TEAMMEMBER VALUES('teamMember/Workshop/Standard/RGQ6ICPZKERCBNHRJXF6QFEVA','2021-07-29 11:18:04.030000',1,1,'Jane Dow',NULL,4,'org:openmdx:example:workshop1:TeamMember','2021-07-29 11:18:04.030000','segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_TEAMMEMBER_ VALUES('teamMember/Workshop/Standard/RGQ6ICPZKERCBNHRJXF6QFEVA',0,'junit','junit','org:openmdx:example:workshop1:TeamMember','skill/Workshop/Standard/MDA')
+INSERT INTO OOMEP1WS_TEAMMEMBER_ VALUES('teamMember/Workshop/Standard/RGQ6ICPZKERCBNHRJXF6QFEVA',1,NULL,NULL,'org:openmdx:example:workshop1:TeamMember','skill/Workshop/Standard/J2EE')
+INSERT INTO OOMEP1WS_TEAMMEMBER_ VALUES('teamMember/Workshop/Standard/RGQ6ICPZKERCBNHRJXF6QFEVA',2,NULL,NULL,'org:openmdx:example:workshop1:TeamMember','skill/Workshop/Standard/openCRX')
+INSERT INTO OOMEP1WS_TEAMMEMBER_ VALUES('teamMember/Workshop/Standard/RGQ6ICPZKERCBNHRJXF6QFEVA',3,NULL,NULL,'org:openmdx:example:workshop1:TeamMember','skill/Workshop/Standard/Lisp')
+COMMIT
+DELETE FROM OOMEP1WS_TASK WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openMDX'
+INSERT INTO OOMEP1WS_TASK VALUES('task/Workshop/Standard/SICLE/openMDX','2021-07-29 11:18:04.030000',1,NULL,1,'openMDX Track',3,'org:openmdx:example:workshop1:Task','2021-07-29 11:18:04.121000','project/Workshop/Standard/SICLE')
+DELETE FROM OOMEP1WS_TASK_ WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openMDX' AND IDX=0
+INSERT INTO OOMEP1WS_TASK_ VALUES('task/Workshop/Standard/SICLE/openMDX',0,'junit','junit','org:openmdx:example:workshop1:Task','skill/Workshop/Standard/MDA')
+INSERT INTO OOMEP1WS_TEAMMEMBERASSIGNMENT VALUES('assignment/Workshop/Standard/SICLE/openMDX/RGQ6ID1TR336ZNHRJXF6QFEVA','2021-07-29 11:18:04.121000',1,'participant',1,'org:openmdx:example:workshop1:TeamMemberAssignment','2021-07-29 11:18:04.121000','task/Workshop/Standard/SICLE/openMDX','teamMember/Workshop/Standard/RGQ6ICK2H2LEZNHRJXF6QFEVA')
+INSERT INTO OOMEP1WS_TEAMMEMBERASSIGNMENT_ VALUES('assignment/Workshop/Standard/SICLE/openMDX/RGQ6ID1TR336ZNHRJXF6QFEVA',0,'junit','junit','org:openmdx:example:workshop1:TeamMemberAssignment')
+COMMIT
+DELETE FROM OOMEP1WS_TASK WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openCRX'
+INSERT INTO OOMEP1WS_TASK VALUES('task/Workshop/Standard/SICLE/openCRX','2021-07-29 11:18:04.030000',1,NULL,1,'openCRX Track',3,'org:openmdx:example:workshop1:Task','2021-07-29 11:18:04.168000','project/Workshop/Standard/SICLE')
+DELETE FROM OOMEP1WS_TASK_ WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openCRX' AND IDX=0
+INSERT INTO OOMEP1WS_TASK_ VALUES('task/Workshop/Standard/SICLE/openCRX',0,'junit','junit','org:openmdx:example:workshop1:Task','skill/Workshop/Standard/MDA')
+INSERT INTO OOMEP1WS_TEAMMEMBERASSIGNMENT VALUES('assignment/Workshop/Standard/SICLE/openCRX/RGQ6ID9PVJB3FNHRJXF6QFEVA','2021-07-29 11:18:04.168000',1,'listener',1,'org:openmdx:example:workshop1:TeamMemberAssignment','2021-07-29 11:18:04.168000','task/Workshop/Standard/SICLE/openCRX','teamMember/Workshop/Standard/RGQ6ICPZKERCBNHRJXF6QFEVA')
+INSERT INTO OOMEP1WS_TEAMMEMBERASSIGNMENT_ VALUES('assignment/Workshop/Standard/SICLE/openCRX/RGQ6ID9PVJB3FNHRJXF6QFEVA',0,'junit','junit','org:openmdx:example:workshop1:TeamMemberAssignment')
+COMMIT
+DISCONNECT
+/*C4*/SET SCHEMA PUBLIC
+DELETE FROM OOMEP1WS_SEGMENT WHERE OBJECT_ID='segment/Workshop/Standard'
+DELETE FROM OOMEP1WS_SEGMENT_ WHERE OBJECT_ID='segment/Workshop/Standard' AND IDX=0
+DELETE FROM OOMEP1WS_TEAMMEMBER WHERE OBJECT_ID='teamMember/Workshop/Standard/RGQ6ICK2H2LEZNHRJXF6QFEVA'
+DELETE FROM OOMEP1WS_TEAMMEMBER WHERE OBJECT_ID='teamMember/Workshop/Standard/RGQ6ICPZKERCBNHRJXF6QFEVA'
+DELETE FROM OOMEP1WS_TEAMMEMBER_ WHERE OBJECT_ID='teamMember/Workshop/Standard/RGQ6ICK2H2LEZNHRJXF6QFEVA' AND IDX=0
+DELETE FROM OOMEP1WS_TEAMMEMBER_ WHERE OBJECT_ID='teamMember/Workshop/Standard/RGQ6ICK2H2LEZNHRJXF6QFEVA' AND IDX=1
+DELETE FROM OOMEP1WS_TEAMMEMBER_ WHERE OBJECT_ID='teamMember/Workshop/Standard/RGQ6ICK2H2LEZNHRJXF6QFEVA' AND IDX=2
+DELETE FROM OOMEP1WS_TEAMMEMBER_ WHERE OBJECT_ID='teamMember/Workshop/Standard/RGQ6ICK2H2LEZNHRJXF6QFEVA' AND IDX=3
+DELETE FROM OOMEP1WS_TEAMMEMBER_ WHERE OBJECT_ID='teamMember/Workshop/Standard/RGQ6ICPZKERCBNHRJXF6QFEVA' AND IDX=0
+DELETE FROM OOMEP1WS_TEAMMEMBER_ WHERE OBJECT_ID='teamMember/Workshop/Standard/RGQ6ICPZKERCBNHRJXF6QFEVA' AND IDX=1
+DELETE FROM OOMEP1WS_TEAMMEMBER_ WHERE OBJECT_ID='teamMember/Workshop/Standard/RGQ6ICPZKERCBNHRJXF6QFEVA' AND IDX=2
+DELETE FROM OOMEP1WS_TEAMMEMBER_ WHERE OBJECT_ID='teamMember/Workshop/Standard/RGQ6ICPZKERCBNHRJXF6QFEVA' AND IDX=3
+DELETE FROM OOMEP1WS_TASK WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openCRX'
+DELETE FROM OOMEP1WS_TASK WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openMDX'
+DELETE FROM OOMEP1WS_TASK_ WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openCRX' AND IDX=0
+DELETE FROM OOMEP1WS_TASK_ WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openCRX' AND IDX=1
+DELETE FROM OOMEP1WS_TASK_ WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openCRX' AND IDX=2
+DELETE FROM OOMEP1WS_TASK_ WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openMDX' AND IDX=0
+DELETE FROM OOMEP1WS_TASK_ WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openMDX' AND IDX=1
+DELETE FROM OOMEP1WS_TASK_ WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openMDX' AND IDX=2
+DELETE FROM OOMEP1WS_TEAMMEMBERASSIGNMENT WHERE OBJECT_ID='assignment/Workshop/Standard/SICLE/openCRX/RGQ6ID9PVJB3FNHRJXF6QFEVA'
+DELETE FROM OOMEP1WS_TEAMMEMBERASSIGNMENT WHERE OBJECT_ID='assignment/Workshop/Standard/SICLE/openMDX/RGQ6ID1TR336ZNHRJXF6QFEVA'
+DELETE FROM OOMEP1WS_TEAMMEMBERASSIGNMENT_ WHERE OBJECT_ID='assignment/Workshop/Standard/SICLE/openCRX/RGQ6ID9PVJB3FNHRJXF6QFEVA' AND IDX=0
+DELETE FROM OOMEP1WS_TEAMMEMBERASSIGNMENT_ WHERE OBJECT_ID='assignment/Workshop/Standard/SICLE/openMDX/RGQ6ID1TR336ZNHRJXF6QFEVA' AND IDX=0
+DELETE FROM OOMEP1WS_SKILL WHERE OBJECT_ID='skill/Workshop/Standard/J2EE'
+DELETE FROM OOMEP1WS_SKILL WHERE OBJECT_ID='skill/Workshop/Standard/Lisp'
+DELETE FROM OOMEP1WS_SKILL WHERE OBJECT_ID='skill/Workshop/Standard/MDA'
+DELETE FROM OOMEP1WS_SKILL WHERE OBJECT_ID='skill/Workshop/Standard/Pascal'
+DELETE FROM OOMEP1WS_SKILL WHERE OBJECT_ID='skill/Workshop/Standard/openCRX'
+DELETE FROM OOMEP1WS_SKILL WHERE OBJECT_ID='skill/Workshop/Standard/openMDX'
+DELETE FROM OOMEP1WS_SKILL_ WHERE OBJECT_ID='skill/Workshop/Standard/J2EE' AND IDX=0
+DELETE FROM OOMEP1WS_SKILL_ WHERE OBJECT_ID='skill/Workshop/Standard/Lisp' AND IDX=0
+DELETE FROM OOMEP1WS_SKILL_ WHERE OBJECT_ID='skill/Workshop/Standard/MDA' AND IDX=0
+DELETE FROM OOMEP1WS_SKILL_ WHERE OBJECT_ID='skill/Workshop/Standard/Pascal' AND IDX=0
+DELETE FROM OOMEP1WS_SKILL_ WHERE OBJECT_ID='skill/Workshop/Standard/openCRX' AND IDX=0
+DELETE FROM OOMEP1WS_SKILL_ WHERE OBJECT_ID='skill/Workshop/Standard/openMDX' AND IDX=0
+DELETE FROM OOMEP1WS_PROJECT WHERE OBJECT_ID='project/Workshop/Standard/SICLE'
+DELETE FROM OOMEP1WS_PROJECT_ WHERE OBJECT_ID='project/Workshop/Standard/SICLE' AND IDX=0
+COMMIT
+INSERT INTO OOMEP1WS_SEGMENT VALUES('segment/Workshop/Standard',NULL,'org:openmdx:example:workshop1:Segment',NULL)
+INSERT INTO OOMEP1WS_SEGMENT_ VALUES('segment/Workshop/Standard',0,'org:openmdx:example:workshop1:Segment')
+COMMIT
+INSERT INTO OOMEP1WS_PROJECT VALUES('project/Workshop/Standard/SICLE','2021-07-29 11:18:35.571000',1,'openMDX/openCRX Workshop (2006-02-27 to 2006-03-01',1,'Workshop','org:openmdx:example:workshop1:Project','2021-07-29 11:18:35.571000',NULL,'segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_PROJECT_ VALUES('project/Workshop/Standard/SICLE',0,'junit','junit','org:openmdx:example:workshop1:Project')
+INSERT INTO OOMEP1WS_TASK VALUES('task/Workshop/Standard/SICLE/openCRX','2021-07-29 11:18:35.571000',1,NULL,1,'openCRX Track',3,'org:openmdx:example:workshop1:Task','2021-07-29 11:18:35.571000','project/Workshop/Standard/SICLE')
+INSERT INTO OOMEP1WS_TASK_ VALUES('task/Workshop/Standard/SICLE/openCRX',0,'junit','junit','org:openmdx:example:workshop1:Task','skill/Workshop/Standard/MDA')
+INSERT INTO OOMEP1WS_TASK_ VALUES('task/Workshop/Standard/SICLE/openCRX',1,NULL,NULL,'org:openmdx:example:workshop1:Task','skill/Workshop/Standard/J2EE')
+INSERT INTO OOMEP1WS_TASK_ VALUES('task/Workshop/Standard/SICLE/openCRX',2,NULL,NULL,'org:openmdx:example:workshop1:Task','skill/Workshop/Standard/openCRX')
+INSERT INTO OOMEP1WS_TASK VALUES('task/Workshop/Standard/SICLE/openMDX','2021-07-29 11:18:35.571000',1,NULL,1,'openMDX Track',3,'org:openmdx:example:workshop1:Task','2021-07-29 11:18:35.571000','project/Workshop/Standard/SICLE')
+INSERT INTO OOMEP1WS_TASK_ VALUES('task/Workshop/Standard/SICLE/openMDX',0,'junit','junit','org:openmdx:example:workshop1:Task','skill/Workshop/Standard/MDA')
+INSERT INTO OOMEP1WS_TASK_ VALUES('task/Workshop/Standard/SICLE/openMDX',1,NULL,NULL,'org:openmdx:example:workshop1:Task','skill/Workshop/Standard/J2EE')
+INSERT INTO OOMEP1WS_TASK_ VALUES('task/Workshop/Standard/SICLE/openMDX',2,NULL,NULL,'org:openmdx:example:workshop1:Task','skill/Workshop/Standard/openMDX')
+INSERT INTO OOMEP1WS_SKILL VALUES('skill/Workshop/Standard/J2EE','2021-07-29 11:18:35.571000',1,1,'Jave 2 Enterprise Edition knowledge','org:openmdx:example:workshop1:Skill','2021-07-29 11:18:35.571000','segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_SKILL_ VALUES('skill/Workshop/Standard/J2EE',0,'junit','junit','org:openmdx:example:workshop1:Skill')
+INSERT INTO OOMEP1WS_SKILL VALUES('skill/Workshop/Standard/Lisp','2021-07-29 11:18:35.571000',1,1,'Lisp programming','org:openmdx:example:workshop1:Skill','2021-07-29 11:18:35.571000','segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_SKILL_ VALUES('skill/Workshop/Standard/Lisp',0,'junit','junit','org:openmdx:example:workshop1:Skill')
+INSERT INTO OOMEP1WS_SKILL VALUES('skill/Workshop/Standard/MDA','2021-07-29 11:18:35.571000',1,1,'MDA knowledge','org:openmdx:example:workshop1:Skill','2021-07-29 11:18:35.571000','segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_SKILL_ VALUES('skill/Workshop/Standard/MDA',0,'junit','junit','org:openmdx:example:workshop1:Skill')
+INSERT INTO OOMEP1WS_SKILL VALUES('skill/Workshop/Standard/Pascal','2021-07-29 11:18:35.571000',1,1,'Pascal programming','org:openmdx:example:workshop1:Skill','2021-07-29 11:18:35.571000','segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_SKILL_ VALUES('skill/Workshop/Standard/Pascal',0,'junit','junit','org:openmdx:example:workshop1:Skill')
+INSERT INTO OOMEP1WS_SKILL VALUES('skill/Workshop/Standard/openCRX','2021-07-29 11:18:35.571000',1,1,'openCRX knowledge','org:openmdx:example:workshop1:Skill','2021-07-29 11:18:35.571000','segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_SKILL_ VALUES('skill/Workshop/Standard/openCRX',0,'junit','junit','org:openmdx:example:workshop1:Skill')
+INSERT INTO OOMEP1WS_SKILL VALUES('skill/Workshop/Standard/openMDX','2021-07-29 11:18:35.571000',1,1,'openMDX knowledge','org:openmdx:example:workshop1:Skill','2021-07-29 11:18:35.571000','segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_SKILL_ VALUES('skill/Workshop/Standard/openMDX',0,'junit','junit','org:openmdx:example:workshop1:Skill')
+INSERT INTO OOMEP1WS_TEAMMEMBER VALUES('teamMember/Workshop/Standard/RR163RBNDDNMZ4TEN07BZKPQO','2021-07-29 11:18:35.571000',1,1,'John Dow',NULL,4,'org:openmdx:example:workshop1:TeamMember','2021-07-29 11:18:35.571000','segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_TEAMMEMBER_ VALUES('teamMember/Workshop/Standard/RR163RBNDDNMZ4TEN07BZKPQO',0,'junit','junit','org:openmdx:example:workshop1:TeamMember','skill/Workshop/Standard/MDA')
+INSERT INTO OOMEP1WS_TEAMMEMBER_ VALUES('teamMember/Workshop/Standard/RR163RBNDDNMZ4TEN07BZKPQO',1,NULL,NULL,'org:openmdx:example:workshop1:TeamMember','skill/Workshop/Standard/J2EE')
+INSERT INTO OOMEP1WS_TEAMMEMBER_ VALUES('teamMember/Workshop/Standard/RR163RBNDDNMZ4TEN07BZKPQO',2,NULL,NULL,'org:openmdx:example:workshop1:TeamMember','skill/Workshop/Standard/openMDX')
+INSERT INTO OOMEP1WS_TEAMMEMBER_ VALUES('teamMember/Workshop/Standard/RR163RBNDDNMZ4TEN07BZKPQO',3,NULL,NULL,'org:openmdx:example:workshop1:TeamMember','skill/Workshop/Standard/Pascal')
+INSERT INTO OOMEP1WS_TEAMMEMBER VALUES('teamMember/Workshop/Standard/RR163RHKGPTKB4TEN07BZKPQO','2021-07-29 11:18:35.571000',1,1,'Jane Dow',NULL,4,'org:openmdx:example:workshop1:TeamMember','2021-07-29 11:18:35.571000','segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_TEAMMEMBER_ VALUES('teamMember/Workshop/Standard/RR163RHKGPTKB4TEN07BZKPQO',0,'junit','junit','org:openmdx:example:workshop1:TeamMember','skill/Workshop/Standard/MDA')
+INSERT INTO OOMEP1WS_TEAMMEMBER_ VALUES('teamMember/Workshop/Standard/RR163RHKGPTKB4TEN07BZKPQO',1,NULL,NULL,'org:openmdx:example:workshop1:TeamMember','skill/Workshop/Standard/J2EE')
+INSERT INTO OOMEP1WS_TEAMMEMBER_ VALUES('teamMember/Workshop/Standard/RR163RHKGPTKB4TEN07BZKPQO',2,NULL,NULL,'org:openmdx:example:workshop1:TeamMember','skill/Workshop/Standard/openCRX')
+INSERT INTO OOMEP1WS_TEAMMEMBER_ VALUES('teamMember/Workshop/Standard/RR163RHKGPTKB4TEN07BZKPQO',3,NULL,NULL,'org:openmdx:example:workshop1:TeamMember','skill/Workshop/Standard/Lisp')
+COMMIT
+DELETE FROM OOMEP1WS_TASK WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openMDX'
+INSERT INTO OOMEP1WS_TASK VALUES('task/Workshop/Standard/SICLE/openMDX','2021-07-29 11:18:35.571000',1,NULL,1,'openMDX Track',3,'org:openmdx:example:workshop1:Task','2021-07-29 11:18:35.662000','project/Workshop/Standard/SICLE')
+DELETE FROM OOMEP1WS_TASK_ WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openMDX' AND IDX=0
+INSERT INTO OOMEP1WS_TASK_ VALUES('task/Workshop/Standard/SICLE/openMDX',0,'junit','junit','org:openmdx:example:workshop1:Task','skill/Workshop/Standard/MDA')
+INSERT INTO OOMEP1WS_TEAMMEMBERASSIGNMENT VALUES('assignment/Workshop/Standard/SICLE/openMDX/RR163RTENE5EZ4TEN07BZKPQO','2021-07-29 11:18:35.662000',1,'participant',1,'org:openmdx:example:workshop1:TeamMemberAssignment','2021-07-29 11:18:35.662000','task/Workshop/Standard/SICLE/openMDX','teamMember/Workshop/Standard/RR163RBNDDNMZ4TEN07BZKPQO')
+INSERT INTO OOMEP1WS_TEAMMEMBERASSIGNMENT_ VALUES('assignment/Workshop/Standard/SICLE/openMDX/RR163RTENE5EZ4TEN07BZKPQO',0,'junit','junit','org:openmdx:example:workshop1:TeamMemberAssignment')
+COMMIT
+DELETE FROM OOMEP1WS_TASK WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openCRX'
+INSERT INTO OOMEP1WS_TASK VALUES('task/Workshop/Standard/SICLE/openCRX','2021-07-29 11:18:35.571000',1,NULL,1,'openCRX Track',3,'org:openmdx:example:workshop1:Task','2021-07-29 11:18:35.704000','project/Workshop/Standard/SICLE')
+DELETE FROM OOMEP1WS_TASK_ WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openCRX' AND IDX=0
+INSERT INTO OOMEP1WS_TASK_ VALUES('task/Workshop/Standard/SICLE/openCRX',0,'junit','junit','org:openmdx:example:workshop1:Task','skill/Workshop/Standard/MDA')
+INSERT INTO OOMEP1WS_TEAMMEMBERASSIGNMENT VALUES('assignment/Workshop/Standard/SICLE/openCRX/RR163S1ARUDBF4TEN07BZKPQO','2021-07-29 11:18:35.704000',1,'listener',1,'org:openmdx:example:workshop1:TeamMemberAssignment','2021-07-29 11:18:35.704000','task/Workshop/Standard/SICLE/openCRX','teamMember/Workshop/Standard/RR163RHKGPTKB4TEN07BZKPQO')
+INSERT INTO OOMEP1WS_TEAMMEMBERASSIGNMENT_ VALUES('assignment/Workshop/Standard/SICLE/openCRX/RR163S1ARUDBF4TEN07BZKPQO',0,'junit','junit','org:openmdx:example:workshop1:TeamMemberAssignment')
+COMMIT
+DISCONNECT
+/*C5*/SET SCHEMA PUBLIC
+DELETE FROM OOMEP1WS_SEGMENT WHERE OBJECT_ID='segment/Workshop/Standard'
+DELETE FROM OOMEP1WS_SEGMENT_ WHERE OBJECT_ID='segment/Workshop/Standard' AND IDX=0
+DELETE FROM OOMEP1WS_TEAMMEMBER WHERE OBJECT_ID='teamMember/Workshop/Standard/RR163RBNDDNMZ4TEN07BZKPQO'
+DELETE FROM OOMEP1WS_TEAMMEMBER WHERE OBJECT_ID='teamMember/Workshop/Standard/RR163RHKGPTKB4TEN07BZKPQO'
+DELETE FROM OOMEP1WS_TEAMMEMBER_ WHERE OBJECT_ID='teamMember/Workshop/Standard/RR163RBNDDNMZ4TEN07BZKPQO' AND IDX=0
+DELETE FROM OOMEP1WS_TEAMMEMBER_ WHERE OBJECT_ID='teamMember/Workshop/Standard/RR163RBNDDNMZ4TEN07BZKPQO' AND IDX=1
+DELETE FROM OOMEP1WS_TEAMMEMBER_ WHERE OBJECT_ID='teamMember/Workshop/Standard/RR163RBNDDNMZ4TEN07BZKPQO' AND IDX=2
+DELETE FROM OOMEP1WS_TEAMMEMBER_ WHERE OBJECT_ID='teamMember/Workshop/Standard/RR163RBNDDNMZ4TEN07BZKPQO' AND IDX=3
+DELETE FROM OOMEP1WS_TEAMMEMBER_ WHERE OBJECT_ID='teamMember/Workshop/Standard/RR163RHKGPTKB4TEN07BZKPQO' AND IDX=0
+DELETE FROM OOMEP1WS_TEAMMEMBER_ WHERE OBJECT_ID='teamMember/Workshop/Standard/RR163RHKGPTKB4TEN07BZKPQO' AND IDX=1
+DELETE FROM OOMEP1WS_TEAMMEMBER_ WHERE OBJECT_ID='teamMember/Workshop/Standard/RR163RHKGPTKB4TEN07BZKPQO' AND IDX=2
+DELETE FROM OOMEP1WS_TEAMMEMBER_ WHERE OBJECT_ID='teamMember/Workshop/Standard/RR163RHKGPTKB4TEN07BZKPQO' AND IDX=3
+DELETE FROM OOMEP1WS_TASK WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openCRX'
+DELETE FROM OOMEP1WS_TASK WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openMDX'
+DELETE FROM OOMEP1WS_TASK_ WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openCRX' AND IDX=0
+DELETE FROM OOMEP1WS_TASK_ WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openCRX' AND IDX=1
+DELETE FROM OOMEP1WS_TASK_ WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openCRX' AND IDX=2
+DELETE FROM OOMEP1WS_TASK_ WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openMDX' AND IDX=0
+DELETE FROM OOMEP1WS_TASK_ WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openMDX' AND IDX=1
+DELETE FROM OOMEP1WS_TASK_ WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openMDX' AND IDX=2
+DELETE FROM OOMEP1WS_TEAMMEMBERASSIGNMENT WHERE OBJECT_ID='assignment/Workshop/Standard/SICLE/openCRX/RR163S1ARUDBF4TEN07BZKPQO'
+DELETE FROM OOMEP1WS_TEAMMEMBERASSIGNMENT WHERE OBJECT_ID='assignment/Workshop/Standard/SICLE/openMDX/RR163RTENE5EZ4TEN07BZKPQO'
+DELETE FROM OOMEP1WS_TEAMMEMBERASSIGNMENT_ WHERE OBJECT_ID='assignment/Workshop/Standard/SICLE/openCRX/RR163S1ARUDBF4TEN07BZKPQO' AND IDX=0
+DELETE FROM OOMEP1WS_TEAMMEMBERASSIGNMENT_ WHERE OBJECT_ID='assignment/Workshop/Standard/SICLE/openMDX/RR163RTENE5EZ4TEN07BZKPQO' AND IDX=0
+DELETE FROM OOMEP1WS_SKILL WHERE OBJECT_ID='skill/Workshop/Standard/J2EE'
+DELETE FROM OOMEP1WS_SKILL WHERE OBJECT_ID='skill/Workshop/Standard/Lisp'
+DELETE FROM OOMEP1WS_SKILL WHERE OBJECT_ID='skill/Workshop/Standard/MDA'
+DELETE FROM OOMEP1WS_SKILL WHERE OBJECT_ID='skill/Workshop/Standard/Pascal'
+DELETE FROM OOMEP1WS_SKILL WHERE OBJECT_ID='skill/Workshop/Standard/openCRX'
+DELETE FROM OOMEP1WS_SKILL WHERE OBJECT_ID='skill/Workshop/Standard/openMDX'
+DELETE FROM OOMEP1WS_SKILL_ WHERE OBJECT_ID='skill/Workshop/Standard/J2EE' AND IDX=0
+DELETE FROM OOMEP1WS_SKILL_ WHERE OBJECT_ID='skill/Workshop/Standard/Lisp' AND IDX=0
+DELETE FROM OOMEP1WS_SKILL_ WHERE OBJECT_ID='skill/Workshop/Standard/MDA' AND IDX=0
+DELETE FROM OOMEP1WS_SKILL_ WHERE OBJECT_ID='skill/Workshop/Standard/Pascal' AND IDX=0
+DELETE FROM OOMEP1WS_SKILL_ WHERE OBJECT_ID='skill/Workshop/Standard/openCRX' AND IDX=0
+DELETE FROM OOMEP1WS_SKILL_ WHERE OBJECT_ID='skill/Workshop/Standard/openMDX' AND IDX=0
+DELETE FROM OOMEP1WS_PROJECT WHERE OBJECT_ID='project/Workshop/Standard/SICLE'
+DELETE FROM OOMEP1WS_PROJECT_ WHERE OBJECT_ID='project/Workshop/Standard/SICLE' AND IDX=0
+COMMIT
+INSERT INTO OOMEP1WS_SEGMENT VALUES('segment/Workshop/Standard',NULL,'org:openmdx:example:workshop1:Segment',NULL)
+INSERT INTO OOMEP1WS_SEGMENT_ VALUES('segment/Workshop/Standard',0,'org:openmdx:example:workshop1:Segment')
+COMMIT
+INSERT INTO OOMEP1WS_PROJECT VALUES('project/Workshop/Standard/SICLE','2021-07-29 11:28:10.795000',1,'openMDX/openCRX Workshop (2006-02-27 to 2006-03-01',1,'Workshop','org:openmdx:example:workshop1:Project','2021-07-29 11:28:10.795000',NULL,'segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_PROJECT_ VALUES('project/Workshop/Standard/SICLE',0,'junit','junit','org:openmdx:example:workshop1:Project')
+INSERT INTO OOMEP1WS_TASK VALUES('task/Workshop/Standard/SICLE/openCRX','2021-07-29 11:28:10.795000',1,NULL,1,'openCRX Track',3,'org:openmdx:example:workshop1:Task','2021-07-29 11:28:10.795000','project/Workshop/Standard/SICLE')
+INSERT INTO OOMEP1WS_TASK_ VALUES('task/Workshop/Standard/SICLE/openCRX',0,'junit','junit','org:openmdx:example:workshop1:Task','skill/Workshop/Standard/MDA')
+INSERT INTO OOMEP1WS_TASK_ VALUES('task/Workshop/Standard/SICLE/openCRX',1,NULL,NULL,'org:openmdx:example:workshop1:Task','skill/Workshop/Standard/J2EE')
+INSERT INTO OOMEP1WS_TASK_ VALUES('task/Workshop/Standard/SICLE/openCRX',2,NULL,NULL,'org:openmdx:example:workshop1:Task','skill/Workshop/Standard/openCRX')
+INSERT INTO OOMEP1WS_TASK VALUES('task/Workshop/Standard/SICLE/openMDX','2021-07-29 11:28:10.795000',1,NULL,1,'openMDX Track',3,'org:openmdx:example:workshop1:Task','2021-07-29 11:28:10.795000','project/Workshop/Standard/SICLE')
+INSERT INTO OOMEP1WS_TASK_ VALUES('task/Workshop/Standard/SICLE/openMDX',0,'junit','junit','org:openmdx:example:workshop1:Task','skill/Workshop/Standard/MDA')
+INSERT INTO OOMEP1WS_TASK_ VALUES('task/Workshop/Standard/SICLE/openMDX',1,NULL,NULL,'org:openmdx:example:workshop1:Task','skill/Workshop/Standard/J2EE')
+INSERT INTO OOMEP1WS_TASK_ VALUES('task/Workshop/Standard/SICLE/openMDX',2,NULL,NULL,'org:openmdx:example:workshop1:Task','skill/Workshop/Standard/openMDX')
+INSERT INTO OOMEP1WS_SKILL VALUES('skill/Workshop/Standard/J2EE','2021-07-29 11:28:10.795000',1,1,'Jave 2 Enterprise Edition knowledge','org:openmdx:example:workshop1:Skill','2021-07-29 11:28:10.795000','segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_SKILL_ VALUES('skill/Workshop/Standard/J2EE',0,'junit','junit','org:openmdx:example:workshop1:Skill')
+INSERT INTO OOMEP1WS_SKILL VALUES('skill/Workshop/Standard/Lisp','2021-07-29 11:28:10.795000',1,1,'Lisp programming','org:openmdx:example:workshop1:Skill','2021-07-29 11:28:10.795000','segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_SKILL_ VALUES('skill/Workshop/Standard/Lisp',0,'junit','junit','org:openmdx:example:workshop1:Skill')
+INSERT INTO OOMEP1WS_SKILL VALUES('skill/Workshop/Standard/MDA','2021-07-29 11:28:10.795000',1,1,'MDA knowledge','org:openmdx:example:workshop1:Skill','2021-07-29 11:28:10.795000','segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_SKILL_ VALUES('skill/Workshop/Standard/MDA',0,'junit','junit','org:openmdx:example:workshop1:Skill')
+INSERT INTO OOMEP1WS_SKILL VALUES('skill/Workshop/Standard/Pascal','2021-07-29 11:28:10.795000',1,1,'Pascal programming','org:openmdx:example:workshop1:Skill','2021-07-29 11:28:10.795000','segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_SKILL_ VALUES('skill/Workshop/Standard/Pascal',0,'junit','junit','org:openmdx:example:workshop1:Skill')
+INSERT INTO OOMEP1WS_SKILL VALUES('skill/Workshop/Standard/openCRX','2021-07-29 11:28:10.795000',1,1,'openCRX knowledge','org:openmdx:example:workshop1:Skill','2021-07-29 11:28:10.795000','segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_SKILL_ VALUES('skill/Workshop/Standard/openCRX',0,'junit','junit','org:openmdx:example:workshop1:Skill')
+INSERT INTO OOMEP1WS_SKILL VALUES('skill/Workshop/Standard/openMDX','2021-07-29 11:28:10.795000',1,1,'openMDX knowledge','org:openmdx:example:workshop1:Skill','2021-07-29 11:28:10.795000','segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_SKILL_ VALUES('skill/Workshop/Standard/openMDX',0,'junit','junit','org:openmdx:example:workshop1:Skill')
+INSERT INTO OOMEP1WS_TEAMMEMBER VALUES('teamMember/Workshop/Standard/94G9TV9SVBOX7G4ZYST0ME9A2','2021-07-29 11:28:10.795000',1,1,'John Dow',NULL,4,'org:openmdx:example:workshop1:TeamMember','2021-07-29 11:28:10.795000','segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_TEAMMEMBER_ VALUES('teamMember/Workshop/Standard/94G9TV9SVBOX7G4ZYST0ME9A2',0,'junit','junit','org:openmdx:example:workshop1:TeamMember','skill/Workshop/Standard/MDA')
+INSERT INTO OOMEP1WS_TEAMMEMBER_ VALUES('teamMember/Workshop/Standard/94G9TV9SVBOX7G4ZYST0ME9A2',1,NULL,NULL,'org:openmdx:example:workshop1:TeamMember','skill/Workshop/Standard/J2EE')
+INSERT INTO OOMEP1WS_TEAMMEMBER_ VALUES('teamMember/Workshop/Standard/94G9TV9SVBOX7G4ZYST0ME9A2',2,NULL,NULL,'org:openmdx:example:workshop1:TeamMember','skill/Workshop/Standard/openMDX')
+INSERT INTO OOMEP1WS_TEAMMEMBER_ VALUES('teamMember/Workshop/Standard/94G9TV9SVBOX7G4ZYST0ME9A2',3,NULL,NULL,'org:openmdx:example:workshop1:TeamMember','skill/Workshop/Standard/Pascal')
+INSERT INTO OOMEP1WS_TEAMMEMBER VALUES('teamMember/Workshop/Standard/94G9TVFPYNUUJG4ZYST0ME9A2','2021-07-29 11:28:10.795000',1,1,'Jane Dow',NULL,4,'org:openmdx:example:workshop1:TeamMember','2021-07-29 11:28:10.795000','segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_TEAMMEMBER_ VALUES('teamMember/Workshop/Standard/94G9TVFPYNUUJG4ZYST0ME9A2',0,'junit','junit','org:openmdx:example:workshop1:TeamMember','skill/Workshop/Standard/MDA')
+INSERT INTO OOMEP1WS_TEAMMEMBER_ VALUES('teamMember/Workshop/Standard/94G9TVFPYNUUJG4ZYST0ME9A2',1,NULL,NULL,'org:openmdx:example:workshop1:TeamMember','skill/Workshop/Standard/J2EE')
+INSERT INTO OOMEP1WS_TEAMMEMBER_ VALUES('teamMember/Workshop/Standard/94G9TVFPYNUUJG4ZYST0ME9A2',2,NULL,NULL,'org:openmdx:example:workshop1:TeamMember','skill/Workshop/Standard/openCRX')
+INSERT INTO OOMEP1WS_TEAMMEMBER_ VALUES('teamMember/Workshop/Standard/94G9TVFPYNUUJG4ZYST0ME9A2',3,NULL,NULL,'org:openmdx:example:workshop1:TeamMember','skill/Workshop/Standard/Lisp')
+COMMIT
+DELETE FROM OOMEP1WS_TASK WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openMDX'
+INSERT INTO OOMEP1WS_TASK VALUES('task/Workshop/Standard/SICLE/openMDX','2021-07-29 11:28:10.795000',1,NULL,1,'openMDX Track',3,'org:openmdx:example:workshop1:Task','2021-07-29 11:28:10.874000','project/Workshop/Standard/SICLE')
+DELETE FROM OOMEP1WS_TASK_ WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openMDX' AND IDX=0
+INSERT INTO OOMEP1WS_TASK_ VALUES('task/Workshop/Standard/SICLE/openMDX',0,'junit','junit','org:openmdx:example:workshop1:Task','skill/Workshop/Standard/MDA')
+INSERT INTO OOMEP1WS_TEAMMEMBERASSIGNMENT VALUES('assignment/Workshop/Standard/SICLE/openMDX/94G9TVRK5C6P7G4ZYST0ME9A2','2021-07-29 11:28:10.874000',1,'participant',1,'org:openmdx:example:workshop1:TeamMemberAssignment','2021-07-29 11:28:10.874000','task/Workshop/Standard/SICLE/openMDX','teamMember/Workshop/Standard/94G9TV9SVBOX7G4ZYST0ME9A2')
+INSERT INTO OOMEP1WS_TEAMMEMBERASSIGNMENT_ VALUES('assignment/Workshop/Standard/SICLE/openMDX/94G9TVRK5C6P7G4ZYST0ME9A2',0,'junit','junit','org:openmdx:example:workshop1:TeamMemberAssignment')
+COMMIT
+DELETE FROM OOMEP1WS_TASK WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openCRX'
+INSERT INTO OOMEP1WS_TASK VALUES('task/Workshop/Standard/SICLE/openCRX','2021-07-29 11:28:10.795000',1,NULL,1,'openCRX Track',3,'org:openmdx:example:workshop1:Task','2021-07-29 11:28:10.911000','project/Workshop/Standard/SICLE')
+DELETE FROM OOMEP1WS_TASK_ WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openCRX' AND IDX=0
+INSERT INTO OOMEP1WS_TASK_ VALUES('task/Workshop/Standard/SICLE/openCRX',0,'junit','junit','org:openmdx:example:workshop1:Task','skill/Workshop/Standard/MDA')
+INSERT INTO OOMEP1WS_TEAMMEMBERASSIGNMENT VALUES('assignment/Workshop/Standard/SICLE/openCRX/94G9TVZG9SELNG4ZYST0ME9A2','2021-07-29 11:28:10.911000',1,'listener',1,'org:openmdx:example:workshop1:TeamMemberAssignment','2021-07-29 11:28:10.911000','task/Workshop/Standard/SICLE/openCRX','teamMember/Workshop/Standard/94G9TVFPYNUUJG4ZYST0ME9A2')
+INSERT INTO OOMEP1WS_TEAMMEMBERASSIGNMENT_ VALUES('assignment/Workshop/Standard/SICLE/openCRX/94G9TVZG9SELNG4ZYST0ME9A2',0,'junit','junit','org:openmdx:example:workshop1:TeamMemberAssignment')
+COMMIT
+DISCONNECT
+/*C6*/SET SCHEMA PUBLIC
+DELETE FROM OOMEP1WS_SEGMENT WHERE OBJECT_ID='segment/Workshop/Standard'
+DELETE FROM OOMEP1WS_SEGMENT_ WHERE OBJECT_ID='segment/Workshop/Standard' AND IDX=0
+DELETE FROM OOMEP1WS_TEAMMEMBER WHERE OBJECT_ID='teamMember/Workshop/Standard/94G9TV9SVBOX7G4ZYST0ME9A2'
+DELETE FROM OOMEP1WS_TEAMMEMBER WHERE OBJECT_ID='teamMember/Workshop/Standard/94G9TVFPYNUUJG4ZYST0ME9A2'
+DELETE FROM OOMEP1WS_TEAMMEMBER_ WHERE OBJECT_ID='teamMember/Workshop/Standard/94G9TV9SVBOX7G4ZYST0ME9A2' AND IDX=0
+DELETE FROM OOMEP1WS_TEAMMEMBER_ WHERE OBJECT_ID='teamMember/Workshop/Standard/94G9TV9SVBOX7G4ZYST0ME9A2' AND IDX=1
+DELETE FROM OOMEP1WS_TEAMMEMBER_ WHERE OBJECT_ID='teamMember/Workshop/Standard/94G9TV9SVBOX7G4ZYST0ME9A2' AND IDX=2
+DELETE FROM OOMEP1WS_TEAMMEMBER_ WHERE OBJECT_ID='teamMember/Workshop/Standard/94G9TV9SVBOX7G4ZYST0ME9A2' AND IDX=3
+DELETE FROM OOMEP1WS_TEAMMEMBER_ WHERE OBJECT_ID='teamMember/Workshop/Standard/94G9TVFPYNUUJG4ZYST0ME9A2' AND IDX=0
+DELETE FROM OOMEP1WS_TEAMMEMBER_ WHERE OBJECT_ID='teamMember/Workshop/Standard/94G9TVFPYNUUJG4ZYST0ME9A2' AND IDX=1
+DELETE FROM OOMEP1WS_TEAMMEMBER_ WHERE OBJECT_ID='teamMember/Workshop/Standard/94G9TVFPYNUUJG4ZYST0ME9A2' AND IDX=2
+DELETE FROM OOMEP1WS_TEAMMEMBER_ WHERE OBJECT_ID='teamMember/Workshop/Standard/94G9TVFPYNUUJG4ZYST0ME9A2' AND IDX=3
+DELETE FROM OOMEP1WS_TASK WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openCRX'
+DELETE FROM OOMEP1WS_TASK WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openMDX'
+DELETE FROM OOMEP1WS_TASK_ WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openCRX' AND IDX=0
+DELETE FROM OOMEP1WS_TASK_ WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openCRX' AND IDX=1
+DELETE FROM OOMEP1WS_TASK_ WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openCRX' AND IDX=2
+DELETE FROM OOMEP1WS_TASK_ WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openMDX' AND IDX=0
+DELETE FROM OOMEP1WS_TASK_ WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openMDX' AND IDX=1
+DELETE FROM OOMEP1WS_TASK_ WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openMDX' AND IDX=2
+DELETE FROM OOMEP1WS_TEAMMEMBERASSIGNMENT WHERE OBJECT_ID='assignment/Workshop/Standard/SICLE/openCRX/94G9TVZG9SELNG4ZYST0ME9A2'
+DELETE FROM OOMEP1WS_TEAMMEMBERASSIGNMENT WHERE OBJECT_ID='assignment/Workshop/Standard/SICLE/openMDX/94G9TVRK5C6P7G4ZYST0ME9A2'
+DELETE FROM OOMEP1WS_TEAMMEMBERASSIGNMENT_ WHERE OBJECT_ID='assignment/Workshop/Standard/SICLE/openCRX/94G9TVZG9SELNG4ZYST0ME9A2' AND IDX=0
+DELETE FROM OOMEP1WS_TEAMMEMBERASSIGNMENT_ WHERE OBJECT_ID='assignment/Workshop/Standard/SICLE/openMDX/94G9TVRK5C6P7G4ZYST0ME9A2' AND IDX=0
+DELETE FROM OOMEP1WS_SKILL WHERE OBJECT_ID='skill/Workshop/Standard/J2EE'
+DELETE FROM OOMEP1WS_SKILL WHERE OBJECT_ID='skill/Workshop/Standard/Lisp'
+DELETE FROM OOMEP1WS_SKILL WHERE OBJECT_ID='skill/Workshop/Standard/MDA'
+DELETE FROM OOMEP1WS_SKILL WHERE OBJECT_ID='skill/Workshop/Standard/Pascal'
+DELETE FROM OOMEP1WS_SKILL WHERE OBJECT_ID='skill/Workshop/Standard/openCRX'
+DELETE FROM OOMEP1WS_SKILL WHERE OBJECT_ID='skill/Workshop/Standard/openMDX'
+DELETE FROM OOMEP1WS_SKILL_ WHERE OBJECT_ID='skill/Workshop/Standard/J2EE' AND IDX=0
+DELETE FROM OOMEP1WS_SKILL_ WHERE OBJECT_ID='skill/Workshop/Standard/Lisp' AND IDX=0
+DELETE FROM OOMEP1WS_SKILL_ WHERE OBJECT_ID='skill/Workshop/Standard/MDA' AND IDX=0
+DELETE FROM OOMEP1WS_SKILL_ WHERE OBJECT_ID='skill/Workshop/Standard/Pascal' AND IDX=0
+DELETE FROM OOMEP1WS_SKILL_ WHERE OBJECT_ID='skill/Workshop/Standard/openCRX' AND IDX=0
+DELETE FROM OOMEP1WS_SKILL_ WHERE OBJECT_ID='skill/Workshop/Standard/openMDX' AND IDX=0
+DELETE FROM OOMEP1WS_PROJECT WHERE OBJECT_ID='project/Workshop/Standard/SICLE'
+DELETE FROM OOMEP1WS_PROJECT_ WHERE OBJECT_ID='project/Workshop/Standard/SICLE' AND IDX=0
+COMMIT
+INSERT INTO OOMEP1WS_SEGMENT VALUES('segment/Workshop/Standard',NULL,'org:openmdx:example:workshop1:Segment',NULL)
+INSERT INTO OOMEP1WS_SEGMENT_ VALUES('segment/Workshop/Standard',0,'org:openmdx:example:workshop1:Segment')
+COMMIT
+INSERT INTO OOMEP1WS_PROJECT VALUES('project/Workshop/Standard/SICLE','2021-07-29 11:28:58.329000',1,'openMDX/openCRX Workshop (2006-02-27 to 2006-03-01',1,'Workshop','org:openmdx:example:workshop1:Project','2021-07-29 11:28:58.329000',NULL,'segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_PROJECT_ VALUES('project/Workshop/Standard/SICLE',0,'junit','junit','org:openmdx:example:workshop1:Project')
+INSERT INTO OOMEP1WS_TASK VALUES('task/Workshop/Standard/SICLE/openCRX','2021-07-29 11:28:58.329000',1,NULL,1,'openCRX Track',3,'org:openmdx:example:workshop1:Task','2021-07-29 11:28:58.329000','project/Workshop/Standard/SICLE')
+INSERT INTO OOMEP1WS_TASK_ VALUES('task/Workshop/Standard/SICLE/openCRX',0,'junit','junit','org:openmdx:example:workshop1:Task','skill/Workshop/Standard/MDA')
+INSERT INTO OOMEP1WS_TASK_ VALUES('task/Workshop/Standard/SICLE/openCRX',1,NULL,NULL,'org:openmdx:example:workshop1:Task','skill/Workshop/Standard/J2EE')
+INSERT INTO OOMEP1WS_TASK_ VALUES('task/Workshop/Standard/SICLE/openCRX',2,NULL,NULL,'org:openmdx:example:workshop1:Task','skill/Workshop/Standard/openCRX')
+INSERT INTO OOMEP1WS_TASK VALUES('task/Workshop/Standard/SICLE/openMDX','2021-07-29 11:28:58.329000',1,NULL,1,'openMDX Track',3,'org:openmdx:example:workshop1:Task','2021-07-29 11:28:58.329000','project/Workshop/Standard/SICLE')
+INSERT INTO OOMEP1WS_TASK_ VALUES('task/Workshop/Standard/SICLE/openMDX',0,'junit','junit','org:openmdx:example:workshop1:Task','skill/Workshop/Standard/MDA')
+INSERT INTO OOMEP1WS_TASK_ VALUES('task/Workshop/Standard/SICLE/openMDX',1,NULL,NULL,'org:openmdx:example:workshop1:Task','skill/Workshop/Standard/J2EE')
+INSERT INTO OOMEP1WS_TASK_ VALUES('task/Workshop/Standard/SICLE/openMDX',2,NULL,NULL,'org:openmdx:example:workshop1:Task','skill/Workshop/Standard/openMDX')
+INSERT INTO OOMEP1WS_SKILL VALUES('skill/Workshop/Standard/J2EE','2021-07-29 11:28:58.329000',1,1,'Jave 2 Enterprise Edition knowledge','org:openmdx:example:workshop1:Skill','2021-07-29 11:28:58.329000','segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_SKILL_ VALUES('skill/Workshop/Standard/J2EE',0,'junit','junit','org:openmdx:example:workshop1:Skill')
+INSERT INTO OOMEP1WS_SKILL VALUES('skill/Workshop/Standard/Lisp','2021-07-29 11:28:58.329000',1,1,'Lisp programming','org:openmdx:example:workshop1:Skill','2021-07-29 11:28:58.329000','segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_SKILL_ VALUES('skill/Workshop/Standard/Lisp',0,'junit','junit','org:openmdx:example:workshop1:Skill')
+INSERT INTO OOMEP1WS_SKILL VALUES('skill/Workshop/Standard/MDA','2021-07-29 11:28:58.329000',1,1,'MDA knowledge','org:openmdx:example:workshop1:Skill','2021-07-29 11:28:58.329000','segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_SKILL_ VALUES('skill/Workshop/Standard/MDA',0,'junit','junit','org:openmdx:example:workshop1:Skill')
+INSERT INTO OOMEP1WS_SKILL VALUES('skill/Workshop/Standard/Pascal','2021-07-29 11:28:58.329000',1,1,'Pascal programming','org:openmdx:example:workshop1:Skill','2021-07-29 11:28:58.329000','segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_SKILL_ VALUES('skill/Workshop/Standard/Pascal',0,'junit','junit','org:openmdx:example:workshop1:Skill')
+INSERT INTO OOMEP1WS_SKILL VALUES('skill/Workshop/Standard/openCRX','2021-07-29 11:28:58.329000',1,1,'openCRX knowledge','org:openmdx:example:workshop1:Skill','2021-07-29 11:28:58.329000','segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_SKILL_ VALUES('skill/Workshop/Standard/openCRX',0,'junit','junit','org:openmdx:example:workshop1:Skill')
+INSERT INTO OOMEP1WS_SKILL VALUES('skill/Workshop/Standard/openMDX','2021-07-29 11:28:58.329000',1,1,'openMDX knowledge','org:openmdx:example:workshop1:Skill','2021-07-29 11:28:58.329000','segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_SKILL_ VALUES('skill/Workshop/Standard/openMDX',0,'junit','junit','org:openmdx:example:workshop1:Skill')
+INSERT INTO OOMEP1WS_TEAMMEMBER VALUES('teamMember/Workshop/Standard/9K1ZMG5UTWQ97GCZ61E096NVC','2021-07-29 11:28:58.329000',1,1,'John Dow',NULL,4,'org:openmdx:example:workshop1:TeamMember','2021-07-29 11:28:58.329000','segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_TEAMMEMBER_ VALUES('teamMember/Workshop/Standard/9K1ZMG5UTWQ97GCZ61E096NVC',0,'junit','junit','org:openmdx:example:workshop1:TeamMember','skill/Workshop/Standard/MDA')
+INSERT INTO OOMEP1WS_TEAMMEMBER_ VALUES('teamMember/Workshop/Standard/9K1ZMG5UTWQ97GCZ61E096NVC',1,NULL,NULL,'org:openmdx:example:workshop1:TeamMember','skill/Workshop/Standard/J2EE')
+INSERT INTO OOMEP1WS_TEAMMEMBER_ VALUES('teamMember/Workshop/Standard/9K1ZMG5UTWQ97GCZ61E096NVC',2,NULL,NULL,'org:openmdx:example:workshop1:TeamMember','skill/Workshop/Standard/openMDX')
+INSERT INTO OOMEP1WS_TEAMMEMBER_ VALUES('teamMember/Workshop/Standard/9K1ZMG5UTWQ97GCZ61E096NVC',3,NULL,NULL,'org:openmdx:example:workshop1:TeamMember','skill/Workshop/Standard/Pascal')
+INSERT INTO OOMEP1WS_TEAMMEMBER VALUES('teamMember/Workshop/Standard/9K1ZMGBRX8W6JGCZ61E096NVC','2021-07-29 11:28:58.329000',1,1,'Jane Dow',NULL,4,'org:openmdx:example:workshop1:TeamMember','2021-07-29 11:28:58.329000','segment/Workshop/Standard')
+INSERT INTO OOMEP1WS_TEAMMEMBER_ VALUES('teamMember/Workshop/Standard/9K1ZMGBRX8W6JGCZ61E096NVC',0,'junit','junit','org:openmdx:example:workshop1:TeamMember','skill/Workshop/Standard/MDA')
+INSERT INTO OOMEP1WS_TEAMMEMBER_ VALUES('teamMember/Workshop/Standard/9K1ZMGBRX8W6JGCZ61E096NVC',1,NULL,NULL,'org:openmdx:example:workshop1:TeamMember','skill/Workshop/Standard/J2EE')
+INSERT INTO OOMEP1WS_TEAMMEMBER_ VALUES('teamMember/Workshop/Standard/9K1ZMGBRX8W6JGCZ61E096NVC',2,NULL,NULL,'org:openmdx:example:workshop1:TeamMember','skill/Workshop/Standard/openCRX')
+INSERT INTO OOMEP1WS_TEAMMEMBER_ VALUES('teamMember/Workshop/Standard/9K1ZMGBRX8W6JGCZ61E096NVC',3,NULL,NULL,'org:openmdx:example:workshop1:TeamMember','skill/Workshop/Standard/Lisp')
+COMMIT
+DELETE FROM OOMEP1WS_TASK WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openMDX'
+INSERT INTO OOMEP1WS_TASK VALUES('task/Workshop/Standard/SICLE/openMDX','2021-07-29 11:28:58.329000',1,NULL,1,'openMDX Track',3,'org:openmdx:example:workshop1:Task','2021-07-29 11:28:58.394000','project/Workshop/Standard/SICLE')
+DELETE FROM OOMEP1WS_TASK_ WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openMDX' AND IDX=0
+INSERT INTO OOMEP1WS_TASK_ VALUES('task/Workshop/Standard/SICLE/openMDX',0,'junit','junit','org:openmdx:example:workshop1:Task','skill/Workshop/Standard/MDA')
+INSERT INTO OOMEP1WS_TEAMMEMBERASSIGNMENT VALUES('assignment/Workshop/Standard/SICLE/openMDX/9K1ZMGNM3X817GCZ61E096NVC','2021-07-29 11:28:58.394000',1,'participant',1,'org:openmdx:example:workshop1:TeamMemberAssignment','2021-07-29 11:28:58.394000','task/Workshop/Standard/SICLE/openMDX','teamMember/Workshop/Standard/9K1ZMG5UTWQ97GCZ61E096NVC')
+INSERT INTO OOMEP1WS_TEAMMEMBERASSIGNMENT_ VALUES('assignment/Workshop/Standard/SICLE/openMDX/9K1ZMGNM3X817GCZ61E096NVC',0,'junit','junit','org:openmdx:example:workshop1:TeamMemberAssignment')
+COMMIT
+DELETE FROM OOMEP1WS_TASK WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openCRX'
+INSERT INTO OOMEP1WS_TASK VALUES('task/Workshop/Standard/SICLE/openCRX','2021-07-29 11:28:58.329000',1,NULL,1,'openCRX Track',3,'org:openmdx:example:workshop1:Task','2021-07-29 11:28:58.423000','project/Workshop/Standard/SICLE')
+DELETE FROM OOMEP1WS_TASK_ WHERE OBJECT_ID='task/Workshop/Standard/SICLE/openCRX' AND IDX=0
+INSERT INTO OOMEP1WS_TASK_ VALUES('task/Workshop/Standard/SICLE/openCRX',0,'junit','junit','org:openmdx:example:workshop1:Task','skill/Workshop/Standard/MDA')
+INSERT INTO OOMEP1WS_TEAMMEMBERASSIGNMENT VALUES('assignment/Workshop/Standard/SICLE/openCRX/9K1ZMGVI8DFXNGCZ61E096NVC','2021-07-29 11:28:58.423000',1,'listener',1,'org:openmdx:example:workshop1:TeamMemberAssignment','2021-07-29 11:28:58.423000','task/Workshop/Standard/SICLE/openCRX','teamMember/Workshop/Standard/9K1ZMGBRX8W6JGCZ61E096NVC')
+INSERT INTO OOMEP1WS_TEAMMEMBERASSIGNMENT_ VALUES('assignment/Workshop/Standard/SICLE/openCRX/9K1ZMGVI8DFXNGCZ61E096NVC',0,'junit','junit','org:openmdx:example:workshop1:TeamMemberAssignment')
+COMMIT
+DISCONNECT

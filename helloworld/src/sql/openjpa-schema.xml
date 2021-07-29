@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemas>
+    <schema>
+        <table name="OOMEP1HO_HELLOWORLD">
+            <pk column="OBJECT_ID"/>
+            <column name="OBJECT_ID" type="varchar" not-null="true" size="256"/>
+            <column name="DESCRIPTION" type="varchar" size="256"/>
+            <column name="&quot;P$$PARENT&quot;" type="varchar" size="256"/>
+            <column name="DTYPE" type="varchar" size="256"/>
+        </table>
+        <table name="OOMEP1HO_HELLOWORLD_">
+            <pk>
+                <on column="OBJECT_ID"/>
+                <on column="IDX"/>
+            </pk>
+            <column name="OBJECT_ID" type="varchar" not-null="true" size="256"/>
+            <column name="IDX" type="integer" not-null="true"/>
+            <column name="DTYPE" type="varchar" size="256"/>
+            <fk to-table="OOMEP1HO_HELLOWORLD" column="OBJECT_ID"/>
+        </table>
+    </schema>
+</schemas>

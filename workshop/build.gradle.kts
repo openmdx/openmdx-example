@@ -94,26 +94,42 @@ project.getConfigurations().maybeCreate("openmdxBootstrap")
 project.getConfigurations().maybeCreate("openmdxBaseModels")
 project.getConfigurations().maybeCreate("openmdxSecurityModels")
 project.getConfigurations().maybeCreate("openmdxPortalModels")
+project.getConfigurations().maybeCreate("tools")
 val openmdxBootstrap by configurations
 val openmdxBaseModels by configurations
 val openmdxSecurityModels by configurations
 val openmdxPortalModels by configurations
+val tools by configurations
 
 dependencies {
     // implementation
-    implementation("org.openmdx:openmdx-base:2.17.8")
+    implementation("org.openmdx:openmdx-base:2.17.+")
     implementation("javax:javaee-api:8.0.+")
     implementation("javax.jdo:jdo-api:3.1")
     implementation("junit:junit:4.12")
     // openmdxBootstrap
-    openmdxBootstrap("org.openmdx:openmdx-base:2.17.8")
+    openmdxBootstrap("org.openmdx:openmdx-base:2.17.+")
     openmdxBootstrap("javax:javaee-api:8.0.+")
     // openmdxBaseModels
-    openmdxBaseModels("org.openmdx:openmdx-base-models:2.17.8")
+    openmdxBaseModels("org.openmdx:openmdx-base-models:2.17.+")
     // openmdxSecurityModels
-    openmdxSecurityModels("org.openmdx:openmdx-security-models:2.17.8")
+    openmdxSecurityModels("org.openmdx:openmdx-security-models:2.17.+")
     // openmdxPortalModels
-    openmdxPortalModels("org.openmdx:openmdx-portal-models:2.17.8")    
+    openmdxPortalModels("org.openmdx:openmdx-portal-models:2.17.+")
+    // tools
+	tools(files("$buildDir/classes/java/main"))
+	tools(files("$buildDir/resources/main"))
+    tools("javax:javaee-api:8.0.+")
+    tools("org.openmdx:openmdx-base:2.17.+")
+    tools("org.apache.openjpa:openjpa:2.4.+")
+    tools("org.hsqldb:hsqldb:2.4.+")
+    // test
+    testImplementation("org.junit.jupiter:junit-jupiter:5.6.0")
+	testRuntimeOnly(files("$buildDir/generated/sources/model/openmdx-workshop.openmdx-xmi.zip"))
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter:5.6.0")
+    testRuntimeOnly("org.openmdx:openmdx-base:2.17.+")
+    testRuntimeOnly("org.openmdx:openmdx-system:2.17.+")
+    testRuntimeOnly("org.hsqldb:hsqldb:2.4.+")
 }
 
 sourceSets {
@@ -140,6 +156,15 @@ sourceSets {
 tasks.test {
     useJUnitPlatform()
     maxHeapSize = "4G"
+    testLogging {
+        events("passed","skipped","failed")
+    }
+}
+
+tasks.register<org.openmdx.gradle.CreateSchemaTask>("create-schema") {
+}
+
+tasks.register<org.openmdx.gradle.CreateSqlTask>("create-sql") {
 }
 
 tasks.register<org.openmdx.gradle.GenerateModelsTask>("generate-model") {
