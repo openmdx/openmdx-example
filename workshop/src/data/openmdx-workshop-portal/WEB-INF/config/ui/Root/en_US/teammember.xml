@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.openmdx.base.Authority xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="org:openmdx:ui1" xsi:noNamespaceSchemaLocation="xri://+resource/org/openmdx/ui1/xmi1/ui1.xsd">
+	<_object/>
+	<_content>
+		<provider>
+			<org.openmdx.base.Provider qualifiedName="Workshop" _operation="null">
+				<_object/>
+				<_content>
+					<segment>
+						<org.openmdx.ui1.Segment qualifiedName="Root" _operation="null">
+							<_object/>
+							<_content>
+								<elementDefinition>
+									<!--Segment Definition-->
+									<!--Tab Definitions Pane1-->
+									<org.openmdx.ui1.ElementDefinition name="org:openmdx:example:workshop1:Segment:teamMember">
+										<_object>
+											<active>true</active>
+											<toolTip>
+												<_item>Team Members</_item>
+											</toolTip>
+											<label>
+												<_item>Team Members</_item>
+											</label>
+											<order>
+												<_item>20</_item>
+												<_item>0</_item>
+												<_item>10</_item>
+											</order>
+											<iconKey>TeamMember</iconKey>
+											<maxMember>2</maxMember>
+										</_object>
+										<_content/>
+									</org.openmdx.ui1.ElementDefinition>
+
+									<!-- TeamMember -->
+									<!--Inspector Definitions-->
+									<org.openmdx.ui1.ElementDefinition name="org:openmdx:example:workshop1:TeamMember">
+										<_object>
+											<active>true</active>
+											<toolTip>
+												<_item>Team Member</_item>
+											</toolTip>
+											<label>
+												<_item>Team Member</_item>
+											</label>
+											<order>
+												<_item>0</_item>
+												<_item>0</_item>
+												<_item>10</_item>
+											</order>
+											<iconKey>TeamMember</iconKey>
+											<backColor>#FFFFB7</backColor>
+										</_object>
+										<_content/>
+									</org.openmdx.ui1.ElementDefinition>
+
+									<!--Grid -->
+									<org.openmdx.ui1.ElementDefinition name="org:openmdx:example:workshop1:TeamMember:skill">
+										<_object>
+											<active>true</active>
+											<toolTip>
+												<_item>Skills</_item>
+											</toolTip>
+											<label>
+												<_item>Skills</_item>
+											</label>
+											<shortLabel>
+												<_item>Skill</_item>
+											</shortLabel>
+											<order>
+												<_item>0</_item>
+												<_item>0</_item>
+												<_item>10</_item>
+											</order>
+											<maxMember>1</maxMember>
+											<iconKey>Skill</iconKey>
+										</_object>
+										<_content/>
+									</org.openmdx.ui1.ElementDefinition>
+									<org.openmdx.ui1.ElementDefinition name="org:openmdx:example:workshop1:TeamMember:task">
+										<_object>
+											<active>true</active>
+											<toolTip>
+												<_item>Tasks</_item>
+											</toolTip>
+											<label>
+												<_item>Tasks</_item>
+											</label>
+											<shortLabel>
+												<_item>Task</_item>
+											</shortLabel>
+											<order>
+												<_item>10</_item>
+												<_item>0</_item>
+												<_item>10</_item>
+											</order>
+											<maxMember>2</maxMember>
+											<iconKey>Task</iconKey>
+										</_object>
+										<_content/>
+									</org.openmdx.ui1.ElementDefinition>
+
+									<!--Tab Definition-->
+									<!--FieldGroups in General Tab-->
+									<!--Element Definitions -->
+									<org.openmdx.ui1.ElementDefinition name="org:openmdx:example:workshop1:TeamMember:name">
+										<_object>
+											<active>true</active>
+											<toolTip>
+												<_item>Name</_item>
+											</toolTip>
+											<label>
+												<_item>Name</_item>
+											</label>
+											<shortLabel>
+												<_item>Name</_item>
+											</shortLabel>
+											<order>
+												<_item>0</_item>
+												<_item>0</_item>
+												<_item>10</_item>
+											</order>
+										</_object>
+										<_content/>
+									</org.openmdx.ui1.ElementDefinition>
+									<org.openmdx.ui1.ElementDefinition name="org:openmdx:example:workshop1:TeamMember:securityNumber">
+										<_object>
+											<columnBreak>true</columnBreak>
+											<active>true</active>
+											<toolTip>
+												<_item>Security number</_item>
+											</toolTip>
+											<label>
+												<_item>Security number</_item>
+											</label>
+											<shortLabel>
+												<_item>Security number</_item>
+											</shortLabel>
+											<order>
+												<_item>0</_item>
+												<_item>0</_item>
+												<_item>80</_item>
+											</order>
+										</_object>
+										<_content/>
+									</org.openmdx.ui1.ElementDefinition>
+								</elementDefinition>
+							</_content>
+						</org.openmdx.ui1.Segment>
+					</segment>
+				</_content>
+			</org.openmdx.base.Provider>
+		</provider>
+	</_content>
+</org.openmdx.base.Authority>

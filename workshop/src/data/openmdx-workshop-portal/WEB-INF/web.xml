@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<description>openMDX/Example Workshop WebGUI</description>
+	<servlet>
+		<servlet-name>ObjectInspectorServlet</servlet-name>
+		<servlet-class>org.openmdx.portal.servlet.ObjectInspectorServlet</servlet-class>
+		<!-- application name -->
+		<init-param>
+			<param-name>applicationName</param-name>
+			<param-value>openMDX-Example.Workshop</param-value>
+		</init-param>
+		<!-- locales -->
+		<init-param>
+			<param-name>locale[0]</param-name>
+			<param-value>en_US</param-value>
+		</init-param>
+		<!-- ui refresh rate -->
+		<init-param>
+			<param-name>uiRefreshRate</param-name>
+			<param-value>0</param-value>
+		</init-param>
+		<!-- ui segment -->
+		<init-param>
+			<param-name>uiSegment</param-name>
+			<param-value>xri:@openmdx:org.openmdx.ui1/provider/Workshop/segment/Root</param-value>
+		</init-param>
+		<!-- evaluator -->		
+		<init-param>			
+			<param-name>evaluator</param-name>			
+			<param-value>org.openmdx.portal.servlet.DefaultPortalExtension</param-value>		
+		</init-param>		
+		<!-- requestSizeMax -->
+		<init-param>
+			<param-name>requestSizeMax</param-name>
+			<param-value>10000000</param-value>
+		</init-param>
+		<!-- Root objects -->
+		<init-param>
+			<param-name>rootObject[0]</param-name>
+			<param-value>xri:@openmdx:org.openmdx.example.workshop1/provider/Workshop/segment/Standard</param-value>
+		</init-param>
+		<init-param>
+			<param-name>rootObject[1]</param-name>
+			<param-value>xri:@openmdx:org.openmdx.example.workshop1/provider/Workshop/segment/Volatile</param-value>
+		</init-param>
+		<!-- no listing -->
+		<init-param>
+			<param-name>listings</param-name>
+			<param-value>false</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ObjectInspectorServlet</servlet-name>
+		<url-pattern>/ObjectInspectorServlet/*</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ObjectInspectorServlet</servlet-name>
+		<url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+	<session-config>
+		<session-timeout>10</session-timeout>
+	</session-config>
+	<!-- welcome -->
+	<welcome-file-list>
+		<welcome-file>welcome.html</welcome-file>
+	</welcome-file-list>
+	<!-- error -->
+	<error-page>
+		<error-code>400</error-code>
+		<location>/Error.jsp</location>
+	</error-page>
+	<error-page>
+		<error-code>403</error-code>
+		<location>/Error.jsp</location>
+	</error-page>
+	<error-page>
+		<error-code>408</error-code>
+		<location>/Error.jsp</location>
+	</error-page>
+	<resource-ref>
+		<res-ref-name>jdbc/jdbc_openmdx_example_workshop</res-ref-name>
+		<res-type>javax.sql.DataSource</res-type>
+		<res-auth>Container</res-auth>
+	</resource-ref>	
+	<!-- security-constraint -->
+	<security-constraint id="security_constraint-1">
+		<web-resource-collection id="c-1">
+			<web-resource-name>c-1</web-resource-name>
+			<url-pattern>/ObjectInspectorServlet</url-pattern>
+			<url-pattern>/wizards/*</url-pattern>
+			<url-pattern>/jsp/*</url-pattern>
+			<http-method>GET</http-method>
+			<http-method>POST</http-method>
+		</web-resource-collection>
+		<auth-constraint id="auth_constraint-1">
+			<role-name>Guest</role-name>
+		</auth-constraint>
+		<user-data-constraint id="user_data_constraint-1">
+			<transport-guarantee>NONE</transport-guarantee>
+		</user-data-constraint>
+	</security-constraint>
+	<login-config>
+		<auth-method>FORM</auth-method>
+		<form-login-config>
+			<form-login-page>/Login.jsp</form-login-page>
+			<form-error-page>/Error.jsp</form-error-page>
+		</form-login-config>
+	</login-config>
+	<security-role id="SecurityRole_Guest">
+		<role-name>Guest</role-name>
+	</security-role>
+</web-app>

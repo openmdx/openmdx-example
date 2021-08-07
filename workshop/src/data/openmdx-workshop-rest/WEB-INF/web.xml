@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+	<display-name>openMDX Workshop REST service</display-name>
+	<servlet>
+		<servlet-name>RestServlet</servlet-name>
+		<servlet-class>org.openmdx.application.rest.http.servlet.RestServlet_2</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RestServlet</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+	<session-config>
+		<session-timeout>1</session-timeout>
+	</session-config>
+	<resource-ref>
+		<res-ref-name>jdbc/jdbc_openmdx_example_workshop</res-ref-name>
+		<res-type>javax.sql.DataSource</res-type>
+		<res-auth>Container</res-auth>
+	</resource-ref>
+	<security-constraint>
+		<web-resource-collection>
+			<web-resource-name>rest</web-resource-name>
+			<description>rest</description>
+			<url-pattern>/</url-pattern>
+		</web-resource-collection>
+		<auth-constraint>
+			<role-name>Guest</role-name>
+		</auth-constraint>
+		<user-data-constraint>
+			<transport-guarantee>NONE</transport-guarantee>
+		</user-data-constraint>
+	</security-constraint>
+	<login-config>
+		<auth-method>BASIC</auth-method>
+	</login-config>
+	<security-role id="SecurityRole_Guest">
+		<role-name>Guest</role-name>
+	</security-role>    
+</web-app>

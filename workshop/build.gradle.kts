@@ -50,6 +50,7 @@ import org.gradle.kotlin.dsl.*
 import org.w3c.dom.Element
 import java.util.*
 import java.io.*
+import org.gradle.api.tasks.bundling.Jar
 
 plugins {
 	java
@@ -91,11 +92,13 @@ fun touch(file: File) {
 }
 
 project.getConfigurations().maybeCreate("openmdxBootstrap")
+project.getConfigurations().maybeCreate("openmdxBase")
 project.getConfigurations().maybeCreate("openmdxBaseModels")
 project.getConfigurations().maybeCreate("openmdxSecurityModels")
 project.getConfigurations().maybeCreate("openmdxPortalModels")
 project.getConfigurations().maybeCreate("tools")
 val openmdxBootstrap by configurations
+val openmdxBase by configurations
 val openmdxBaseModels by configurations
 val openmdxSecurityModels by configurations
 val openmdxPortalModels by configurations
@@ -110,6 +113,8 @@ dependencies {
     // openmdxBootstrap
     openmdxBootstrap("org.openmdx:openmdx-base:2.17.+")
     openmdxBootstrap("javax:javaee-api:8.0.+")
+    // openmdxBase
+    openmdxBase("org.openmdx:openmdx-base:2.17.+")    
     // openmdxBaseModels
     openmdxBaseModels("org.openmdx:openmdx-base-models:2.17.+")
     // openmdxSecurityModels
@@ -205,9 +210,27 @@ tasks.compileJava {
     options.release.set(Integer.valueOf(targetPlatform.getMajorVersion()))
 }
 
+tasks.register<Jar>("openmdx-workshop-rest.war") {
+	var applicationName = "openmdx-workshop-rest"
+    destinationDirectory.set(File(buildDir, "deployment-unit"))
+    archiveFileName.set(applicationName + ".war")
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    includeEmptyDirs = false
+    var dataHome = "src/data/" + applicationName
+    var libs = getConfigurations().getByName("openmdxBase")
+    from(File(dataHome, "/META-INF")) { into("META-INF"); }
+    from(File(dataHome, "/WEB-INF")) { into("WEB-INF"); include("web.xml", "*.xml"); exclude("*/*"); }
+    from(File(dataHome)) { include("api-ui/**/*.*"); }
+    from(File(buildDir, "classes/java/main")) { into("WEB-INF/classes"); }
+    from(File(buildDir, "resources/main")) { into("WEB-INF/classes"); }
+    from(zipTree(File(buildDir, "generated/sources/model/openmdx-workshop.openmdx-xmi.zip"))) { into("WEB-INF/classes"); include("org/openmdx/example/*/"); }
+    from(libs) { into("WEB-INF/lib"); }
+}
+
 tasks {
 	assemble {
 		dependsOn(
+			"openmdx-workshop-rest.war"
         )
 	}
 }

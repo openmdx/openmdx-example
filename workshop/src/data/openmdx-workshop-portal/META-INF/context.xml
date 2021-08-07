@@ -1,0 +1,5 @@
+<Context
+	path="/openmdx-workshop"
+	docBase="${catalina.home}/apps/openmdx-workshop/openmdx-workshop.war"
+>
+</Context>
