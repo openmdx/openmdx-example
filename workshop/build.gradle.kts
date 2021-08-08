@@ -92,49 +92,47 @@ fun touch(file: File) {
 }
 
 project.getConfigurations().maybeCreate("openmdxBootstrap")
-project.getConfigurations().maybeCreate("openmdxBase")
 project.getConfigurations().maybeCreate("openmdxBaseModels")
 project.getConfigurations().maybeCreate("openmdxSecurityModels")
 project.getConfigurations().maybeCreate("openmdxPortalModels")
 project.getConfigurations().maybeCreate("tools")
+project.getConfigurations().maybeCreate("webapps")
+project.getConfigurations().maybeCreate("openmdxInspector")
 val openmdxBootstrap by configurations
-val openmdxBase by configurations
 val openmdxBaseModels by configurations
 val openmdxSecurityModels by configurations
 val openmdxPortalModels by configurations
 val tools by configurations
+val webapps by configurations
+val openmdxInspector by configurations
 
 dependencies {
-    // implementation
     implementation("org.openmdx:openmdx-base:2.17.+")
     implementation("javax:javaee-api:8.0.+")
     implementation("javax.jdo:jdo-api:3.1")
     implementation("junit:junit:4.12")
-    // openmdxBootstrap
     openmdxBootstrap("org.openmdx:openmdx-base:2.17.+")
     openmdxBootstrap("javax:javaee-api:8.0.+")
-    // openmdxBase
-    openmdxBase("org.openmdx:openmdx-base:2.17.+")    
-    // openmdxBaseModels
     openmdxBaseModels("org.openmdx:openmdx-base-models:2.17.+")
-    // openmdxSecurityModels
     openmdxSecurityModels("org.openmdx:openmdx-security-models:2.17.+")
-    // openmdxPortalModels
     openmdxPortalModels("org.openmdx:openmdx-portal-models:2.17.+")
-    // tools
+	openmdxInspector("org.openmdx:openmdx-inspector:2.17.+")
 	tools(files("$buildDir/classes/java/main"))
 	tools(files("$buildDir/resources/main"))
     tools("javax:javaee-api:8.0.+")
     tools("org.openmdx:openmdx-base:2.17.+")
     tools("org.apache.openjpa:openjpa:2.4.+")
     tools("org.hsqldb:hsqldb:2.4.+")
-    // test
     testImplementation("org.junit.jupiter:junit-jupiter:5.6.0")
 	testRuntimeOnly(files("$buildDir/generated/sources/model/openmdx-workshop.openmdx-xmi.zip"))
     testRuntimeOnly("org.junit.jupiter:junit-jupiter:5.6.0")
     testRuntimeOnly("org.openmdx:openmdx-base:2.17.+")
     testRuntimeOnly("org.openmdx:openmdx-system:2.17.+")
     testRuntimeOnly("org.hsqldb:hsqldb:2.4.+")
+    webapps("org.openmdx:openmdx-base:2.17.+")
+    webapps("org.openmdx:openmdx-security:2.17.+")
+    webapps("org.openmdx:openmdx-portal:2.17.+")
+    webapps("org.codehaus.groovy:groovy:3.0.+")
 }
 
 sourceSets {
@@ -217,7 +215,7 @@ tasks.register<Jar>("openmdx-workshop-rest.war") {
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
     includeEmptyDirs = false
     var dataHome = "src/data/" + applicationName
-    var libs = getConfigurations().getByName("openmdxBase")
+    var libs = getConfigurations().getByName("webapps")
     from(File(dataHome, "/META-INF")) { into("META-INF"); }
     from(File(dataHome, "/WEB-INF")) { into("WEB-INF"); include("web.xml", "*.xml"); exclude("*/*"); }
     from(File(dataHome)) { include("api-ui/**/*.*"); }
@@ -227,10 +225,28 @@ tasks.register<Jar>("openmdx-workshop-rest.war") {
     from(libs) { into("WEB-INF/lib"); }
 }
 
+tasks.register<Jar>("openmdx-workshop-portal.war") {
+	var applicationName = "openmdx-workshop-portal"
+    destinationDirectory.set(File(buildDir, "deployment-unit"))
+    archiveFileName.set(applicationName + ".war")
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    includeEmptyDirs = false
+    var dataHome = "src/data/" + applicationName
+    var libs = getConfigurations().getByName("webapps")
+    var openmdxInspectorFiles: FileTree = project.zipTree(project.getConfigurations().getByName("openmdxInspector").singleFile)    
+    from(File(dataHome))
+    from(openmdxInspectorFiles)  
+    from(File(buildDir, "classes/java/main")) { into("WEB-INF/classes"); }
+    from(File(buildDir, "resources/main")) { into("WEB-INF/classes"); }
+    from(zipTree(File(buildDir, "generated/sources/model/openmdx-workshop.openmdx-xmi.zip"))) { into("WEB-INF/classes"); include("org/openmdx/example/*/"); }
+    from(libs) { into("WEB-INF/lib"); }
+}
+
 tasks {
 	assemble {
 		dependsOn(
-			"openmdx-workshop-rest.war"
+			"openmdx-workshop-rest.war",
+			"openmdx-workshop-portal.war"
         )
 	}
 }

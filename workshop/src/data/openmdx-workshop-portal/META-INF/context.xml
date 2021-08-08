@@ -1,5 +1,9 @@
 <Context
-	path="/openmdx-workshop"
-	docBase="${catalina.home}/apps/openmdx-workshop/openmdx-workshop.war"
->
+	path="/openmdx-workshop-portal"
+	docBase="${catalina.home}/webapps/openmdx-workshop-portal.war">
+	<!-- SSO authentication for remote users when accessed via AJP connector.
+		 For more information see Javadoc of RemoteUserAuthenticator -->
+	<Realm 
+		className="org.apache.catalina.realm.UserDatabaseRealm" 
+		resourceName="UserDatabase"/>
 </Context>
