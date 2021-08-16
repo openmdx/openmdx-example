@@ -20,7 +20,7 @@
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__QiO8bPnEeKkwYVGxCi-sw" key="showTitle" value="true"/>
       </eAnnotations>
       <children xmi:type="notation:Shape" xmi:id="_A4bZ0LPoEeKkwYVGxCi-sw" type="Operation_ClassOperationLabel">
-        <element xmi:type="uml:Operation" href="platform:/resource/openMDX 2 Example ~ HelloWorld (EMF)/org.openmdx.example.helloworld1.uml#_XZtR0OdGEd2P1c0K6fMJhA"/>
+        <element xmi:type="uml:Operation" href="platform:/resource/openMDX%202%20Example%20~%20HelloWorld%20(EMF)/org.openmdx.example.helloworld1.uml#_XZtR0OdGEd2P1c0K6fMJhA"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_A4bZ0bPoEeKkwYVGxCi-sw"/>
       </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="__QhA17PnEeKkwYVGxCi-sw"/>
@@ -40,7 +40,7 @@
     <children xmi:type="notation:DecorationNode" xmi:id="_8htxYRZqEemGMr2sON_HWQ" type="Class_FloatingNameLabel">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_8htxYhZqEemGMr2sON_HWQ" y="5"/>
     </children>
-    <element xmi:type="uml:Class" href="platform:/resource/openMDX 2 Example ~ HelloWorld (EMF)/org.openmdx.example.helloworld1.uml#_XZ10sOdGEd2P1c0K6fMJhA"/>
+    <element xmi:type="uml:Class" href="platform:/resource/openMDX%202%20Example%20~%20HelloWorld%20(EMF)/org.openmdx.example.helloworld1.uml#_XZ10sOdGEd2P1c0K6fMJhA"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="__QgZwbPnEeKkwYVGxCi-sw" x="36" y="36" width="771"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_BUuUQLPoEeKkwYVGxCi-sw" type="Class_Shape">
@@ -50,7 +50,7 @@
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BUviYbPoEeKkwYVGxCi-sw" key="showTitle" value="true"/>
       </eAnnotations>
       <children xmi:type="notation:Shape" xmi:id="_CWt8wLPoEeKkwYVGxCi-sw" type="Property_ClassAttributeLabel">
-        <element xmi:type="uml:Property" href="platform:/resource/openMDX 2 Example ~ HelloWorld (EMF)/org.openmdx.example.helloworld1.uml#_XZyxYOdGEd2P1c0K6fMJhA"/>
+        <element xmi:type="uml:Property" href="platform:/resource/openMDX%202%20Example%20~%20HelloWorld%20(EMF)/org.openmdx.example.helloworld1.uml#_XZyxYOdGEd2P1c0K6fMJhA"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_CWt8wbPoEeKkwYVGxCi-sw"/>
       </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_BUu7UrPoEeKkwYVGxCi-sw"/>
@@ -79,7 +79,7 @@
     <children xmi:type="notation:DecorationNode" xmi:id="_8htxYxZqEemGMr2sON_HWQ" type="Class_FloatingNameLabel">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_8htxZBZqEemGMr2sON_HWQ" y="5"/>
     </children>
-    <element xmi:type="uml:Class" href="platform:/resource/openMDX 2 Example ~ HelloWorld (EMF)/org.openmdx.example.helloworld1.uml#_XZvuEOdGEd2P1c0K6fMJhA"/>
+    <element xmi:type="uml:Class" href="platform:/resource/openMDX%202%20Example%20~%20HelloWorld%20(EMF)/org.openmdx.example.helloworld1.uml#_XZvuEOdGEd2P1c0K6fMJhA"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BUuUQbPoEeKkwYVGxCi-sw" x="36" y="198" width="396"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_De5s0LPoEeKkwYVGxCi-sw" type="Class_Shape">
@@ -89,7 +89,7 @@
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_De668bPoEeKkwYVGxCi-sw" key="showTitle" value="true"/>
       </eAnnotations>
       <children xmi:type="notation:Shape" xmi:id="_EMUzgLPoEeKkwYVGxCi-sw" type="Property_ClassAttributeLabel">
-        <element xmi:type="uml:Property" href="platform:/resource/openMDX 2 Example ~ HelloWorld (EMF)/org.openmdx.example.helloworld1.uml#_XZ..oOdGEd2P1c0K6fMJhA"/>
+        <element xmi:type="uml:Property" href="platform:/resource/openMDX%202%20Example%20~%20HelloWorld%20(EMF)/org.openmdx.example.helloworld1.uml#_XZ..oOdGEd2P1c0K6fMJhA"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_EMUzgbPoEeKkwYVGxCi-sw"/>
       </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_De6T4rPoEeKkwYVGxCi-sw"/>
@@ -118,7 +118,7 @@
     <children xmi:type="notation:DecorationNode" xmi:id="_8htxZRZqEemGMr2sON_HWQ" type="Class_FloatingNameLabel">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_8htxZhZqEemGMr2sON_HWQ" y="5"/>
     </children>
-    <element xmi:type="uml:Class" href="platform:/resource/openMDX 2 Example ~ HelloWorld (EMF)/org.openmdx.example.helloworld1.uml#_XZw8MOdGEd2P1c0K6fMJhA"/>
+    <element xmi:type="uml:Class" href="platform:/resource/openMDX%202%20Example%20~%20HelloWorld%20(EMF)/org.openmdx.example.helloworld1.uml#_XZw8MOdGEd2P1c0K6fMJhA"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_De5s0bPoEeKkwYVGxCi-sw" x="486" y="198" width="324"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_9s-KcbPnEeKkwYVGxCi-sw"/>
