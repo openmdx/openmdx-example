@@ -8,7 +8,7 @@
  * This software is published under the BSD license
  * as listed below.
  * 
- * Copyright (c) 2006-2012, OMEX AG, Switzerland
+ * Copyright (c) 2006-2021, OMEX AG, Switzerland
  * All rights reserved.
  * 
  * Redistribution and use in source and binary forms, with or
@@ -91,8 +91,8 @@ public class TestWorkshop_1 extends TestCase {
 	) throws Exception {
 		System.out.println(">>>> **** Start: " + getName());
 		SysLog.info("Start", getName());
-        System.out.println("Aquire persistence manager...");      
-        SysLog.info("Aquire persistence manager...");
+        System.out.println("Acquire persistence manager...");      
+        SysLog.info("Acquire persistence manager...");
 		if(!NamingManager.hasInitialContextFactoryBuilder()) {
 			NonManagedInitialContextFactoryBuilder.install(
 				Collections.singletonMap(
@@ -140,7 +140,7 @@ public class TestWorkshop_1 extends TestCase {
 	@AfterEach
 	protected void tearDown(
 	) throws ServiceException {
-        System.out.println("Closing peristence manager factory...");
+        System.out.println("Closing persistence manager factory...");
 		SysLog.info("End", getName());
 		System.out.println("<<<< **** End: " + getName());
         try {
@@ -210,7 +210,7 @@ public class TestWorkshop_1 extends TestCase {
         	mdaKnowledge
         );
         j2eeKnowledge = pkg.getSkill().createSkill();
-        j2eeKnowledge.setName("Jave 2 Enterprise Edition knowledge");
+        j2eeKnowledge.setName("Java 2 Enterprise Edition knowledge");
         segment.addSkill(
             false,
         	"J2EE",
